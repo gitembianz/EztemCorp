@@ -1,0 +1,202 @@
+.header {
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    top: 0;
+    transition: transform 0.3s ease-in-out;
+    z-index: 1000;
+
+    &__container {
+        color: white;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    &__category {
+        cursor: pointer;
+        color: white;
+
+        a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    }
+
+    &__categories {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &-list {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+            padding: 0;
+
+            @media (max-width: 768px) {
+                flex-direction: column;
+                background-color: #333;
+                position: absolute;
+                top: 50px;
+                left: 0;
+                width: 100%;
+                padding: 20px;
+                box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+                z-index: 100;
+                visibility: hidden;
+                opacity: 0;
+                transition: all .3s ease-in-out;
+
+                &.active {
+                    visibility: visible;
+                    opacity: 1;
+                    display: flex;
+                }
+
+                &-item {
+                    margin-bottom: 10px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    &__burger-menu {
+        display: none;
+        cursor: pointer;
+
+        svg {
+            stroke: white
+        }
+
+        @media (max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+}
+
+.select {
+    position: relative;
+}
+
+.select-trigger {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+    position: relative;
+    z-index: 5;
+    cursor: pointer;
+}
+
+.select-options {
+    width: 50px;
+    margin-top: 7px;
+    border-radius: 7px;
+    position: absolute;
+    opacity: 0;
+    overflow: hidden;
+    background-color: #fff;
+    transition: opacity 0.3s, height 0.3s;
+    z-index: 1;
+    left: 50%;
+    transform: translateX(-50%);
+
+    &.active {
+        opacity: 1;
+    }
+
+    & li {
+        padding: 10px;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &:hover {
+            background-color: #f0f0f0;
+        }
+    }
+}
+
+.header__dropdown {
+    position: relative;
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}
+
+.header__dropdown--button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.header__dropdown--list {
+    position: absolute;
+    top: 190%;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    opacity: 0;
+    visibility: hidden;
+    background-color: white;
+    transition: all .3s ease-in-out;
+    list-style: none;
+    padding: 10px;
+    border-radius: 7px;
+
+    &>li {
+        width: 100%;
+
+        &>a {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 5px;
+            cursor: pointer;
+            gap: 15px;
+            text-decoration: none;
+            width: 100%;
+            border-radius: 7px;
+            transition: all .3s ease-in-out;
+
+            &:hover {
+                background-color: #f2f2f2;
+            }
+
+            &:active {
+                background-color: darken(#f2f2f2, 10%);
+            }
+
+            &>img {
+                width: 50px;
+                height: auto;
+                object-fit: cover;
+            }
+        }
+    }
+
+
+    &.active {
+        opacity: 1;
+        visibility: visible;
+    }
+}

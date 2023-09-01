@@ -1,0 +1,58 @@
+.details {
+    background: #373435;
+    z-index: 2;
+
+    &>h1 {
+        color: white;
+        text-align: center;
+    }
+}
+
+.details__container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 50px;
+
+    @media (min-width: map-get($grid-breakpoints, md)) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    @media (min-width: map-get($grid-breakpoints, xxl)) {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+.details__content {
+    border-bottom: 1px solid #8a8788;
+    position: relative;
+    z-index: 2;
+    padding: 25px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.details__text {
+    color: white;
+    text-align: center;
+}
+
+.details__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+
+    &>img {
+        width: 25%;
+        height: auto;
+    }
+
+    &>h2 {
+        font-size: 30px;
+        color: white;
+        font-weight: 300;
+    }
+}
