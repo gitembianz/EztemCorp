@@ -1,5 +1,5 @@
 on: push
-name: Deploy Dev to dev.embianz.com on push
+name: Deploy Dev to dev.eztemcorp.com on push
 jobs:
   web-deploy:
     name: Deploy to Dev
