@@ -14,7 +14,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
 Route::get('/about', function () {
     return view('about');
@@ -28,18 +28,18 @@ Route::get('/cookie', function () {
 Route::get('/faq', function () {
     return view('faq');
 });
-Route::get('/graphics', function () {
+Route::get('/solutions/graphics', function () {
     return view('graphics');
 });
-Route::get('/marketing', function () {
+Route::get('/solutions/marketing', function () {
     return view('marketing');
 });
 Route::get('/privacy', function () {
     return view('privacy');
 });
-Route::get('/retouch', function () {
+Route::get('/solutions/retouch', function () {
     return view('retouch');
 });
-Route::get('/web', function () {
+Route::get('/solutions/web', function () {
     return view('web');
 });

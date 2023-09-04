@@ -28,7 +28,7 @@
                                 </button>
                                 <ul class="header__dropdown--list">
                                     <li>
-                                        <a href="/web">
+                                        <a href="/solutions/web">
                                             <img src="/img/web.webp" alt="web">
                                             <span data-text="Web">
                                                 <!-- Web -->
@@ -36,7 +36,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/graphics">
+                                        <a href="/solutions/graphics">
                                             <img src="/img/graphics.webp" alt="Graphics">
                                             <span data-text="Graphics">
                                                 <!-- Graphics -->
@@ -44,7 +44,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/retouch">
+                                        <a href="/solutions/retouch">
                                             <img src="/img/retouch.webp" alt="Retouch">
                                             <span data-text="Retouch">
                                                 <!-- Retouch -->
@@ -52,7 +52,7 @@
                                         </a>
                                     </li>
                                     <li>
-                                        <a href="/marketing">
+                                        <a href="/solutions/marketing">
                                             <img src="/img/marketing.webp" alt="Marketing">
                                             <span data-text="Marketing">
                                                 <!-- Marketing -->

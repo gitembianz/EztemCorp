@@ -32,7 +32,7 @@
                 <p class="details__text" data-text="web_app_details">
                     <!-- From building the cores of custom web applications to polish in gout of the box details, we strive to provide combined efficiency, effectiveness, and elegance. -->
                 </p>
-                <a href="/web" class="button" data-text="learn_more_link">
+                <a href="/solutions/web" class="button" data-text="learn_more_link">
                     <!-- Learn More -->
                 </a>
             </div>
@@ -46,7 +46,7 @@
                 <p class="details__text" data-text="illustrations_details">
                     <!-- Either it is a company logo or a component for a project, we like to think about illustrations as shortcuts that overwrite complexity and point out the goals. -->
                 </p>
-                <a href="/graphics" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/graphics" class="button" data-text="learn_more_link">Learn More</a>
             </div>
             <div class="details__content">
                 <div class="details__title">
@@ -58,7 +58,7 @@
                 <p class="details__text" data-text="photo_composition_details">
                     <!-- Harmony between shapes, colors, and lights is essential. Careful manipulation of these elements can reveal the meaning of beauty in photo composition. -->
                 </p>
-                <a href="/retouch" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/retouch" class="button" data-text="learn_more_link">Learn More</a>
             </div>
             <div class="details__content">
                 <div class="details__title">
@@ -70,7 +70,7 @@
                 <p class="details__text" data-text="content_conversion_details">
                     <!-- Good content placed in the right place engages, but we also always focus on bringing the conversion rate to its maximum. -->
                 </p>
-                <a href="/marketing" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/marketing" class="button" data-text="learn_more_link">Learn More</a>
             </div>
             <span class="hero__subtext" data-text="success_quote">
                 <!-- “Our success is measured by our achievements” -->
