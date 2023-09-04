@@ -2,7 +2,7 @@
     <div class="container footer__container">
         <nav class="footer__nav">
             <a href="/">
-                <img src="../img/logo.webp" alt="Logo = Creative Solutions" class="logo" loading="lazy">
+                <img src="/img/logo.webp" alt="Logo = Creative Solutions" class="logo" loading="lazy">
             </a>
             <ul class="footer__nav--list">
                 <li class="footer__nav--item">
@@ -112,7 +112,9 @@
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </button>
-<script src="/scripts/min-script.js"></script>
+<script src="/scripts/script.js"></script>
+<script async defer src="/scripts/translation.js"></script>
+
 </body>
 
 </html>

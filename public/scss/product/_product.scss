@@ -53,6 +53,12 @@
         max-height: 300px;
         object-fit: cover;
         border-radius: 10px;
+
+        @media (min-width: map-get($grid-breakpoints, lg)) {
+            max-height: unset;
+            width: 50%;
+            height: auto;
+        }
     }
 
     @media (min-width: map-get($grid-breakpoints, lg)) {

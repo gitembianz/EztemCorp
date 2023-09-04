@@ -48,7 +48,7 @@
                             </p>
                         </li>
                         <li>
-                            <a href="#" class="button" _target="_blank">
+                            <a href="/solutions/web/frontend" class="button" _target="_blank">
                                 See more
                             </a>
                         </li>
@@ -95,7 +95,7 @@
                             </p>
                         </li>
                         <li>
-                            <a href="#" class="button" _target="_blank">
+                            <a href="/solutions/web/backend" class="button" _target="_blank">
                                 See more
                             </a>
                         </li>
@@ -142,7 +142,7 @@
                             </p>
                         </li>
                         <li>
-                            <a href="#" class="button" _target="_blank">
+                            <a href="/solutions/web/salesforce" class="button" _target="_blank">
                                 See more
                             </a>
                         </li>

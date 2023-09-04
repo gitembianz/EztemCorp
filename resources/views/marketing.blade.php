@@ -4,7 +4,7 @@
         <div class="product">
             <div class="product__text">
                 <div class="product__title">
-                    <img src="../img/marketing.webp" alt="Marketing">
+                    <img src="/img/marketing.webp" alt="Marketing">
                     <h1>Marketing</h1>
                 </div>
             </div>
@@ -16,12 +16,12 @@
                 We provide the following Marketing solutions:
             </h3>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
                             <h3>
-                                Online Advertising:
+                                Google Ads:
                             </h3>
                         </li>
                         <li>
@@ -61,11 +61,16 @@
                                 Video Ads: Sharing brand stories or promotions through video content.
                             </p>
                         </li>
+                        <li>
+                            <a href="/solutions/marketing/advertising" class="button">
+                                See more
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </article>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
@@ -93,6 +98,11 @@
                             <p>
                                 Affiliate Marketing: Promoting products through partners and earning commissions.
                             </p>
+                        </li>
+                        <li>
+                            <a href="/solutions/marketing/strategies" class="button">
+                                See more
+                            </a>
                         </li>
                     </ul>
                 </div>

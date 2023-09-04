@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let texts = []; // Inițializăm array-ul pentru datele din JSON
 
     // Încărcăm datele din fișierul JSON la început
-    fetch("../scripts/translations.json")
+    fetch("/scripts/translations.json")
         .then(response => response.json())
         .then(data => {
             texts = data;
