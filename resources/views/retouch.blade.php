@@ -4,7 +4,7 @@
         <div class="product">
             <div class="product__text">
                 <div class="product__title">
-                    <img src="../img/retouch.webp" alt="Retouch">
+                    <img src="/img/retouch.webp" alt="Retouch">
                     <h1>Retouch</h1>
                 </div>
             </div>
@@ -16,7 +16,7 @@
                 We provide the following Retouch solutions:
             </h3>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
@@ -39,11 +39,16 @@
                                 Blemish Removal: Cleaning up imperfections and unwanted marks.
                             </p>
                         </li>
+                        <li>
+                            <a href="/solutions/retouch/photo" class="button">
+                                See more
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </article>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
@@ -68,6 +73,11 @@
                                 Digital Restoration: Restoring old or damaged photos to their
                                 former glory.
                             </p>
+                        </li>
+                        <li>
+                            <a href="/solutions/retouch/photo" class="button">
+                                See more
+                            </a>
                         </li>
                     </ul>
                 </div>

@@ -156,19 +156,22 @@ function dropdownToggle(dropBtn, dropContent) {
   const btn = document.querySelector(dropBtn);
   const content = document.querySelector(dropContent);
 
-  const toggle = () => {
-    content.classList.toggle('active');
-  };
+  if (btn && content) {
+    const toggle = () => {
+      content.classList.toggle('active');
+    };
 
-  btn.addEventListener('click', toggle);
+    btn.addEventListener('click', toggle);
 
-  document.addEventListener('click', (event) => {
-    const clickedElement = event.target;
-    if (!btn.contains(clickedElement) && !content.contains(clickedElement)) {
-      content.classList.remove('active');
-    }
-  });
+    document.addEventListener('click', (event) => {
+      const clickedElement = event.target;
+      if (!btn.contains(clickedElement) && !content.contains(clickedElement)) {
+        content.classList.remove('active');
+      }
+    });
+  }
 }
+
 //<--------------------------------END-dropdown-------------------------------->
 //<------------------------------Start-Functions------------------------------->
 // Header(ScrollEffect)

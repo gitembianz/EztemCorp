@@ -4,7 +4,7 @@
         <div class="product">
             <div class="product__text">
                 <div class="product__title">
-                    <img src="../img/graphics.webp" alt="graphics">
+                    <img src="/img/graphics.webp" alt="graphics">
                     <h1>Graphics</h1>
                 </div>
             </div>
@@ -16,7 +16,7 @@
                 We provide the following Graphics solutions:
             </h3>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
@@ -40,11 +40,16 @@
                                 visuals for companies.
                             </p>
                         </li>
+                        <li>
+                            <a href="/solutions/graphics/design" class="button" _target="_blank">
+                                See more
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </article>
             <article class="product__item">
-                <img src="../img/front-end.webp" alt="front-end">
+                <img src="/img/front-end.webp" alt="front-end">
                 <div class="product__item--text">
                     <ul>
                         <li>
@@ -68,6 +73,11 @@
                                 Event Banners: Crafting designs for events, conferences, and
                                 exhibitions.
                             </p>
+                        </li>
+                        <li>
+                            <a href="/solutions/graphics/design" class="button" _target="_blank">
+                                See more
+                            </a>
                         </li>
                     </ul>
                 </div>
