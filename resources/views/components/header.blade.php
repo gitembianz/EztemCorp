@@ -9,7 +9,7 @@
     <meta name="description"
         content="Explore our creative solutions for web development, graphics design, photo retouching, and marketing services.">
     <script async defer src="/scripts/min-translation.js"></script>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/dist/css/style.css">
 </head>
 
 <body>
