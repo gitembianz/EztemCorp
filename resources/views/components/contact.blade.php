@@ -73,7 +73,7 @@
              </label>
              <textarea id="mesaj" name="mesaj" required placeholder="Type your message here..."></textarea>
          </div>
-         <button class="button" type="submit" value="Trimite" data-text="send_button">
+         <button class="button" type="submit" value="Trimite" data-text="send_button" style="margin-left: 150px;">
              <!-- Send -->
              <svg>
                  <line x1="22" y1="2" x2="11" y2="13"></line>
@@ -90,23 +90,15 @@
              </svg>
              contact@eztemcorp.com
          </a>
-         <a class="contact__link" href="tel:+40722222222">
-             <svg>
-                 <path
-                     d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
-                 </path>
-             </svg>
-             +40722222222
-         </a>
          <ul class="footer__nav--list" style="justify-content: center;width: 100%;">
              <li class="footer__nav--item">
                  <a href="https://viber.click" style="background-color: #5a267c;">
                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50"
                          viewBox="0,0,256,256">
-                         <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
-                             stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10"
-                             stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none"
-                             font-size="none" text-anchor="none" style="mix-blend-mode: normal">
+                         <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt"
+                             stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray=""
+                             stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none"
+                             text-anchor="none" style="mix-blend-mode: normal">
                              <g transform="scale(5.33333,5.33333)">
                                  <path
                                      d="M24,5c-2.639,0 -10.67,0 -15.11,4.054c-2.644,2.634 -3.89,6.44 -3.89,11.946v3c0,5.506 1.246,9.312 3.921,11.976c1.332,1.215 3.148,2.186 5.368,2.857l0.711,0.214v5.328c0,0.625 0.181,0.625 0.241,0.625c0.123,0 0.32,-0.039 0.694,-0.371c0.09,-0.089 0.75,-0.803 3.96,-4.399l0.324,-0.363l0.485,0.031c1.075,0.067 2.184,0.102 3.296,0.102c2.639,0 10.67,0 15.11,-4.055c2.643,-2.634 3.89,-6.44 3.89,-11.945v-3c0,-5.506 -1.246,-9.312 -3.921,-11.976c-4.409,-4.024 -12.44,-4.024 -15.079,-4.024z"
@@ -148,7 +140,7 @@
                  </a>
              </li>
              <li class="footer__nav--item">
-                 <a href="http://web.telegram.org" style="background-color: #4eb7f6;">
+                 <a href="http://web.telegram.org" style="background-color: #2bb6f5;">
                      <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                          height="50" viewBox="0 0 48 48">
                          <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
@@ -161,6 +153,16 @@
                          <path fill="#cfd8dc"
                              d="M29.897,18.196c-0.169-0.22-0.481-0.26-0.701-0.093L16,26c0,0,2.106,5.892,2.427,6.912 c0.322,1.021,0.58,1.045,0.58,1.045l0.964-5.965l9.832-9.096C30.023,18.729,30.064,18.416,29.897,18.196z">
                          </path>
+                     </svg>
+                 </a>
+             </li>
+             <li class="footer__nav--item">
+                 <a href="https://www.messenger.com/" style="background-color: #1884ff;">
+                     <svg width="50" height="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                         <path fill="#0084ff" d="M512 0H0v512h512z" />
+                         <path
+                             d="M257 93c-88.918 0-161 67.157-161 150 0 47.205 23.412 89.311 60 116.807V417l54.819-30.273C225.449 390.801 240.948 393 257 393c88.918 0 161-67.157 161-150S345.918 93 257 93zm16 202l-41-44-80 44 88-94 42 44 79-44-88 94z"
+                             fill="#ffffff" />
                      </svg>
                  </a>
              </li>

@@ -88,6 +88,7 @@ input[type=submit] {
   color: #f9f8fd;
   border-radius: 3px;
   border: none;
+  width: -moz-max-content;
   width: max-content;
   height: 37px;
   display: flex;
@@ -358,7 +359,8 @@ section::before {
 .header__dropdown--list > li > a > img {
   width: 50px;
   height: auto;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .header__dropdown--list.active {
   opacity: 1;
@@ -411,7 +413,8 @@ section::before {
 .hero__img {
   max-width: 400px;
   height: 100%;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (min-width: 768px) {
   .hero__img {
@@ -647,6 +650,7 @@ section::before {
   gap: 50px;
 }
 .contact__label > label {
+  width: -moz-max-content;
   width: max-content;
 }
 .contact__label > input {
@@ -777,7 +781,8 @@ section::before {
   flex: 1;
   width: 100%;
   max-height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 @media (min-width: 992px) {
@@ -942,7 +947,8 @@ section::before {
 .job__title > img {
   width: 70px;
   height: 70px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .job__cards {
@@ -977,7 +983,8 @@ section::before {
   width: 100%;
   height: 100%;
   max-height: 250px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
 }
 @media (min-width: 576px) {
@@ -1060,7 +1067,8 @@ section::before {
 .solution__title > img {
   width: 70px;
   height: 70px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 
 .solution__cards {
@@ -1095,8 +1103,10 @@ section::before {
   width: 100%;
   height: 100%;
   pointer-events: none;
-  object-fit: cover;
-  object-position: center;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
   filter: brightness(0.3);
 }
 
@@ -1122,7 +1132,8 @@ section::before {
   background-color: #333;
   width: 90px;
   height: 90px;
-  object-fit: contain;
+  -o-object-fit: contain;
+     object-fit: contain;
   border-radius: 50%;
   padding: 10px;
   cursor: pointer;
@@ -1164,7 +1175,8 @@ section::before {
 .about__title > img {
   width: 100%;
   height: 300px;
-  object-fit: cover;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 15px;
   filter: brightness(0.6);
   transition: height 0.2s ease-in-out;
@@ -1178,28 +1190,18 @@ section::before {
 .about__personalities {
   display: flex;
   align-items: center;
+  flex-direction: column;
   padding: 15px;
   gap: 30px;
   border-radius: 15px;
   background-color: #e5e5e5;
 }
-@media (min-width: 768px) {
-  .about__personalities {
-    flex-direction: column;
-  }
-}
 .about__personalities > img {
-  flex: 1;
-  width: 50%;
-  height: 100%;
-  object-fit: cover;
+  width: 100%;
+  height: 250px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 10px;
-}
-@media (min-width: 768px) {
-  .about__personalities > img {
-    width: 100%;
-    max-height: 250px;
-  }
 }
 
 .about__personalities--text {
@@ -1494,4 +1496,4 @@ section::before {
   padding-top: 50px;
   padding-bottom: 50px;
   position: relative;
-}
+}/*# sourceMappingURL=style.css.map */
