@@ -34,40 +34,40 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/faq', function () {
         return view('faq');
     });
-    Route::get('/solutions/graphics', function () {
+    Route::get('/graphics', function () {
         return view('graphics');
     });
-    Route::get('/solutions/graphics/design', function () {
+    Route::get('/graphics/design', function () {
         return view('design');
     });
-    Route::get('/solutions/marketing', function () {
+    Route::get('/marketing', function () {
         return view('marketing');
     });
-    Route::get('/solutions/marketing/advertising', function () {
+    Route::get('/marketing/advertising', function () {
         return view('advertising');
     });
-    Route::get('/solutions/marketing/strategies', function () {
+    Route::get('/marketing/strategies', function () {
         return view('strategies');
     });
-    Route::get('/solutions/web/frontend', function () {
+    Route::get('/web/frontend', function () {
         return view('frontend');
     });
-    Route::get('/solutions/web/backend', function () {
+    Route::get('/web/backend', function () {
         return view('backend');
     });
-    Route::get('/solutions/web/salesforce', function () {
+    Route::get('/web/salesforce', function () {
         return view('salesforce');
     });
     Route::get('/privacy', function () {
         return view('privacy');
     });
-    Route::get('/solutions/retouch', function () {
+    Route::get('/retouch', function () {
         return view('retouch');
     });
-    Route::get('/solutions/retouch/photo', function () {
+    Route::get('/retouch/photo', function () {
         return view('photo');
     });
-    Route::get('/solutions/web', function () {
+    Route::get('/web', function () {
         return view('web');
     });
 });
