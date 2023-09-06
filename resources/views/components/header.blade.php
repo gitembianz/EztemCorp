@@ -26,22 +26,22 @@
                                 </a>
                             </li> --}}
                             <li class="header__category">
-                                <a href="/solutions/web">
+                                <a href="/web">
                                     @lang('components.header.solutions_dropdown.Web')
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/solutions/graphics">
+                                <a href="/graphics">
                                     @lang('components.header.solutions_dropdown.Graphics')
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/solutions/retouch">
+                                <a href="/retouch">
                                     @lang('components.header.solutions_dropdown.Retouch')
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/solutions/marketing">
+                                <a href="/marketing">
                                     @lang('components.header.solutions_dropdown.Marketing')
                                 </a>
                             </li>

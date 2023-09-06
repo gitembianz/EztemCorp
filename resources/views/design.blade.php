@@ -4,11 +4,11 @@
         <div class="job__title">
             <img src="/img/figma.svg" alt="Figma Icon">
             <h1>
-                @lang("design.title")
+                @lang('design.title')
             </h1>
         </div>
         <p>
-            @lang("design.description")
+            @lang('design.description')
         </p>
         <div class="job__cards">
             <div class="job__section">
@@ -16,47 +16,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            @lang("design.card_list.item1.description1")
+                            @lang('design.card_list.item1.description1')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item1.description2")
+                            @lang('design.card_list.item1.description2')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item1.description3")
+                            @lang('design.card_list.item1.description3')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item1.description4")
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
-                <ul class="job__list">
-                    <li>
-                        <p>
-                            @lang("design.card_list.item2.description1")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("design.card_list.item2.description2")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("design.card_list.item2.description3")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("design.card_list.item2.description4")
+                            @lang('design.card_list.item1.description4')
                         </p>
                     </li>
                 </ul>
@@ -66,32 +41,57 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            @lang("design.card_list.item3.description1")
+                            @lang('design.card_list.item2.description1')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item3.description2")
+                            @lang('design.card_list.item2.description2')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item3.description3")
+                            @lang('design.card_list.item2.description3')
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang("design.card_list.item3.description4")
+                            @lang('design.card_list.item2.description4')
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="job__section">
+                <img src="/img/code.webp" alt="only code">
+                <ul class="job__list">
+                    <li>
+                        <p>
+                            @lang('design.card_list.item3.description1')
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang('design.card_list.item3.description2')
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang('design.card_list.item3.description3')
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang('design.card_list.item3.description4')
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
         <span>
-            @lang("design.quote")
+            @lang('design.quote')
         </span>
-        <a href="/solutions/graphics" class="button">
-            @lang("design.button")
+        <a href="/graphics" class="button">
+            @lang('design.button')
         </a>
     </div>
     <x-contact />
