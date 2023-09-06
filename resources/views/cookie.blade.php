@@ -1,196 +1,197 @@
 <x-header />
+{{-- Pagina "Cookie" --}}{{-- Page "Cookie" --}}
 <main>
+    {{-- Sectiunea de Cookies --}}{{-- Section of Cookies --}}
     <div class="container notes__container">
         <h1 data-text="cookies_policy_heading">
-            <!-- COOKIES POLICY -->
+            @lang("cookie.cookie.heading")
         </h1>
         <ol class="category">
             <li>
                 <h3 data-text="cookies_intro_heading">
-                    <!-- WHAT ARE COOKIES? -->
+                    @lang("cookie.cookie.category1.heading")
                 </h3>
                 <ol class="sub-category">
                     <li>
                         <p data-text="cookies_intro_info">
-                            <!-- Cookies are small text files, which a website may put on your computer or mobile device when you first visit a site or page. The cookie will help the website to recognise your device the next time you visit. We use the term "cookies" in this policy to refer to all files that collect information in this way. -->
+                            @lang("cookie.cookie.category1.item1")
                         </p>
                     </li>
                     <li>
                         <p data-text="cookies_collect_info">
-                            <!-- Most cookies won’t collect information that identifies you and will instead collect more general information such as how users arrive at and use our websites, or a user’s general location. -->
+                            @lang("cookie.cookie.category1.item2")
                         </p>
                     </li>
                     <li>
                         <p data-text="cookies_functions_info">
-                            <!-- There are many functions cookies serve. For example, they can help us to remember your username and preferences (such as country and language choices), analyse how well our website is performing, or even allow us to recommend content we believe will be most relevant to you. -->
+                            @lang("cookie.cookie.category1.item3")
                         </p>
                     </li>
                 </ol>
             </li>
             <li>
                 <h3 data-text="cookies_used_heading">
-                    <!-- WHAT COOKIES DO WE USE? -->
+                    @lang("cookie.cookie.category2.heading")
                 </h3>
                 <ol class="sub-category">
                     <li>
                         <p data-text="cookies_functions_intro">
-                            <!-- Generally, our cookies perform one of three different functions: -->
+                            @lang("cookie.cookie.category2.item1")
                         </p>
                     </li>
                     <li>
                         <p data-text="essential_cookies_info">
-                            <!-- Essential cookies: Some cookies are essential for the operation of our website. For example, some cookies allow us to identify customers and ensure they can access any customer-only pages. If a subscriber opts to disable these cookies, the user will not be able to access all of the content that they are entitled to. -->
+                            @lang("cookie.cookie.category2.item2")
                         </p>
                     </li>
                     <li>
                         <p data-text="analytical_cookies_info">
-                            <!-- Analytical Cookies: We use analytical cookies to allow us to remember your preferences. For example, cookies recall your customization preferences, such as which regional/language edition of the website you want to see when you return. -->
+                            @lang("cookie.cookie.category2.item3")
                         </p>
                     </li>
                     <li>
                         <p data-text="marketing_cookies_info">
-                            <!-- Marketing Cookies: Social media cookies offer the possibility to connect you to your social networks and share content from our website through social media. In some cases, these cookies involve the processing of your personal data. Refusing these cookies may result in seeing advertising that is not as relevant to you or you not being able to link effectively with Instagram or other social networks. -->
+                            @lang("cookie.cookie.category2.item4")
                         </p>
                     </li>
                 </ol>
             </li>
             <li>
                 <h3 data-text="block_cookies_heading">
-                    <!-- CAN A WEBSITE USER BLOCK COOKIES? -->
+                    @lang("cookie.cookie.category3.heading")
                 </h3>
                 <ol class="sub-category">
                     <li>
                         <p data-text="block_cookies_info">
-                            <!-- As we’ve explained above, cookies help you to get the most out of our websites. However, if you do wish to block our cookies then please follow the instructions below to disable them at the browser level. -->
+                            @lang("cookie.cookie.category3.item1")
                         </p>
                     </li>
                     <li>
                         <p data-text="block_cookies_remember">
-                            <!-- Please remember that if you do choose to block cookies, you may find that most sections
-                                of our website or others simply do not work. -->
+                            @lang("cookie.cookie.category3.item2")
                         </p>
                     </li>
                 </ol>
             </li>
             <li>
                 <h3 data-text="enable_disable_cookies_heading">
-                    <!-- HOW TO ENABLE AND DISABLE COOKIES USING YOUR BROWSER -->
+                    @lang("cookie.cookie.category4.heading")
                 </h3>
                 <ol class="sub-category">
                     <li>
                         <h3 data-text="chrome_browser_heading">
-                            <!-- Google Chrome -->
+                            @lang("cookie.cookie.category4.sub_heading")
                         </h3>
                         <ol class="sub-sub-category">
                             <li>
                                 <p data-text="chrome_step_1">
-                                    <!-- Click the wrench icon on the browser toolbar. -->
+                                    @lang("cookie.cookie.category4.item1")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="chrome_step_2">
-                                    <!-- Select ‘Settings’. -->
+                                    @lang("cookie.cookie.category4.item2")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="chrome_step_3">
-                                    <!-- Click ‘Show advanced settings’. -->
+                                    @lang("cookie.cookie.category4.item3")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="chrome_step_4">
-                                    <!-- In the Privacy section, click the ‘Content settings’ button. -->
+                                    @lang("cookie.cookie.category4.item4")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="chrome_step_5">
-                                    <!-- To enable cookies in the Cookies section, pick ‘Allow cookies by default’. -->
+                                    @lang("cookie.cookie.category4.item5")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="chrome_step_6">
-                                    <!-- To disable cookies, in the Cookies section, pick ‘Block cookies by default’. -->
+                                    @lang("cookie.cookie.category4.item6")
                                 </p>
                             </li>
                         </ol>
                     </li>
                     <li>
                         <h3 data-text="ie_browser_heading">
-                            <!-- Microsoft Internet Explorer -->
+                            @lang("cookie.cookie.category5.sub_heading")
                         </h3>
                         <ol class="sub-sub-category">
                             <li>
                                 <p data-text="ie_step_1">
-                                    <!-- Click on 'Tools' at the top of your browser window and select 'Internet Options'. -->
+                                    @lang("cookie.cookie.category5.item1")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="ie_step_2">
-                                    <!-- In the options window navigate to the 'Privacy' tab. -->
+                                    @lang("cookie.cookie.category5.item2")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="ie_step_3_enable">
-                                    <!-- To enable cookies: Set the slider to ‘Medium’ or below. -->
+                                    @lang("cookie.cookie.category5.item3")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="ie_step_3_disable">
-                                    <!-- To disable cookies: Move the slider to the top to block all cookies. -->
+                                    @lang("cookie.cookie.category5.item4")
                                 </p>
                             </li>
                         </ol>
                     </li>
                     <li>
                         <h3 data-text="firefox_browser_heading">
-                            <!-- Mozilla Firefox -->
+                            @lang("cookie.cookie.category6.sub_heading")
                         </h3>
                         <ol class="sub-sub-category">
                             <li>
                                 <p data-text="firefox_step_1">
-                                    <!-- Click on 'Tools' at the browser menu and select ‘Options’. -->
+                                    @lang("cookie.cookie.category6.item1")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="firefox_step_2">
-                                    <!-- Select the Privacy panel. -->
+                                    @lang("cookie.cookie.category6.item2")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="firefox_step_3_enable">
-                                    <!-- To enable cookies: Check ‘Accept cookies for sites’. -->
+                                    @lang("cookie.cookie.category6.item3")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="firefox_step_3_disable">
-                                    <!-- To disable cookies: Uncheck at ‘Accept cookies for sites’. -->
+                                    @lang("cookie.cookie.category6.item4")
                                 </p>
                             </li>
                         </ol>
                     </li>
                     <li>
                         <h3 data-text="safari_browser_heading">
-                            <!-- Safari -->
+                            @lang("cookie.cookie.category7.sub_heading")
                         </h3>
                         <ol class="sub-sub-category">
                             <li>
                                 <p data-text="safari_step_1">
-                                    <!-- Click on 'Safari' at the menu bar and select the 'Preferences' option. -->
+                                    @lang("cookie.cookie.category7.item1")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="safari_step_2">
-                                    <!-- Click on 'Security'. -->
+                                    @lang("cookie.cookie.category7.item2")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="safari_step_3_enable">
-                                    <!-- To enable cookies: In the 'Accept cookies' section select 'Only from site you navigate to'. -->
+                                    @lang("cookie.cookie.category7.item3")
                                 </p>
                             </li>
                             <li>
                                 <p data-text="safari_step_3_disable">
-                                    <!-- To disable cookies: In the ‘Accept cookies’ section select ‘Never’. -->
+                                    @lang("cookie.cookie.category7.item4")
                                 </p>
                             </li>
                         </ol>
@@ -200,22 +201,22 @@
             </li>
             <li>
                 <h3 data-text="changes_terms_heading">
-                    <!-- CHANGES TO THESE TERMS -->
+                    @lang("cookie.cookie.category8.heading")
                 </h3>
                 <ol class="sub-category">
                     <li>
                         <p data-text="changes_terms_info">
-                            <!-- We may revise this policy at any time by amending this page. We recommend you check this page from time to time to take notice of any changes we made, as they are binding on you. -->
+                            @lang("cookie.cookie.category8.item1")
                         </p>
                     </li>
                     <li>
                         <p data-text="policy_contact_info">
-                            <!-- If you have any queries regarding this policy, please get in touch with us via the ‘Contact Us’ form. -->
+                            @lang("cookie.cookie.category8.item2")
                         </p>
                     </li>
                     <li>
                         <p data-text="policy_last_updated">
-                            <!-- This policy was last updated on 20th May 2021. -->
+                            @lang("cookie.cookie.category8.item3")
                         </p>
                     </li>
                 </ol>

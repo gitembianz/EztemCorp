@@ -5,15 +5,16 @@
             <div class="product__text">
                 <div class="product__title">
                     <img src="/img/graphics.webp" alt="graphics">
-                    <h1>Graphics</h1>
+                    <h1>
+                        @lang("graphics.title")
+                    </h1>
                 </div>
             </div>
             <p>
-                Crafting unique visuals tailored to each brand's distinct identity. These designs deeply resonate
-                with the target audience.
+                @lang("graphics.description1")
             </p>
             <h3>
-                We provide the following Graphics solutions:
+                @lang("graphics.description2")
             </h3>
             <article class="product__item">
                 <img src="/img/front-end.webp" alt="front-end">
@@ -21,28 +22,27 @@
                     <ul>
                         <li>
                             <h3>
-                                Logo Design
+                                @lang("graphics.product_list.item1.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                Conceptualization: Brainstorming and sketching initial logo ideas.
+                                @lang("graphics.product_list.item1.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Vector Illustrations: Creating scalable graphic designs.
+                                @lang("graphics.product_list.item1.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Branding Kits: Assembling a package of consistent brand
-                                visuals for companies.
+                                @lang("graphics.product_list.item1.description3")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/graphics/design" class="button" _target="_blank">
-                                See more
+                                @lang("graphics.product_list.button")
                             </a>
                         </li>
                     </ul>
@@ -54,29 +54,27 @@
                     <ul>
                         <li>
                             <h3>
-                                Banner Design
+                                @lang("graphics.product_list.item2.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                Web Banners: Designing attention-grabbing banners for websites.
+                                @lang("graphics.product_list.item2.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Promotional Banners: Creating banners for sales, offers, and
-                                special promotions.
+                                @lang("graphics.product_list.item2.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Event Banners: Crafting designs for events, conferences, and
-                                exhibitions.
+                                @lang("graphics.product_list.item2.description3")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/graphics/design" class="button" _target="_blank">
-                                See more
+                                @lang("graphics.product_list.button")
                             </a>
                         </li>
                     </ul>

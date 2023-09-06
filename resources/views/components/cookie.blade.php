@@ -2,10 +2,10 @@
     <div class="container cookie__container">
         <div class="cookie__description">
             <span data-text="cookie_policy_text">
-                <!-- This website utilizes cookies to enhance your browsing experience and provide you with the best possible service on our platform. -->
+                @lang("components.cookie_modal.policy_text")
             </span>
             <a href="/cookie" data-text="cookies_policy_link_text">
-                <!-- See Cookies Policy -->
+                @lang("components.cookie_modal.policy_text_link")
             </a>
         </div>
         <form id="cookieForm">
@@ -14,41 +14,41 @@
                     <label>
                         <input type="checkbox" disabled checked>
                         <span data-text="essential_cookies_text">
-                            <!-- Essential Cookies (Required) -->
+                            @lang("components.cookie_modal.essential_cookies_text")
                         </span>
                         <p data-text="essential_cookies_description">
-                            <!-- These are essential cookies that ensure the proper functioning of the website and the preservation of your preferences (e.g., language, region). -->
+                            @lang("components.cookie_modal.essential_cookies_description")
                         </p>
                     </label>
                     <label>
                         <input type="checkbox" name="analytics">
                         <span data-text="analytical_cookies_text">
-                            <!-- Analytical Cookies -->
+                            @lang("components.cookie_modal.analytical_cookies_text")
                         </span>
                         <p data-text="analytical_cookies_description">
-                            <!-- These cookies encompass performance cookies and visitor analysis cookies. -->
+                            @lang("components.cookie_modal.analytical_cookies_description")
                         </p>
                     </label>
                     <label>
                         <input type="checkbox" name="marketing">
                         <span data-text="marketing_cookies_text">
-                            <!-- Marketing Cookies -->
+                            @lang("components.cookie_modal.marketing_cookies_text")
                         </span>
                         <p data-text="marketing_cookies_description">
-                            <!-- These cookies may be placed through the website by the social media and advertising services we utilize. This type of cookie can be used by these services to create a specific visitor profile and display relevant advertising messages on other websites you visit. -->
+                            @lang("components.cookie_modal.marketing_cookies_description")
                         </p>
                     </label>
                 </div>
             </div>
             <div class="cookie-btns">
                 <button id="accept-btn" class="button" data-text="accept_button_text">
-                    <!-- Accept -->
+                    @lang("components.cookie_modal.accept_button_text")
                 </button>
                 <button id="advanced-settings" class="button" type="button" data-text="advanced_button_text">
-                    <!-- Advanced -->
+                    @lang("components.cookie_modal.advanced_button_text")
                 </button>
                 <a href="/cookie" id="decline-btn" class="button" data-text="decline_button_text">
-                    <!-- Decline -->
+                    @lang("components.cookie_modal.decline_button_text")
                 </a>
             </div>
         </form>

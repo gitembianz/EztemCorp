@@ -1,10 +1,10 @@
     <!DOCTYPE html>
-    <html lang="en">
+    <html>
 
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Eztem Corp - Creative Solutions - Web, Graphics, Retouch, Marketing</title>
+        <title>@lang('components.title')</title>
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
         <meta name="description"
             content="Explore our creative solutions for web development, graphics design, photo retouching, and marketing services.">
@@ -20,63 +20,40 @@
                     </a>
                     <nav class="header__categories">
                         <ul class="header__categories-list">
+                            {{-- <li class="header__category">
+                                <a href="{{ route('locale', 'en') }}">
+                                    Change Lang
+                                </a>
+                            </li> --}}
                             <li class="header__category">
-                                <div class="header__dropdown">
-                                    <button class="header__dropdown--button" data-text="Solutions">
-                                        <!-- Solutions -->
-                                    </button>
-                                    <ul class="header__dropdown--list">
-                                        {{-- <li>
-                                            <a href="/html/solutions.html" style="gap: 25px;">
-                                                <img src="/img/puzzle.svg" alt="Solutions" style="width: 40px;">
-                                                <span data-text="Solutions">
-                                                    <!-- Salutions -->
-                                                </span>
-                                            </a>
-                                        </li> --}}
-                                        <li>
-                                            <a href="/solutions/web">
-                                                <img src="/img/web.webp" alt="web">
-                                                <span data-text="Web">
-                                                    <!-- Web -->
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/solutions/graphics">
-                                                <img src="/img/graphics.webp" alt="Graphics">
-                                                <span data-text="Graphics">
-                                                    <!-- Graphics -->
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/solutions/retouch">
-                                                <img src="/img/retouch.webp" alt="Retouch">
-                                                <span data-text="Retouch">
-                                                    <!-- Retouch -->
-                                                </span>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="/solutions/marketing">
-                                                <img src="/img/marketing.webp" alt="Marketing">
-                                                <span data-text="Marketing">
-                                                    <!-- Marketing -->
-                                                </span>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
+                                <a href="/solutions/web">
+                                    @lang('components.header.solutions_dropdown.Web')
+                                </a>
+                            </li>
+                            <li class="header__category">
+                                <a href="/solutions/graphics">
+                                    @lang('components.header.solutions_dropdown.Graphics')
+                                </a>
+                            </li>
+                            <li class="header__category">
+                                <a href="/solutions/retouch">
+                                    @lang('components.header.solutions_dropdown.Retouch')
+                                </a>
+                            </li>
+                            <li class="header__category">
+                                <a href="/solutions/marketing">
+                                    @lang('components.header.solutions_dropdown.Marketing')
+                                </a>
+                            </li>
                             </li>
                             <li class="header__category">
                                 <a href="/contact" data-text="Contact Us">
-                                    <!-- Contact -->
+                                    @lang('components.header.contact_us')
                                 </a>
                             </li>
                             <li class="header__category">
                                 <a href="/about" data-text="About">
-                                    <!-- About -->
+                                    @lang('components.header.about_us')
                                 </a>
                             </li>
                         </ul>
@@ -88,14 +65,17 @@
                             </svg>
                         </div>
                         <div class="select">
-                            <div class="select-trigger">EN</div>
+                            <div class="select-trigger"> @lang('components.lang.name')</div>
                             <ul class="select-options">
                                 <li data-value="optiune1" data-lang="en">
-                                    EN
+                                    <a href="{{ route('locale', 'en') }}">
+                                        EN
+                                    </a>
                                 </li>
-                                <li data-value="optiune2" data-lang="ro">
-                                    RO
-                                </li>
+                                <li data-value="optiune1" data-lang="en">
+                                    <a href="{{ route('locale', 'ro') }}">
+                                        RO
+                                    </a>
                             </ul>
                         </div>
                     </nav>

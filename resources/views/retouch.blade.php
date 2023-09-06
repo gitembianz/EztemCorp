@@ -5,15 +5,16 @@
             <div class="product__text">
                 <div class="product__title">
                     <img src="/img/retouch.webp" alt="Retouch">
-                    <h1>Retouch</h1>
+                    <h1>
+                        @lang("retouch.title")
+                    </h1>
                 </div>
             </div>
             <p>
-                Elevating imagery by refining imperfections and enhancing key elements. We retouch photos to capture
-                the essence while delivering a polished and professional appearance.
+                @lang("retouch.description1")
             </p>
             <h3>
-                We provide the following Retouch solutions:
+                @lang("retouch.description2")
             </h3>
             <article class="product__item">
                 <img src="/img/front-end.webp" alt="front-end">
@@ -21,27 +22,27 @@
                     <ul>
                         <li>
                             <h3>
-                                Photo Corrections
+                                @lang("retouch.product_list.item1.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                Color Adjustments: Modifying photo color tones for accuracy and appeal.
+                                @lang("retouch.product_list.item1.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Lighting Fixes: Correcting lighting imbalances in images.
+                                @lang("retouch.product_list.item1.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Blemish Removal: Cleaning up imperfections and unwanted marks.
+                                @lang("retouch.product_list.item1.description3")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/retouch/photo" class="button">
-                                See more
+                                @lang("retouch.product_list.button")
                             </a>
                         </li>
                     </ul>
@@ -53,30 +54,27 @@
                     <ul>
                         <li>
                             <h3>
-                                Photo Manipulations
+                                @lang("retouch.product_list.item2.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                Conceptual Art: Creating artistic imagery from combined
-                                elements.
+                                @lang("retouch.product_list.item2.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Composite Imagery: Blending multiple images into a cohesive
-                                visual.
+                                @lang("retouch.product_list.item2.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Digital Restoration: Restoring old or damaged photos to their
-                                former glory.
+                                @lang("retouch.product_list.item2.description3")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/retouch/photo" class="button">
-                                See more
+                                @lang("retouch.product_list.button")
                             </a>
                         </li>
                     </ul>

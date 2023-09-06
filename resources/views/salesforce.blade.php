@@ -3,13 +3,12 @@
     <div class="container job__container">
         <div class="job__title">
             <img src="/img/salesforce.svg" alt="React Icon">
-            <h1>Salesforce Administration </h1>
+            <h1>
+                @lang("salesforce.title")
+            </h1>
         </div>
         <p>
-            Salesforce Administration is the art of masterfully steering the sales force through the Salesforce
-            platform. Salesforce administrators act as guardians of success, configuring, customizing, and
-            maintaining this ecosystem to achieve extraordinary performance. They are the navigators who optimize
-            data flows, boost productivity, and transform a mere platform into a strategic business weapon.
+            @lang("salesforce.description")
         </p>
         <div class="job__cards">
 
@@ -18,48 +17,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Data import, export, and migration.
+                            @lang("salesforce.card_list.item1.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Data deduplication and cleansing.
+                            @lang("salesforce.card_list.item1.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Setting up and maintaining automated data backup processes.
+                            @lang("salesforce.card_list.item1.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Syncing data between Salesforce and other systems.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
-                <ul class="job__list">
-                    <li>
-                        <p>
-                            Creating and customizing objects, fields, record types, and page layouts.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Designing user-friendly dashboards and reports tailored to business needs.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Building workflow rules, process builder flows, and approval processes to automate
-                            tasks.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Integrating Salesforce with other software tools and platforms using APIs.
+                            @lang("salesforce.card_list.item1.description4")
                         </p>
                     </li>
                 </ul>
@@ -69,47 +42,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Setting up user roles, profiles, and permissions.
+                            @lang("salesforce.card_list.item2.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Implementing sharing rules and security controls.
+                            @lang("salesforce.card_list.item2.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Managing licenses and ensuring compliance.
+                            @lang("salesforce.card_list.item2.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Setting up and managing AppExchange products and third-party solutions.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
-                <ul class="job__list">
-                    <li>
-                        <p>
-                            Regularly auditing the Salesforce environment to ensure optimal performance.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Performing scheduled releases and updates without disrupting business operations.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Troubleshooting and resolving system and user issues in a timely manner.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Regularly auditing the Salesforce environment to ensure optimal performance.
+                            @lang("salesforce.card_list.item2.description4")
                         </p>
                     </li>
                 </ul>
@@ -119,22 +67,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Data import, export, and migration.
+                            @lang("salesforce.card_list.item3.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Data deduplication and cleansing.
+                            @lang("salesforce.card_list.item3.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Setting up and maintaining automated data backup processes.
+                            @lang("salesforce.card_list.item3.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Syncing data between Salesforce and other systems.
+                            @lang("salesforce.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>
@@ -144,23 +92,72 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Creating and customizing objects, fields, record types, and page layouts.
+                            @lang("salesforce.card_list.item4.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Designing user-friendly dashboards and reports tailored to business needs.
+                            @lang("salesforce.card_list.item4.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Building workflow rules, process builder flows, and approval processes to automate
-                            tasks.
+                            @lang("salesforce.card_list.item4.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Integrating Salesforce with other software tools and platforms using APIs.
+                            @lang("salesforce.card_list.item4.description4")
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="job__section">
+                <img src="/img/code.webp" alt="only code">
+                <ul class="job__list">
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item5.description1")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item5.description2")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item5.description3")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item5.description4")
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="job__section">
+                <img src="/img/code.webp" alt="only code">
+                <ul class="job__list">
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item6.description1")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item6.description2")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item6.description3")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("salesforce.card_list.item6.description4")
                         </p>
                     </li>
                 </ul>
@@ -168,13 +165,13 @@
 
         </div>
         <span>
-            "A skilled Salesforce administrator opens doors to limitless opportunities."
+            @lang("salesforce.quote")
         </span>
-        <x-contact />
         <a href="/solutions/web" class="button">
-            Back to Web
+            @lang("salesforce.button")
         </a>
     </div>
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />

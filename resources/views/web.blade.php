@@ -5,17 +5,16 @@
             <div class="product__text">
                 <div class="product__title">
                     <img src="/img/web.webp" alt="web">
-                    <h1>Web</h1>
+                    <h1>
+                        @lang("web.title")
+                    </h1>
                 </div>
             </div>
             <p>
-                Crafting resilient and adaptive digital experiences that effortlessly cater to diverse user
-                needs.
-                We meticulously design, ensuring intuitive navigation and optimal performance across all
-                devices.
+                @lang("web.description1")
             </p>
             <h3>
-                We provide the following web solutions:
+                @lang("web.description2")
             </h3>
             <article class="product__item">
                 <img src="/img/front-end.webp" alt="front-end">
@@ -23,33 +22,32 @@
                     <ul>
                         <li>
                             <h3>
-                                Front-End Development:
+                                @lang("web.product_list.item1.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                HTML: Markup language for structuring web content.
+                                @lang("web.product_list.item1.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                CSS: Styling sheet language for designing web visuals.
+                                @lang("web.product_list.item1.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                JavaScript: Scripting language for interactive web elements.
+                                @lang("web.product_list.item1.description3")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Responsive Design: Ensuring website compatibility across various devices and screen
-                                sizes.
+                                @lang("web.product_list.item1.description4")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/web/frontend" class="button" _target="_blank">
-                                See more
+                                @lang("web.product_list.button")
                             </a>
                         </li>
                     </ul>
@@ -61,42 +59,37 @@
                     <ul>
                         <li>
                             <h3>
-                                Back-End Development:
+                                @lang("web.product_list.item2.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                PHP (Laravel): Server-side scripting language using the
-                                Laravel framework.
+                                @lang("web.product_list.item2.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Server Management: Overseeing and managing server health,
-                                security, and optimization.
+                                @lang("web.product_list.item2.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                SQL: Managing relational databases with structured query
-                                language.
+                                @lang("web.product_list.item2.description3")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Database Optimization: Improving database performance and
-                                speed.
+                                @lang("web.product_list.item2.description4")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Database Backup and Recovery: Safeguarding data with backup solutions and
-                                restoring capabilities.
+                                @lang("web.product_list.item2.description5")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/web/backend" class="button" _target="_blank">
-                                See more
+                                @lang("web.product_list.button")
                             </a>
                         </li>
                     </ul>
@@ -108,42 +101,42 @@
                     <ul>
                         <li>
                             <h3>
-                                Salesforce Administration
+                                @lang("web.product_list.item3.title")
                             </h3>
                         </li>
                         <li>
                             <p>
-                                Setting up user roles, profiles, and permissions
+                                @lang("web.product_list.item3.description1")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Implementing sharing rules and security controls.
+                                @lang("web.product_list.item3.description2")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Managing licenses and ensuring compliance.
+                                @lang("web.product_list.item3.description3")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Data import, export, and migration.
+                                @lang("web.product_list.item3.description4")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Data deduplication and cleansing.
+                                @lang("web.product_list.item3.description5")
                             </p>
                         </li>
                         <li>
                             <p>
-                                Setting up and maintaining automated data backup processes.
+                                @lang("web.product_list.item3.description6")
                             </p>
                         </li>
                         <li>
                             <a href="/solutions/web/salesforce" class="button" _target="_blank">
-                                See more
+                                @lang("web.product_list.button")
                             </a>
                         </li>
                     </ul>

@@ -17,7 +17,6 @@ function setupScrollEffect(headerSelector) {
       } else {
         header.style.transform = "translateY(-270px)";
         burgerMenu.classList.remove("active");
-        solutionsDropdown.classList.remove("active");
       }
     } else {
       header.style.transform = "translateY(0)";
@@ -27,30 +26,39 @@ function setupScrollEffect(headerSelector) {
   window.addEventListener('scroll', handleScroll);
 }
 //<---------------------------------End-Header--------------------------------->
-//<----------------------------------Dropdown---------------------------------->
-function setupDropdownToggle(triggerSelector, targetSelector) {
-  const trigger = document.querySelector(triggerSelector);
-  const target = document.querySelector(targetSelector);
+//<--------------------------------Custom-Select------------------------------->
+function initializeCustomSelect() {
+    const selectTrigger = document.querySelector(".select-trigger");
+    const selectOptions = document.querySelector(".select-options");
+    const optionItems = document.querySelectorAll(".select-options li");
 
-  if (!trigger || !target) {
-    return;
-  }
+    if (selectTrigger && selectOptions && optionItems.length > 0) {
+        selectTrigger.addEventListener("click", () => {
+            selectOptions.classList.toggle("active");
+        });
 
-  const toggleClass = () => {
-    target.classList.toggle('active');
-  };
+        optionItems.forEach((item) => {
+            item.addEventListener("click", () => {
+                const selectedValue = item.getAttribute("data-value");
+                selectTrigger.textContent = item.textContent;
+                selectOptions.classList.remove("active");
+                // Aici poți face ceva cu valoarea selectată.
+            });
+        });
 
-  trigger.addEventListener('click', toggleClass);
-
-  // Închide dropdown-ul dacă se face clic în afara lui
-  document.addEventListener('click', (event) => {
-    const clickedElement = event.target;
-    if (!target.contains(clickedElement) && !trigger.contains(clickedElement)) {
-      target.classList.remove('active');
+        document.addEventListener("click", (event) => {
+            if (
+                !selectTrigger.contains(event.target) &&
+                !selectOptions.contains(event.target)
+            ) {
+                selectOptions.classList.remove("active");
+            }
+        });
+    } else {
+        console.log("Nu exista custom select pe aceasta pagina");
     }
-  });
 }
-//<--------------------------------End-Dropdown-------------------------------->
+//<------------------------------End-Custom-Select----------------------------->
 //<-----------------------------Cookies-Banner--------------------------------->
 function setupCookieBanner() {
   const cookieBanner = document.getElementById("cookie-banner");
@@ -151,40 +159,42 @@ function initializeAccordions(closeOthers) {
   });
 }
 //<----------------------------End-Accordions---------------------------------->
-//<----------------------------------dropdown---------------------------------->
-function dropdownToggle(dropBtn, dropContent) {
-  const btn = document.querySelector(dropBtn);
-  const content = document.querySelector(dropContent);
+//<----------------------------------Dropdown---------------------------------->
+function setupDropdownToggle(triggerSelector, targetSelector) {
+    const trigger = document.querySelector(triggerSelector);
+    const target = document.querySelector(targetSelector);
 
-  if (btn && content) {
-    const toggle = () => {
-      content.classList.toggle('active');
+    if (!trigger || !target) {
+      return;
+    }
+
+    const toggleClass = () => {
+      target.classList.toggle('active');
     };
 
-    btn.addEventListener('click', toggle);
+    trigger.addEventListener('click', toggleClass);
 
+    // Închide dropdown-ul dacă se face clic în afara lui
     document.addEventListener('click', (event) => {
       const clickedElement = event.target;
-      if (!btn.contains(clickedElement) && !content.contains(clickedElement)) {
-        content.classList.remove('active');
+      if (!target.contains(clickedElement) && !trigger.contains(clickedElement)) {
+        target.classList.remove('active');
       }
     });
   }
-}
-
-//<--------------------------------END-dropdown-------------------------------->
+  //<--------------------------------End-Dropdown-------------------------------->
 //<------------------------------Start-Functions------------------------------->
 // Header(ScrollEffect)
 setupScrollEffect(".header");
 // Burger-menu
 setupDropdownToggle('.header__burger-menu', '.header__categories-list');
-// Dropdown Header
-dropdownToggle(".header__dropdown--button",".header__dropdown--list");
 // Cookie
 setupCookieBanner();
 // ScrollTop
 setupScrollTopButton();
 // Accordions
 initializeAccordions(false);
+// Custom Select
+initializeCustomSelect();
 //<----------------------------End-Start-Functions----------------------------->
 
