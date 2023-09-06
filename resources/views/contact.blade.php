@@ -1,11 +1,8 @@
 <x-header />
 <main>
-    <section class="contact">
-        <x-contact />
-        <span class="hero__subtext" data-text="success_quote">
-            <!-- “Our success is measured by our achievements” -->
-        </span>
-    </section>
+    {{-- Sectiunea de contact --}}
+    {{-- Section of contact --}}
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />

@@ -3,13 +3,12 @@
     <div class="container job__container">
         <div class="job__title">
             <img src="/img/figma.svg" alt="Figma Icon">
-            <h1>Logo and Banner Design</h1>
+            <h1>
+                @lang("design.title")
+            </h1>
         </div>
         <p>
-            Logo and banner design is much more than just imagination. It's the graphical representation of a
-            company, a story in an image, and banners are windows to the online world. With passion and creativity,
-            we create logos that define brands, inspire trust, and convey values, and banners that catch the eye and
-            support marketing objectives. Each element has a story to tell, and we are the storytellers.
+            @lang("design.description")
         </p>
         <div class="job__cards">
             <div class="job__section">
@@ -17,52 +16,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Colors have meanings - Each color in a logo or banner conveys a subtle message.
+                            @lang("design.card_list.item1.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Simplicity is key - The most memorable logos and banners are often the simplest.
+                            @lang("design.card_list.item1.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Responsive design - The logo and banner should be flexible and look good on all
-                            platforms.
+                            @lang("design.card_list.item1.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Innovation and originality - The logo and banner must stand out from the competition and
-                            bring something unique to the industry.
-                        </p>
-                    </li>
-                </ul>
-            </div>
-            <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
-                <ul class="job__list">
-                    <li>
-                        <p>
-                            Visual storytelling - The logo can tell a story about your business or its values in a
-                            simple and captivating way.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Small-scale testing - A logo and banner should look good even in small sizes.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Avoiding passing trends - The logo and banner should be durable and stand the test of
-                            time.
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            Font and typography matter - The right font can make a significant difference in the
-                            perception of the logo and banner.
+                            @lang("design.card_list.item1.description4")
                         </p>
                     </li>
                 </ul>
@@ -72,38 +41,60 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Balance is crucial - The elements in the logo and banner should be arranged to create a
-                            pleasing visual balance.
+                            @lang("design.card_list.item2.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Emotional connection - A strong logo and banner can create an emotional connection with
-                            customers.
+                            @lang("design.card_list.item2.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Simplicity is memorable - A complicated logo and banner can be hard to remember.
+                            @lang("design.card_list.item2.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Rebranding can revitalize - If your business evolves, consider rebranding to keep your
-                            image fresh and relevant.
+                            @lang("design.card_list.item2.description4")
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div class="job__section">
+                <img src="/img/code.webp" alt="only code">
+                <ul class="job__list">
+                    <li>
+                        <p>
+                            @lang("design.card_list.item3.description1")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("design.card_list.item3.description2")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("design.card_list.item3.description3")
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            @lang("design.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
         <span>
-            "Successful logos and banners are the mirror of a thriving business."
+            @lang("design.quote")
         </span>
-        <x-contact />
         <a href="/solutions/graphics" class="button">
-            Back to Graphics
+            @lang("design.button")
         </a>
     </div>
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />

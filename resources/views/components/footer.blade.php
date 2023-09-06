@@ -38,72 +38,74 @@
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/" data-text="Home">
-                        <!-- Home -->
+                        @lang("components.footer.home")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/contact" data-text="Contact Us">
-                        <!-- Contact Us -->
+                        @lang("components.footer.contact_us")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/about" data-text="About">
-                        <!-- About Us -->
+                        @lang("components.footer.about_us")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/faq" data-text="faq_footer">
-                        <!-- FAQ -->
+                        @lang("components.footer.faq")
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/web" data-text="Web">
-                        <!-- Web -->
+                        @lang("components.footer.web")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/graphics" data-text="Graphics">
-                        <!-- Graphics -->
+                        @lang("components.footer.graphics")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/retouch" data-text="Retouch">
-                        <!-- Retouch -->
+                        @lang("components.footer.retouch")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/marketing" data-text="Marketing">
-                        <!-- Marketing -->
+                        @lang("components.footer.marketing")
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/cookie" data-text="cookies_policy_footer">
-                        <!-- See Cookies Policy -->
+                        @lang("components.footer.cookies")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/privacy" data-text="privacy_policy_footer">
-                        <!-- Privacy Policy -->
+                        @lang("components.footer.privacy")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap"
                         data-text="sitemap_link">
-                        <!-- Sitemap -->
+                        @lang("components.footer.sitemap")
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="https://anpc.ro/" data-text="ANPC">
-                        <!-- ANPC -->
+                        @lang("components.footer.anpc")
                     </a>
                 </li>
             </ul>
         </div>
-        <span class="footer__subtext">2023© Copyright Eztem Corp</span>
+        <span class="footer__subtext">
+            @lang("components.footer.copyright")
+        </span>
     </div>
 </footer>
 <button id="top-up-button" aria-label="Go to top">
@@ -112,9 +114,7 @@
         <polyline points="17 18 12 13 7 18"></polyline>
     </svg>
 </button>
-<script src="/scripts/script.js"></script>
-<script async defer src="/scripts/translation.js"></script>
-
+<script src="/scripts/min-script.js"></script>
 </body>
 
 </html>

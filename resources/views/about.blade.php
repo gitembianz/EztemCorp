@@ -1,44 +1,40 @@
 <x-header />
+{{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
+    {{-- Sectiunea de about --}}{{-- Section of about --}}
     <section class="about">
         <div class=" container about__container">
             <div class="about__title">
-                <h1>Who We Are:</h1>
+                <h1>
+                    @lang("about.about.heading")
+                </h1>
                 <p>
-                    At Eztem Corp, we are more than just a company; we are your partners in innovation and success.
-                    Founded
-                    in 2023, Eztem Corp proudly calls Moldova its home. We are a tight-knit team of passionate and
-                    ambitious
-                    professionals driven by a singular vision: to empower you to transform your ideas into tangible,
-                    game-changing realities.
+                    @lang("about.about.description")
                 </p>
                 <img src="../img/about.webp" alt="about our company">
             </div>
             <span class="hero__subtext">
-                “Our success is measured by our achievements”
+                @lang("about.about.qoute")
             </span>
     </section>
-    <section class="about">
+
+    {{-- Sectiunea de team --}}{{-- Section of team --}}
+    <section class="Team">
         <div class="container about__contianer">
             <div class="about__title">
-                <h1>The Faces Behind Eztem Corp:</h1>
+                <h1>@lang("about.team.heading")</h1>
                 <div class="about__grid">
                     <div class="about__personalities">
                         <img src="../img/about.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
-                                Mihai Tanase
+                                @lang("about.team.card_list.card1.name")
                             </h2>
                             <h3>
-                                Salesforce Manager:
+                                @lang("about.team.card_list.card1.role")
                             </h3>
                             <p>
-                                Leading our strategic initiatives is our Salesforce Manager, a seasoned
-                                professional with a knack for crafting personalized solutions. With an unwavering
-                                commitment
-                                to enhancing customer relationships, our Salesforce Manager ensures that your business
-                                thrives
-                                in the digital age.
+                                @lang("about.team.card_list.card1.description")
                             </p>
                         </div>
                     </div>
@@ -46,15 +42,13 @@
                         <img src="../img/about.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
-                                Iosif Relia
+                                @lang("about.team.card_list.card2.name")
                             </h2>
                             <h3>
-                                Back-end Developer:
+                                @lang("about.team.card_list.card2.role")
                             </h3>
                             <p>
-                                Behind the scenes, our team of back-end developers works tirelessly to build the robust
-                                infrastructure that powers your projects. With a meticulous attention to detail and a
-                                wealth of experience, they form the backbone of our technical excellence.
+                                @lang("about.team.card_list.card2.description")
                             </p>
                         </div>
                     </div>
@@ -62,15 +56,13 @@
                         <img src="../img/about.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
-                                Cortac Stanislav
+                                @lang("about.team.card_list.card3.name")
                             </h2>
                             <h3>
-                                Front-end Developer:
+                                @lang("about.team.card_list.card3.role")
                             </h3>
                             <p>
-                                At the forefront of aesthetics and user experience, our front-end developers breathe
-                                life into your concepts, creating visually stunning and user-friendly interfaces that
-                                leave a lasting impression on your audience.
+                                @lang("about.team.card_list.card3.description")
                             </p>
                         </div>
                     </div>
@@ -78,33 +70,29 @@
             </div>
         </div>
         <span class="hero__subtext">
-            “Our success is measured by our achievements”
+            @lang("about.team.qoute")
         </span>
     </section>
-    <section>
+
+    {{-- Sectiunea de misiune --}}{{-- Section of mission --}}
+    <section class="Mission">
         <div class="container">
             <div class="about__title">
-                <h1>Our Mission</h1>
+                <h1>
+                    @lang("about.mission.heading")
+                </h1>
                 <p>
-                    At Eztem Corp, our core mission is to provide high-quality, tailored solutions that drive your
-                    success. We don't just work for you; we work with you, side by side, from conceptualization to
-                    execution and beyond. Our mission is to empower you to create innovative projects and captivating
-                    websites that leave a positive mark on your community and customers.Join us on a journey of
-                    innovation and excellence. At Eztem Corp, we are here to support you every step of the way, turning
-                    your dreams into reality. Contact us today to embark on your next exciting project!
+                    @lang("about.mission.description")
                 </p>
             </div>
             <span class="hero__subtext">
-                “Our success is measured by our achievements”
+                @lang("about.mission.qoute")
             </span>
         </div>
     </section>
-    <section>
-        <x-contact />
-        <span class="hero__subtext">
-            “Our success is measured by our achievements”
-        </span>
-    </section>
+
+    {{-- Sectiunea de contact --}}{{-- Section of contact --}}
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />

@@ -1,91 +1,101 @@
 <x-header />
+{{-- Pagina "Home sau Index" --}}{{-- Page "Home or Index" --}}
 <main>
+    {{-- Sectiunea de hero --}}{{-- Section of hero --}}
     <section class="hero">
         <div class="container hero__container">
             <div class="hero__text">
                 <h1 data-text="creative_solutions_heading">
-                    <!-- Creative Solutions -->
+                    @lang("home.hero.heading")
                 </h1>
                 <p data-text="solutions_paragraph">
-                    <!-- A wide spectrum of solutions for your tasks and ideas. -->
+                    @lang("home.hero.description")
                 </p>
             </div>
             <img class="hero__img" src="img/homecentercolored.webp" alt="Globus Creative Solutions" loading="lazy">
         </div>
         <span class="hero__subtext" data-text="success_quote">
-            <!-- “Our success is measured by our achievements” -->
+            @lang("home.hero.quote")
         </span>
     </section>
 
+    {{-- Sectiunea de detalii --}}{{-- Section of details --}}
     <section class="details">
         <h1 data-text="our_solutions_heading">
-            Our Solutions
+            @lang("home.details.heading")
         </h1>
         <div class="container details__container">
             <div class="details__content">
                 <div class="details__title">
                     <img src="img/web.webp" alt="website details" loading="lazy">
                     <h2 data-text="Web">
-                        <!-- Web -->
+                        @lang("home.details.card_web1.heading")
                     </h2>
                 </div>
                 <p class="details__text" data-text="web_app_details">
-                    <!-- From building the cores of custom web applications to polish in gout of the box details, we strive to provide combined efficiency, effectiveness, and elegance. -->
+                    @lang("home.details.card_web1.description")
                 </p>
                 <a href="/solutions/web" class="button" data-text="learn_more_link">
-                    <!-- Learn More -->
+                    @lang("home.details.button")
                 </a>
             </div>
             <div class="details__content">
                 <div class="details__title">
                     <img src="img/graphics.webp" alt="graphics details" loading="lazy">
                     <h2 data-text="Graphics">
-                        <!-- Graphics -->
+                        @lang("home.details.card_web2.heading")
                     </h2>
                 </div>
                 <p class="details__text" data-text="illustrations_details">
-                    <!-- Either it is a company logo or a component for a project, we like to think about illustrations as shortcuts that overwrite complexity and point out the goals. -->
+                    @lang("home.details.card_web2.description")
                 </p>
-                <a href="/solutions/graphics" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/graphics" class="button" data-text="learn_more_link">
+                    @lang("home.details.button")
+                </a>
             </div>
             <div class="details__content">
                 <div class="details__title">
                     <img src="img/retouch.webp" alt="retouch details" loading="lazy">
                     <h2 data-text="Retouch">
-                        <!-- Retouch -->
+                        @lang("home.details.card_web3.heading")
                     </h2>
                 </div>
                 <p class="details__text" data-text="photo_composition_details">
-                    <!-- Harmony between shapes, colors, and lights is essential. Careful manipulation of these elements can reveal the meaning of beauty in photo composition. -->
+                    @lang("home.details.card_web3.description")
                 </p>
-                <a href="/solutions/retouch" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/retouch" class="button" data-text="learn_more_link">
+                    @lang("home.details.button")
+                </a>
             </div>
             <div class="details__content">
                 <div class="details__title">
                     <img src="img/marketing.webp" alt="marketing details" loading="lazy">
                     <h2 data-text="Marketing">
-                        <!-- Marketing -->
+                        @lang("home.details.button")
                     </h2>
                 </div>
                 <p class="details__text" data-text="content_conversion_details">
-                    <!-- Good content placed in the right place engages, but we also always focus on bringing the conversion rate to its maximum. -->
+                    @lang("home.details.card_web4.description")
                 </p>
-                <a href="/solutions/marketing" class="button" data-text="learn_more_link">Learn More</a>
+                <a href="/solutions/marketing" class="button" data-text="learn_more_link">
+                    @lang("home.details.button")
+                </a>
             </div>
             <span class="hero__subtext" data-text="success_quote">
-                <!-- “Our success is measured by our achievements” -->
+                @lang("home.details.quote")
             </span>
         </div>
     </section>
 
+    {{-- Sectiunea de related --}}{{-- Section of related --}}
     <section class="related">
         <div class="container">
             <div class="related__text">
                 <h1 data-text="build_bundle_heading">
-                    <!-- Build Your Bundle -->
+                    @lang("home.related.heading")
                 </h1>
                 <p data-text="project_support">
-                    <!-- Do you need support starting a new project, or adding new features to your current one? Whether it's a simple or complex task, our skills are at your service! -->
+                    @lang("home.related.description")
                 </p>
             </div>
             <div class="related__container">
@@ -95,34 +105,34 @@
                 <ul class="related__list">
                     <li class="related__list--item">
                         <p data-text="choose_options">
-                            <!-- Choose from a variety of options that fit your demand -->
+                            @lang("home.related.list.item1")
                         </p>
                     </li>
                     <li class="related__list--item">
                         <p data-text="exclusive_service">
-                            <!-- No pre-defined plans. We treat each customer as an individual, offering exclusive service. -->
+                            @lang("home.related.list.item2")
                         </p>
                     </li>
                     <li class="related__list--item">
                         <p data-text="guidance_support">
-                            <!-- Guidance and support are always in the bundle throughout our collaboration. -->
+                            @lang("home.related.list.item3")
                         </p>
                     </li>
                     <li class="related__list--item">
                         <p data-text="unique_works">
-                            <!-- Our customers are unique. Similarly, our works are original, with no use of templates. -->
+                            @lang("home.related.list.item4")
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
         <span class="hero__subtext" data-text="success_quote">
-            <!-- “Our success is measured by our achievements” -->
+            @lang("home.related.quote")
         </span>
     </section>
-    <section class="contact">
-        <x-contact />
-    </section>
+
+    {{-- Sectiunea de contact --}}{{-- Section of contact --}}
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />

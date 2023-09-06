@@ -3,13 +3,12 @@
     <div class="container job__container">
         <div class="job__title">
             <img src="/img/ads.svg" alt="Figma Icon">
-            <h1>Navigating Online Advertising Success: Google and Facebook Ads</h1>
+            <h1>
+                @lang("advertising.title")
+            </h1>
         </div>
         <p>
-            Google and Facebook ads are powerful digital marketing tools that can connect your business with the
-            right audience. With a well-defined strategy and creativity, we can create advertising campaigns that
-            grab attention, generate conversions, and increase brand visibility. We are experts in maximizing ROI
-            from online advertising, ensuring that every click brings real value to your business.
+            @lang("advertising.description")
         </p>
         <div class="job__cards">
             <div class="job__section">
@@ -17,25 +16,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Precise targeting - Reach your target audience based on demographics, interests, and
-                            online behavior.
+                            @lang("advertising.card_list.item1.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Budget management - Full control over ad spending and the ability to adjust the budget
-                            in real-time.
+                            @lang("advertising.card_list.item1.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            A/B testing - Testing ad variations to identify what works best.
+                            @lang("advertising.card_list.item1.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Video ads - Creating and promoting engaging video content on Google and Facebook
-                            platforms.
+                            @lang("advertising.card_list.item1.description4")
                         </p>
                     </li>
                 </ul>
@@ -45,23 +41,22 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Remarketing - Re-targeting previous visitors to remind them of products or services.
+                            @lang("advertising.card_list.item2.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Mobile optimization - Ensuring ads are effective on mobile devices.
+                            @lang("advertising.card_list.item2.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Advanced analytics - Tracking and in-depth analysis of campaign performance for informed
-                            decision-making.
+                            @lang("advertising.card_list.item2.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Awareness ads - Creating content that boosts awareness and brand building.
+                            @lang("advertising.card_list.item2.description4")
                         </p>
                     </li>
                 </ul>
@@ -71,37 +66,35 @@
                 <ul class="job__list">
                     <li>
                         <p>
-                            Local ads - Specific targeting of an audience in a defined geographical area.
+                            @lang("advertising.card_list.item3.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Conversion tracking - Tracking and comprehensive evaluation of website actions related
-                            to the advertising campaign.
+                            @lang("advertising.card_list.item3.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            E-commerce support - Creating campaigns that drive online sales and maximize ROI.
+                            @lang("advertising.card_list.item3.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            Detailed reporting - Providing clear and concise reports for performance evaluation and
-                            improvement decisions.
+                            @lang("advertising.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
         <span>
-            "With the right ads, every click is an opportunity."
+            @lang("advertising.quote")
         </span>
-        <x-contact />
         <a href="/solutions/marketing" class="button">
-            Back to Marketing
+            @lang("advertising.button")
         </a>
     </div>
+    <x-contact />
 </main>
 <x-cookie />
 <x-footer />
