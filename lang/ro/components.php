@@ -62,5 +62,8 @@ return [
         "message_placeholder" => "Introduceți mesajul",
         "send_button" => "Trimite",
         "quote" => "“Succesul nostru este măsurat prin realizările noastre”"
+    ],
+    "lang" => [
+        "name" => "RO"
     ]
 ];

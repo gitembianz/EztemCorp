@@ -62,5 +62,8 @@ return [
         "message_placeholder" => "Type your message here...",
         "send_button" => "Send",
         "quote" => "“Our success is measured by our achievements”"
+    ],
+    "lang" => [
+        "name" => "EN"
     ]
 ];

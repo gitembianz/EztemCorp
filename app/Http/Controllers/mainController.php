@@ -10,7 +10,13 @@ class mainController extends Controller
     //
     public function changeLocale($locale)
     {
-        $currentLocale = App::getLocale();
-        dd($currentLocale);
+        // Store the chosen locale in the session
+        session()->put('locale', $locale);
+
+        // Set the application locale
+        App::setLocale($locale);
+
+        // Redirect back to the previous page
+        return redirect()->back();
     }
 }
