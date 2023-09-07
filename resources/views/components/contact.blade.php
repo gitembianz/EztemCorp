@@ -92,9 +92,9 @@
 
 
             <div class="contact__label">
-                {{-- <label for="description" id="description">
+                <span for="description" id="description">
                     @lang("components.contact.message")
-                </label> --}}
+                </span>
                 <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
             </div>
             <button class="button" type="submit" name="submit" data-text="send_button" style="margin-left: 150px;">
