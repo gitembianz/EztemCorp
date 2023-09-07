@@ -11,28 +11,50 @@
                 </p>
             </div>
         </div>
-        <form class="contact__form" method="POST">
+        <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST">
+            <input type=hidden name="oid" value="00D09000008XPQu">
+            <input type=hidden name="retURL" value="http://">
+
             <div class="contact__label">
-                <label for="nume" data-text="name_label">
+                <label for="last_name" data-text="name_label">
                     @lang("components.contact.name")
                 </label>
-                <input type="text" id="nume" name="nume" required placeholder="Name">
+                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="Name">
             </div>
 
             <div class="contact__label">
                 <label for="email" data-text="email_label">
                     @lang("components.contact.email")
                 </label>
-                <input type="email" id="email" name="email" required placeholder="E-mail">
+                <input type="email" id="email" name="email" autocomplete="email" required placeholder="E-mail"
+                    maxlength="80">
             </div>
 
-            <div class="contact__solutions">
-                <label data-text="solutions_label">
+            <!-------------------------------------------------------------------------->
+            <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+            <!--  these lines if you wish to test in debug mode.-->
+            <!--  <input type="hidden" name="debug" value=1>-->
+            <!--  <input type="hidden" name="debugEmail"-->
+            <!--  value="mihail.tanase@eztemcorp.com">-->
+            <!-------------------------------------------------------------------------->
+
+
+            {{-- <select id="00N9N000000PYk0" name="00N9N000000PYk0" title="Solutions">
+                <option value="Web">Web</option>
+                <option value="Marketing">Marketing</option>
+                <option value="Retouch">Retouch</option>
+                <option value="Graphics">Graphics</option>
+            </select> --}}
+
+
+            <div class="contact__solutions" id="00N9N000000PYk0" name="00N9N000000PYk0" title="Solutions">
+                <span data-text="solutions_label">
                     @lang("components.contact.solutions")
-                </label>
+                </span>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution1" id="solution1" value="sol1">
-                    <label for="solution1">
+                    <input type="checkbox" name="Web" id="Web" value="Web">
+                    <label for="Web">
                         <img src="/img/web.webp" alt="Soluție 1" class="image" loading="lazy">
                         <span data-text="Web">
                             @lang("components.contact.web")
@@ -40,8 +62,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution2" id="solution2" value="sol2">
-                    <label for="solution2">
+                    <input type="checkbox" name="Graphics" id="Graphics" value="Graphics">
+                    <label for="Graphics">
                         <img src="/img/graphics.webp" alt="Soluție 2" class="image" loading="lazy">
                         <span data-text="Graphics">
                             @lang("components.contact.graphics")
@@ -49,8 +71,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution3" id="solution3" value="sol3">
-                    <label for="solution3">
+                    <input type="checkbox" name="Retouch" id="Retouch" value="Retouch">
+                    <label for="Retouch">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span data-text="Retouch">
                             @lang("components.contact.retouch")
@@ -58,8 +80,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution4" id="solution4" value="sol4">
-                    <label for="solution4">
+                    <input type="checkbox" name="Marketing" id="Marketing" value="Marketing">
+                    <label for="Marketing">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span data-text="Marketing">
                             @lang("components.contact.marketing")
@@ -67,15 +89,15 @@
                     </label>
                 </label>
             </div>
+
+
             <div class="contact__label">
-                <label for="mesaj">
-                    <span data-text="message_label">
-                        @lang("components.contact.message")
-                    </span>
-                </label>
-                <textarea id="mesaj" name="mesaj" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
+                {{-- <label for="description" id="description">
+                    @lang("components.contact.message")
+                </label> --}}
+                <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
             </div>
-            <button class="button" type="submit" value="Trimite" data-text="send_button" style="margin-left: 150px;">
+            <button class="button" type="submit" name="submit" data-text="send_button" style="margin-left: 150px;">
                 @lang("components.contact.send_button")
                 <svg>
                     <line x1="22" y1="2" x2="11" y2="13"></line>

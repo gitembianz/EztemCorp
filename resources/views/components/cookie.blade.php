@@ -12,7 +12,7 @@
             <div class="cookie__form">
                 <div class="cookie__form--container">
                     <label>
-                        <input type="checkbox" disabled checked>
+                        <input type="checkbox" name="essential" disabled checked>
                         <span data-text="essential_cookies_text">
                             @lang("components.cookie_modal.essential_cookies_text")
                         </span>
