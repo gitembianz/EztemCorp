@@ -125,6 +125,10 @@ input[type=submit] {
   height: auto;
 }
 
+.no-scroll {
+  overflow: hidden;
+}
+
 .button {
   text-decoration: none;
   background: #4b7a55;
@@ -279,6 +283,8 @@ section::before {
     z-index: 100;
     visibility: hidden;
     opacity: 0;
+    height: 100vh;
+    overflow-y: auto;
     transition: all 0.3s ease-in-out;
   }
   .header__categories-list.active {

@@ -35,6 +35,10 @@ input[type="submit"] {
     height: auto;
 }
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .button {
     text-decoration: none;
     background: #4b7a55;

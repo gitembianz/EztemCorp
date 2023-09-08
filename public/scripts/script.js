@@ -163,6 +163,7 @@ function initializeAccordions(closeOthers) {
 function setupDropdownToggle(triggerSelector, targetSelector) {
     const trigger = document.querySelector(triggerSelector);
     const target = document.querySelector(targetSelector);
+    const body = document.querySelector("body");
 
     if (!trigger || !target) {
       return;
@@ -170,6 +171,7 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
 
     const toggleClass = () => {
       target.classList.toggle('active');
+      body.classList.toggle('no-scroll');
     };
 
     trigger.addEventListener('click', toggleClass);
