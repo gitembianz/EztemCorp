@@ -182,6 +182,7 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
       const clickedElement = event.target;
       if (!target.contains(clickedElement) && !trigger.contains(clickedElement)) {
         target.classList.remove('active');
+        trigger.classList.remove('opened');
       }
     });
   }
