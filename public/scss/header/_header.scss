@@ -87,12 +87,13 @@
 }
 
 .select-trigger {
-    width: 30px;
+    width: 60px;
     height: 30px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     border-radius: 7px;
     position: relative;
     z-index: 5;
@@ -116,13 +117,16 @@
         opacity: 1;
     }
 
-    & li {
+    &>li {
         padding: 10px;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-        text-decoration: none;
+
+        &>a {
+            text-decoration: none;
+        }
 
         &:hover {
             background-color: #f0f0f0;

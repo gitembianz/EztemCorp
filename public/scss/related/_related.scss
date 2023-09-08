@@ -55,7 +55,7 @@
 
     &::after {
         content: "";
-        height: calc(100% - 40px);
+        height: calc(100% - 20px);
         top: 50%;
         width: 20px;
         position: absolute;
@@ -71,7 +71,6 @@
 
 .related__list--item {
     margin-left: 30px;
-    font-size: 25px;
     position: relative;
 
     &:not(:first-child, :last-child)::after {

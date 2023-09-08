@@ -61,7 +61,17 @@
                                 </svg>
                             </div>
                             <div class="select">
-                                <div class="select-trigger"> @lang("components.lang.name")</div>
+                                <div class="select-trigger">
+                                    <svg>
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <line x1="2" y1="12" x2="22" y2="12">
+                                        </line>
+                                        <path
+                                            d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z">
+                                        </path>
+                                    </svg>
+                                    @lang("components.lang.name")
+                                </div>
                                 <ul class="select-options">
                                     <li data-value="optiune1" data-lang="en">
                                         <a href="{{ route("locale", "en") }}">

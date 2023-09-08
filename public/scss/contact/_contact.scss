@@ -49,12 +49,17 @@
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
 
+
     &>label:first-child {
         grid-row: 1/3;
     }
 
     @media (min-width: map-get($grid-breakpoints, sm)) {
         grid-template-columns: repeat(3, 1fr);
+
+        &>span {
+            grid-row: 1/3;
+        }
     }
 
     @media (min-width: map-get($grid-breakpoints, xl)) {
@@ -128,7 +133,7 @@
 .contact__connect {
     display: flex;
     flex-direction: column;
-    align-items: start;
+    align-items: flex-start;
     text-align: center;
     gap: 25px;
     position: relative;
