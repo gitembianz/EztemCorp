@@ -36,7 +36,7 @@
                     @lang("home.details.card_web1.description")
                 </p>
                 <a href="/solutions/web" class="button" data-text="learn_more_link">
-                    @lang("home.details.button")
+                    @lang("home.details.")
                 </a>
             </div>
             <div class="details__content">

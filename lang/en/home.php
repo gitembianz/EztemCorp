@@ -14,7 +14,8 @@ return [
         "button" => "Learn More",
         "card_web1" => [
             "heading" => "Web",
-            "description" => "From building the cores of custom web applications to polish in gout of the box details, we strive to provide combined efficiency, effectiveness, and elegance."
+            "description" => "From building the cores of custom web applications to polish in gout of the box details, we strive to provide combined efficiency, effectiveness, and elegance.",
+            "button" => "See Web",
         ],
         "card_web2" => [
             "heading" => "Graphics",
