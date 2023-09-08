@@ -121,6 +121,7 @@ input[type=submit] {
 
 .logo {
   width: 100px;
+  aspect-ratio: 3/1;
   height: auto;
 }
 
@@ -389,16 +390,16 @@ section::before {
   }
 }
 .hero__text > h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 .hero__text > p {
-  font-size: 1.3rem;
   line-height: 1.4;
 }
 
 .hero__img {
-  max-width: 400px;
-  height: 100%;
+  width: auto;
+  height: 60%;
+  aspect-ratio: 1/1;
   -o-object-fit: contain;
      object-fit: contain;
 }
@@ -481,9 +482,12 @@ section::before {
   justify-content: center;
 }
 .related__image > img {
-  max-width: 400px;
+  width: 50%;
   height: auto;
   flex: 1;
+  max-height: 400px;
+  -o-object-fit: contain;
+     object-fit: contain;
 }
 @media (min-width: 768px) {
   .related__image {

@@ -36,7 +36,7 @@
                     @lang("home.details.card_web1.description")
                 </p>
                 <a href="/solutions/web" class="button" data-text="learn_more_link">
-                    @lang("home.details.")
+                    @lang("home.details.card_web1.button")
                 </a>
             </div>
             <div class="details__content">
@@ -50,7 +50,7 @@
                     @lang("home.details.card_web2.description")
                 </p>
                 <a href="/solutions/graphics" class="button" data-text="learn_more_link">
-                    @lang("home.details.button")
+                    @lang("home.details.card_web2.button")
                 </a>
             </div>
             <div class="details__content">
@@ -64,7 +64,7 @@
                     @lang("home.details.card_web3.description")
                 </p>
                 <a href="/solutions/retouch" class="button" data-text="learn_more_link">
-                    @lang("home.details.button")
+                    @lang("home.details.card_web3.button")
                 </a>
             </div>
             <div class="details__content">
@@ -78,7 +78,7 @@
                     @lang("home.details.card_web4.description")
                 </p>
                 <a href="/solutions/marketing" class="button" data-text="learn_more_link">
-                    @lang("home.details.button")
+                    @lang("home.details.card_web4.button")
                 </a>
             </div>
             <span class="hero__subtext" data-text="success_quote">

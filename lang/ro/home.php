@@ -11,22 +11,26 @@ return [
     "details" => [
         "heading" => "Soluțiile Noastre",
         "quote" => "„Succesul nostru este măsurat prin realizările noastre”",
-        "button" => "Detalii",
         "card_web1" => [
             "heading" => "Web",
-            "description" => "De la construirea corespunzăturilor web custom la poliția în gout de pachete, dorim să îmbunătățim eficiența, eficacitatea și eleganța."
+            "description" => "De la construirea corespunzăturilor web custom la poliția în gout de pachete, dorim să îmbunătățim eficiența, eficacitatea și eleganța.",
+            "button" => "Vezi Web"
         ],
         "card_web2" => [
             "heading" => "Graphics",
-            "description" => "De la logo-ul unei companii la un componente pentru un proiect, îți place să alegi illustrationele ca shortcut-uri care supună complexitatea și punctul de muncă."
+            "description" => "De la logo-ul unei companii la un componente pentru un proiect, îți place să alegi illustrationele ca shortcut-uri care supună complexitatea și punctul de muncă.",
+            "button" => "Vezi Graphics",
+
         ],
         "card_web3" => [
             "heading" => "Retouch",
-            "description" => "Armonia dintre forme, culori și lumini este esențială. Manipularea atentă a acestor elemente poate dezvălui sensul frumuseții în compoziția fotografică."
+            "description" => "Armonia dintre forme, culori și lumini este esențială. Manipularea atentă a acestor elemente poate dezvălui sensul frumuseții în compoziția fotografică.",
+            "button" => "Vezi Retouch"
         ],
         "card_web4" => [
             "heading" => "Marketing",
-            "description" => "Conținutul de calitate plasat în locul potrivit angajează, dar ne concentrăm întotdeauna și pe creșterea ratei de conversie la maximum."
+            "description" => "Conținutul de calitate plasat în locul potrivit angajează, dar ne concentrăm întotdeauna și pe creșterea ratei de conversie la maximum.",
+            "button" => "Vezi Marketing"
         ]
     ],
     // Related Section
