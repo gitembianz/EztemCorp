@@ -31,7 +31,6 @@
     }
 }
 
-
 .contact__form {
     width: 100%;
     display: flex;
@@ -99,7 +98,6 @@
 }
 
 .contact-image {
-
     &>input[type="checkbox"] {
         display: none;
     }
@@ -118,7 +116,7 @@
             width: 80px;
             height: auto;
             filter: grayscale(1);
-            transition: filter .2s ease-in-out;
+            transition: filter 0.2s ease-in-out;
         }
     }
 
@@ -161,7 +159,6 @@
     align-items: center;
     justify-content: center;
     gap: 10px;
-    font-family: "Corbelbold", sans-serif;
     font-size: 1rem;
 
     &>svg {

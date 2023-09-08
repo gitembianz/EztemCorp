@@ -13,7 +13,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     &__category {
@@ -51,7 +50,7 @@
                 z-index: 100;
                 visibility: hidden;
                 opacity: 0;
-                transition: all .3s ease-in-out;
+                transition: all 0.3s ease-in-out;
 
                 &.active {
                     visibility: visible;
@@ -72,7 +71,7 @@
         cursor: pointer;
 
         svg {
-            stroke: white
+            stroke: white;
         }
 
         @media (max-width: 768px) {
@@ -128,76 +127,5 @@
         &:hover {
             background-color: #f0f0f0;
         }
-    }
-}
-
-.header__dropdown {
-    position: relative;
-
-    &.active {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.header__dropdown--button {
-    cursor: pointer;
-    background: none;
-    border: none;
-    color: white;
-    font-size: 1rem;
-}
-
-.header__dropdown--list {
-    position: absolute;
-    top: 190%;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    opacity: 0;
-    visibility: hidden;
-    background-color: white;
-    transition: all .3s ease-in-out;
-    list-style: none;
-    padding: 10px;
-    border-radius: 7px;
-
-    &>li {
-        width: 100%;
-
-        &>a {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 5px;
-            cursor: pointer;
-            gap: 15px;
-            text-decoration: none;
-            width: 100%;
-            border-radius: 7px;
-            transition: all .3s ease-in-out;
-
-            &:hover {
-                background-color: #f2f2f2;
-            }
-
-            &:active {
-                background-color: darken(#f2f2f2, 10%);
-            }
-
-            &>img {
-                width: 50px;
-                height: auto;
-                object-fit: cover;
-            }
-        }
-    }
-
-
-    &.active {
-        opacity: 1;
-        visibility: visible;
     }
 }

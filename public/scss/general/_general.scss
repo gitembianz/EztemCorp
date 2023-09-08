@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: 'Montserrat';
+    font-family: "Montserrat";
 }
 
 svg {
@@ -25,7 +25,7 @@ h1 {
 
 button,
 a,
-input[type=submit] {
+input[type="submit"] {
     cursor: pointer;
 }
 
@@ -101,7 +101,7 @@ section {
 
 @keyframes pulse {
     0% {
-        transform: scale(.9);
+        transform: scale(0.9);
         opacity: 0.8;
     }
 
@@ -111,7 +111,7 @@ section {
     }
 
     100% {
-        transform: scale(.9);
+        transform: scale(0.9);
         opacity: 0.8;
     }
 }
@@ -142,4 +142,9 @@ section {
         opacity: 1;
         animation: pulse 2s infinite;
     }
+}
+
+//<--------------------Move to General.scss---------------->
+.hidden {
+    display: none;
 }

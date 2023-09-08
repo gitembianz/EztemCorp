@@ -27,7 +27,7 @@
     border-radius: 5px;
     outline: none;
     padding-right: 30px;
-    transition: background-color .3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
 
     &:hover,
     &:focus,
@@ -47,10 +47,8 @@
         top: 50%;
         transform: translateY(-50%);
         right: 15px;
-        transition: all .3s ease-in-out;
+        transition: all 0.3s ease-in-out;
     }
-
-
 }
 
 .accordion-wrapper {
@@ -59,7 +57,7 @@
     background-color: darken(#f5f5f5, 7%);
     border-radius: 0 0 5px 5px;
     overflow: hidden;
-    transition: grid-template-rows .3s ease-in-out;
+    transition: grid-template-rows 0.3s ease-in-out;
 
     &.active {
         grid-template-rows: 1fr;
@@ -72,7 +70,6 @@
 
 .accordion-content {
     min-height: 0;
-    transition: padding-top .3s ease-in-out,
-        padding-bottom .3s ease-in-out;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
     padding: 0 10px;
 }
