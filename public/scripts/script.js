@@ -171,6 +171,7 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
 
     const toggleClass = () => {
       target.classList.toggle('active');
+      trigger.classList.toggle('opened');
       body.classList.toggle('no-scroll');
     };
 
