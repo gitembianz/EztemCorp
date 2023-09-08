@@ -183,6 +183,7 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
       if (!target.contains(clickedElement) && !trigger.contains(clickedElement)) {
         target.classList.remove('active');
         trigger.classList.remove('opened');
+        body.classList.remove('no-scroll');
       }
     });
   }
