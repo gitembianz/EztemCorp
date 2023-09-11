@@ -9,7 +9,7 @@ return [
     ],
     // Details Section
     "details" => [
-        "heading" => "Soluțiile Noastre",
+        "heading" => "Soluții",
         "quote" => "„Succesul nostru este măsurat prin realizările noastre”",
         "card_web1" => [
             "heading" => "Web",

@@ -39,22 +39,13 @@
             <input type="hidden" name="debugEmail" value="stanislav.cortac@eztemcorp.com">
             <!-------------------------------------------------------------------------->
 
-
-            {{-- <select id="00N9N000000PYk0" name="00N9N000000PYk0" title="Solutions">
-                <option value="Web">Web</option>
-                <option value="Marketing">Marketing</option>
-                <option value="Retouch">Retouch</option>
-                <option value="Graphics">Graphics</option>
-            </select> --}}
-
-
-            <div class="contact__solutions" id="00N9N000000PYk0" name="00N9N000000PYk0" title="Solutions">
+            <div class="contact__solutions">
                 <span data-text="solutions_label">
                     @lang("components.contact.solutions")
                 </span>
                 <label class="contact-image">
-                    <input type="checkbox" name="Web" id="Web" value="Web">
-                    <label for="Web">
+                    <input type="checkbox" id="00N9N000000PZPh" name="00N9N000000PZPh" value="1">
+                    <label for="00N9N000000PZPh">
                         <img src="/img/web.webp" alt="Soluție 1" class="image" loading="lazy">
                         <span data-text="Web">
                             @lang("components.contact.web")
@@ -62,8 +53,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="Graphics" id="Graphics" value="Graphics">
-                    <label for="Graphics">
+                    <input type="checkbox" id="00N9N000000PZPm" name="00N9N000000PZPm" value="1">
+                    <label for="00N9N000000PZPm">
                         <img src="/img/graphics.webp" alt="Soluție 2" class="image" loading="lazy">
                         <span data-text="Graphics">
                             @lang("components.contact.graphics")
@@ -71,8 +62,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="Retouch" id="Retouch" value="Retouch">
-                    <label for="Retouch">
+                    <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
+                    <label for="00N9N000000PZPw">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span data-text="Retouch">
                             @lang("components.contact.retouch")
@@ -80,8 +71,8 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="Marketing" id="Marketing" value="Marketing">
-                    <label for="Marketing">
+                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
+                    <label for="00N9N000000PZPr">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span data-text="Marketing">
                             @lang("components.contact.marketing")
@@ -97,7 +88,7 @@
                 </span>
                 <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
             </div>
-            <button class="button" type="submit" name="submit" data-text="send_button" style="margin-left: 150px;">
+            <button class="button" type="submit" name="submit" data-text="send_button" style="margin-left: 100px;">
                 @lang("components.contact.send_button")
                 <svg>
                     <line x1="22" y1="2" x2="11" y2="13"></line>

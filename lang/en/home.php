@@ -9,7 +9,7 @@ return [
     ],
     // Details Section
     "details" => [
-        "heading" => "Our Solutions",
+        "heading" => "Solutions",
         "quote" => "“Our success is measured by our achievements”",
         "button" => "Learn More",
         "card_web1" => [
