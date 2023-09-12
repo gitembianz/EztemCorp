@@ -43,6 +43,9 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/graphics/banners', function () {
         return view('banners');
     });
+    Route::get('/confirm', function () {
+        return view('confirm');
+    });
     Route::get('/marketing', function () {
         return view('marketing');
     });

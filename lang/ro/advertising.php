@@ -1,32 +1,32 @@
 <?php
-// Pagina Publicitate RO
+// Pagina de Publicitate RO
 return [
-    // Secțiunea Publicitate
-    // Titlul și Descrierea
-    "title" => "Navigarea către Succesul în Publicitatea Online: Anunțuri Google și Facebook",
-    "description" => "Anunțurile Google și Facebook sunt instrumente puternice de marketing digital care pot conecta afacerea dvs. cu publicul potrivit. Cu o strategie bine definită și creativitate, putem crea campanii publicitare care atrag atenția, generează conversii și cresc vizibilitatea mărcii. Suntem experți în maximizarea ROI-ului din publicitatea online, asigurându-ne că fiecare clic aduce valoare reală afacerii dvs.",
-    "quote" => "Targetare precisă - Ajungeți la publicul țintă pe baza demograficelor, intereselor și comportamentului online.",
-    "button" => "Înapoi la Marketing",
+    // Secțiunea de publicitate
+    // Titlu și Descriere
+    "title" => "Dezvoltarea Publicității Online: Anunțuri Google și Facebook",
+    "description" => "Valorificați potențialul uimitor al anunțurilor Google și Facebook pentru a conecta afacerea dvs. cu exact publicul potrivit. Cu o strategie bine definită și o doză de creativitate, elaborăm campanii de publicitate care captivantează, generează conversii și măresc vizibilitatea mărcii dvs. Expertiza noastră constă în a extrage fiecare valoare din publicitatea online, asigurându-vă că fiecare clic aduce o valoare reală afacerii dvs.",
+    "quote" => "Targetare Precisă - Conectați-vă cu publicul ideal pe baza demograficelor, intereselor și comportamentului online.",
+    "button" => "Înapoi la Hub-ul de Marketing",
     "card_list" => [
-        // Produs 1
+        // Produsul 1
         "item1" => [
-            "description1" => "Testare A/B - Testarea variațiilor anunțurilor pentru a identifica ce funcționează cel mai bine.",
-            "description2" => "Anunțuri video - Crearea și promovarea conținutului video captivant pe platformele Google și Facebook.",
-            "description3" => "Remarketing - Re-targetarea vizitatorilor anteriori pentru a le reaminti de produse sau servicii.",
-            "description4" => "Optimizare pentru dispozitive mobile - Asigurarea eficacității anunțurilor pe dispozitive mobile."
+            "description1" => "Măiestrie în Testarea A/B - Ajustați variațiile de anunțuri pentru a descoperi ce funcționează cu adevărat.",
+            "description2" => "Briliant la Video - Creați și promovați conținut video captivant pe platformele Google și Facebook.",
+            "description3" => "Magie în Re-targetare - Re-implicați vizitatorii anteriori, menținând produsele sau serviciile dvs. în mintea lor.",
+            "description4" => "Excelență în Optimizarea Mobilă - Asigurați-vă că anunțurile dvs. strălucesc pe dispozitivele mobile, ajungând la publicul dvs. oriunde s-ar afla."
         ],
-        // Produs 2
+        // Produsul 2
         "item2" => [
-            "description1" => "Analiză avansată - Urmărirea și analiza profundă a performanței campaniei pentru luarea deciziilor informate.",
-            "description2" => "Anunțuri de conștientizare - Crearea de conținut care sporește conștientizarea și construirea mărcii.",
-            "description3" => "Anunțuri locale - Targetarea specifică a unui public într-o zonă geografică definită.",
-            "description4" => "Urmărirea conversiilor - Urmărirea și evaluarea cuprinzătoare a acțiunilor de pe site-ul web legate de campania publicitară."
+            "description1" => "Inovații în Analize Avansate - Urmăriți și explorați în profunzime performanța campaniei pentru decizii bazate pe date.",
+            "description2" => "Amplificare a Conștientizării - Creați conținut care nu numai informează, ci și crește recunoașterea mărcii.",
+            "description3" => "Targetare Hipelocală - Precizați-vă publicul în zonele geografice specifice cu precizie.",
+            "description4" => "Experiență în Monitorizarea Conversiilor - Monitorizați și evaluați în profunzime acțiunile pe site-ul web legate de campania dvs. de publicitate."
         ],
         "item3" => [
-            "description1" => "Suport pentru comerț electronic - Crearea de campanii care stimulează vânzările online și maximizează ROI-ul.",
-            "description2" => "Raportare detaliată - Furnizarea de rapoarte clare și concise pentru evaluarea performanței și luarea deciziilor de îmbunătățire.",
-            "description3" => "Cu anunțurile potrivite, fiecare clic reprezintă o oportunitate.",
-            "description4" => "Gestionarea bugetului - Control complet asupra cheltuielilor publicitare și capacitatea de a ajusta bugetul în timp real.",
+            "description1" => "Dominarea Comerțului Electronic - Dezvoltați campanii care conduc la vânzări online și maximizează ROI-ul.",
+            "description2" => "Raportare Detaliată a Performanței - Furnizăm rapoarte clare și concise pentru decizii informate și îmbunătățiri continue.",
+            "description3" => "Fiecare Clic, o Oportunitate Eliberată.",
+            "description4" => "Măiestria în Managementul Bugetului - Control complet asupra cheltuielilor publicitare, cu ajustări în timp real la îndemână.",
         ],
     ],
 ];

@@ -3,36 +3,35 @@
 return [
     // About Section
     "about" => [
-        "heading" => "Who we are?",
-        "description" => "At Eztem Corp, we are more than just a company; we are your partners in innovation and success.Founded in 2023, Eztem Corp proudly calls Moldova its home. We are a tight-knit team of passionate and ambitious professionals driven by a singular vision: to empower you to transform your ideas into tangible, game-changing realities.",
-        "qoute" => "Our success is measured by our achievements"
+        "heading" => "Who Are We?",
+        "description" => "At Eztem Corp, we transcend the definition of a mere company; we are your companions in innovation and triumph. Established in 2023, Eztem Corp proudly calls the Republic of Moldova its home. We comprise a united force of zealous and visionary experts, guided by a singular aspiration: to empower you to transform your ideas into tangible and pioneering realities.",
+        "quote" => "Our triumph is gauged by our accomplishments."
     ],
     // Team Section
     "team" => [
-        "heading" => "The Faces Behind Eztem Corp:",
-        "qoute" => "Our success is measured by our achievements",
+        "heading" => "The Dynamic Team at Eztem Corp - Pioneers of Excellence and Innovation",
+        "quote" => "Our triumph is gauged by our accomplishments.",
         "card_list" => [
             "card1" => [
                 "name" => "Mihai Tanase",
-                "role" => "Salesforce Manager:",
-                "description" => "Leading our strategic initiatives is our Salesforce Manager, a seasoned professional with a knack for crafting personalized solutions. With an unwavering commitment to enhancing customer relationships, our Salesforce Manager ensures that your business thrives in the digital age."
+                "role" => "Salesforce Manager",
+                "description" => "Guiding our strategic endeavors is our Salesforce Manager, a seasoned professional with an innate talent for crafting bespoke solutions. With an unwavering dedication to enhancing customer relationships, our Salesforce Manager ensures the prosperity of your business in the digital era."
             ],
             "card2" => [
                 "name" => "Iosif Relia",
-                "role" => "Back-end Developer:",
-                "description" => "Behind the scenes, our team of back-end developers works tirelessly to build the robust infrastructure that powers your projects. With a meticulous attention to detail and a wealth of experience, they form the backbone of our technical excellence."
+                "role" => "Back-end Developer",
+                "description" => "Behind the scenes, our squad of back-end developers toils diligently to construct the sturdy infrastructure that powers your ventures. With scrupulous attention to detail and a wealth of experience, they constitute the bedrock of our technical supremacy."
             ],
             "card3" => [
                 "name" => "Cortac Stanislav",
-                "role" => "Front-end Developer:",
-                "description" => "At the forefront of aesthetics and user experience, our front-end developers breathe life into your concepts, creating visually stunning and user-friendly interfaces that leave a lasting impression on your audience."
+                "role" => "Front-end Developer",
+                "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
             ]
         ]
     ],
     "mission" => [
         "heading" => "Our Mission",
-        "description" => "At Eztem Corp, our core mission is to provide high-quality, tailored solutions that drive your success. We don't just work for you; we work with you, side by side, from conceptualization to execution and beyond. Our mission is to empower you to create innovative projects and captivating websites that leave a positive mark on your community and customers.Join us on a journey of innovation and excellence. At Eztem Corp, we are here to support you every step of the way, turning your dreams into reality. Contact us today to embark on your next exciting project!",
-        "qoute" => "Our success is measured by our achievements"
+        "description" => "At Eztem Corp, our fundamental mission is to deliver tailored, top-tier solutions that steer your triumph. We don't just work for you; we work with you, shoulder to shoulder, from ideation to execution and beyond. Our mission is to empower you to fashion innovative projects and enchanting websites that make a positive impact on your community and clientele. Join us on a voyage of innovation and excellence. At Eztem Corp, we're here to bolster you at every step, transforming your dreams into reality. Reach out to us today to embark on your next thrilling project!",
+        "quote" => "Our triumph is gauged by our accomplishments."
     ]
-
 ];

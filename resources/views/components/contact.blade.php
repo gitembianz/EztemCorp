@@ -15,7 +15,7 @@
         <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
             method="POST">
             <input type=hidden name="oid" value="00D09000008XPQu">
-            <input type=hidden name="retURL" value="http://dev.eztemcorp.com">
+            <input type=hidden name="retURL" value="/confirm">
 
             <div class="contact__label">
                 <label for="last_name" data-text="name_label">
