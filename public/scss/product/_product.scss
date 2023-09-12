@@ -44,6 +44,8 @@
         max-height: 300px;
         object-fit: cover;
         border-radius: 10px;
+        aspect-ratio: 16/9;
+
 
         @media (min-width: map-get($grid-breakpoints, lg)) {
             max-height: unset;

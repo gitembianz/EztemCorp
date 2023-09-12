@@ -40,6 +40,9 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/graphics/design', function () {
         return view('design');
     });
+    Route::get('/graphics/banners', function () {
+        return view('banners');
+    });
     Route::get('/marketing', function () {
         return view('marketing');
     });
@@ -66,6 +69,9 @@ Route::middleware(['set_locale'])->group(function () {
     });
     Route::get('/retouch/photo', function () {
         return view('photo');
+    });
+    Route::get('/retouch/manipulation', function () {
+        return view('manipulation');
     });
     Route::get('/web', function () {
         return view('web');

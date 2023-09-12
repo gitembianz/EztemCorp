@@ -11,6 +11,7 @@
                 </p>
             </div>
         </div>
+
         <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
             method="POST">
             <input type=hidden name="oid" value="00D09000008XPQu">
@@ -34,9 +35,9 @@
             <!-------------------------------------------------------------------------->
             <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
             <!--  these lines if you wish to test in debug mode.-->
-            <input type="hidden" name="debug" value=1>
+            {{-- <input type="hidden" name="debug" value=0>
             <input type="hidden" name="_next" value="dev.eztemcorp.com">
-            <input type="hidden" name="debugEmail" value="stanislav.cortac@eztemcorp.com">
+            <input type="hidden" name="debugEmail" value="stanislav.cortac@eztemcorp.com"> --}}
             <!-------------------------------------------------------------------------->
 
             <div class="contact__solutions">
@@ -61,8 +62,9 @@
                         </span>
                     </label>
                 </label>
+
                 <label class="contact-image">
-                    <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
+                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
                     <label for="00N9N000000PZPw">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span data-text="Retouch">
@@ -71,7 +73,7 @@
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
+                    <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
                     <label for="00N9N000000PZPr">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span data-text="Marketing">

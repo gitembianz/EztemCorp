@@ -2,97 +2,97 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            <img src="/img/laravel.svg" alt="Laravel Icon">
+            {{-- <img src="/img/laravel.svg" alt="Laravel Icon"> --}}
             <h1>
-                @lang('backend.title')
+                @lang("backend.title")
             </h1>
         </div>
         <p>
-            @lang('backend.description')
+            @lang("backend.description")
         </p>
         <div class="job__cards">
 
             <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
+                <img src="/img/card-images/back-1.jpg" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>
-                            @lang('backend.card_list.item1.description1')
+                            @lang("backend.card_list.item1.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item1.description2')
+                            @lang("backend.card_list.item1.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item1.description3')
+                            @lang("backend.card_list.item1.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item1.description4')
+                            @lang("backend.card_list.item1.description4")
                         </p>
                     </li>
                 </ul>
             </div>
             <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
+                <img src="/img/card-images/back-2.jpg" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>
-                            @lang('backend.card_list.item2.description1')
+                            @lang("backend.card_list.item2.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item2.description2')
+                            @lang("backend.card_list.item2.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item2.description3')
+                            @lang("backend.card_list.item2.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item2.description4')
+                            @lang("backend.card_list.item2.description4")
                         </p>
                     </li>
                 </ul>
             </div>
             <div class="job__section">
-                <img src="/img/code.webp" alt="only code">
+                <img src="/img/card-images/back-3.jpg" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>
-                            @lang('backend.card_list.item3.description1')
+                            @lang("backend.card_list.item3.description1")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item3.description2')
+                            @lang("backend.card_list.item3.description2")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item3.description3')
+                            @lang("backend.card_list.item3.description3")
                         </p>
                     </li>
                     <li>
                         <p>
-                            @lang('backend.card_list.item3.description4')
+                            @lang("backend.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>
             </div>
         </div>
         <span>
-            @lang('backend.quote')
+            @lang("backend.quote")
         </span>
         <a href="/web" class="button">
-            @lang('backend.button')
+            @lang("backend.button")
         </a>
     </div>
     <x-contact />

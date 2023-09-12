@@ -47,7 +47,6 @@
                     </div>
                 </div>
             </div>
-
             <div class="accordion">
                 <button class="accordion-button">
                     @lang("faq.accordion_list.accordion_3.question")
