@@ -3,10 +3,10 @@
 <main>
     <div class="container succes__container">
         <h1>
-            Vă mulțumim mult pentru trimiterea formularului.
+            @lang("confirm.title")
         </h1>
         <h3>
-            Veți fi redirecționat la pagina de start în 5 secunde.
+            @lang("confirm.description")
         </h3>
         <div class="loadingio-spinner-dual-ball-8eksdpgpyip">
             <div class="ldio-sl0v29xbypi">
