@@ -57,6 +57,7 @@
     }
 }
 
+
 .product__item:nth-child(even) {
     @media (min-width: map-get($grid-breakpoints, md)) {
         flex-direction: row-reverse;
