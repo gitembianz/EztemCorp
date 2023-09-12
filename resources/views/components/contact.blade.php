@@ -3,10 +3,10 @@
     <div class="container contact__container">
         <div class="contact__title">
             <div class="contact__title--text">
-                <h1 data-text="contact_us_heading">
+                <h1>
                     @lang("components.contact.heading")
                 </h1>
-                <p data-text="contact_options">
+                <p>
                     @lang("components.contact.description")
                 </p>
             </div>
@@ -18,14 +18,14 @@
             <input type=hidden name="retURL" value="dev.eztemcorp.com/confirm">
 
             <div class="contact__label">
-                <label for="last_name" data-text="name_label">
+                <label for="last_name">
                     @lang("components.contact.name")
                 </label>
                 <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="Name">
             </div>
 
             <div class="contact__label">
-                <label for="email" data-text="email_label">
+                <label for="email">
                     @lang("components.contact.email")
                 </label>
                 <input type="email" id="email" name="email" autocomplete="email" required placeholder="E-mail"
@@ -41,14 +41,14 @@
             <!-------------------------------------------------------------------------->
 
             <div class="contact__solutions">
-                <span data-text="solutions_label">
+                <span>
                     @lang("components.contact.solutions")
                 </span>
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPh" name="00N9N000000PZPh" value="1">
                     <label for="00N9N000000PZPh">
                         <img src="/img/web.webp" alt="Soluție 1" class="image" loading="lazy">
-                        <span data-text="Web">
+                        <span>
                             @lang("components.contact.web")
                         </span>
                     </label>
@@ -57,7 +57,7 @@
                     <input type="checkbox" id="00N9N000000PZPm" name="00N9N000000PZPm" value="1">
                     <label for="00N9N000000PZPm">
                         <img src="/img/graphics.webp" alt="Soluție 2" class="image" loading="lazy">
-                        <span data-text="Graphics">
+                        <span>
                             @lang("components.contact.graphics")
                         </span>
                     </label>
@@ -67,7 +67,7 @@
                     <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
                     <label for="00N9N000000PZPr">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
-                        <span data-text="Retouch">
+                        <span>
                             @lang("components.contact.retouch")
                         </span>
                     </label>
@@ -76,7 +76,7 @@
                     <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
                     <label for="00N9N000000PZPw">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
-                        <span data-text="Marketing">
+                        <span>
                             @lang("components.contact.marketing")
                         </span>
                     </label>
@@ -90,7 +90,7 @@
                 </span>
                 <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
             </div>
-            <button class="button" type="submit" name="submit" data-text="send_button" style="margin-left: 100px;">
+            <button class="button" type="submit" name="submit">
                 @lang("components.contact.send_button")
                 <svg>
                     <line x1="22" y1="2" x2="11" y2="13"></line>

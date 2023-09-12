@@ -64,10 +64,10 @@
         width: 100%;
         height: auto;
         aspect-ratio: 16 / 10;
+        object-fit: cover;
 
-        @media (min-width: map-get($grid-breakpoints, sm)) {
+        @media (min-width: map-get($grid-breakpoints, md)) {
             width: 50%;
-
             height: auto;
             max-height: unset;
         }

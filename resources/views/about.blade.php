@@ -24,7 +24,7 @@
                 <h1>@lang("about.team.heading")</h1>
                 <div class="about__grid">
                     <div class="about__personalities">
-                        <img src="/img/personalities/Mihai.jpg" alt="about our company">
+                        <img src="/img/personalities/Mihai.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
                                 @lang("about.team.card_list.card1.name")
@@ -38,7 +38,7 @@
                         </div>
                     </div>
                     <div class="about__personalities">
-                        <img src="/img/personalities/Iosif.jpg" alt="about our company">
+                        <img src="/img/personalities/Iosif.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
                                 @lang("about.team.card_list.card2.name")
@@ -52,7 +52,7 @@
                         </div>
                     </div>
                     <div class="about__personalities">
-                        <img src="/img/personalities/Stanislav.jpeg" alt="about our company">
+                        <img src="/img/personalities/Stanislav.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
                                 @lang("about.team.card_list.card3.name")

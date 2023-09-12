@@ -1021,8 +1021,10 @@ section::before {
   width: 100%;
   height: auto;
   aspect-ratio: 16/10;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .job__section > img {
     width: 50%;
     height: auto;

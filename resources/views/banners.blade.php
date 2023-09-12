@@ -13,7 +13,7 @@
         </p>
         <div class="job__cards">
             <div class="job__section">
-                <img src="/img/card-images/logo_maker-1.jpg" alt="only code">
+                <img src="/img/card-images/banner-1.webp" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>
@@ -38,7 +38,7 @@
                 </ul>
             </div>
             <div class="job__section">
-                <img src="/img/card-images/logo_maker-2.jpg" alt="only code">
+                <img src="/img/card-images/banner-2.webp" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>
@@ -63,7 +63,7 @@
                 </ul>
             </div>
             <div class="job__section">
-                <img src="/img/card-images/logo_maker-3.jpg" alt="only code">
+                <img src="/img/card-images/banner-3.webp" alt="only code">
                 <ul class="job__list">
                     <li>
                         <p>

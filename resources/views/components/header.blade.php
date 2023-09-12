@@ -43,12 +43,12 @@
                                 </li>
                                 </li>
                                 <li class="header__category">
-                                    <a href="/contact" data-text="Contact Us">
+                                    <a href="/contact">
                                         @lang("components.header.contact_us")
                                     </a>
                                 </li>
                                 <li class="header__category">
-                                    <a href="/about" data-text="About">
+                                    <a href="/about">
                                         @lang("components.header.about_us")
                                     </a>
                                 </li>
@@ -82,12 +82,12 @@
                                     @lang("components.lang.name")
                                 </div>
                                 <ul class="select-options">
-                                    <li data-value="optiune1" data-lang="en">
+                                    <li data-value="optiune1">
                                         <a href="{{ route("locale", "en") }}">
                                             EN
                                         </a>
                                     </li>
-                                    <li data-value="optiune1" data-lang="en">
+                                    <li data-value="optiune1">
                                         <a href="{{ route("locale", "ro") }}">
                                             RO
                                         </a>

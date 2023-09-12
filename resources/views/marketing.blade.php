@@ -42,7 +42,7 @@
                         </li>
                         <li>
                             <h3>
-                                @lang("marketing.product_list.item1.title1")
+                                @lang("marketing.product_list.item1.title2")
                             </h3>
                         </li>
                         <li>
