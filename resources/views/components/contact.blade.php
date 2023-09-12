@@ -65,7 +65,7 @@
 
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
-                    <label for="00N9N000000PZPw">
+                    <label for="00N9N000000PZPr">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span data-text="Retouch">
                             @lang("components.contact.retouch")
@@ -74,7 +74,7 @@
                 </label>
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
-                    <label for="00N9N000000PZPr">
+                    <label for="00N9N000000PZPw">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span data-text="Marketing">
                             @lang("components.contact.marketing")
