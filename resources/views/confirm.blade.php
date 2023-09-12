@@ -1,9 +1,22 @@
 <x-header />
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
-    <h1>
-        Mersi mult de confirmare
-    </h1>
+    <div class="container succes__container">
+        <h1>
+            Vă mulțumim mult pentru trimiterea formularului.
+        </h1>
+        <h3>
+            Veți fi redirecționat la pagina de start în 5 secunde.
+        </h3>
+        <div class="loadingio-spinner-dual-ball-8eksdpgpyip">
+            <div class="ldio-sl0v29xbypi">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+
+    </div>
     <script>
         // Așteaptă 5 secunde (5000 milisecunde) și apoi face redirect către o altă pagină
         setTimeout(function() {
