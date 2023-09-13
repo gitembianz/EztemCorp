@@ -11,16 +11,40 @@ return [
         // Product 1
         "item1" => [
             "title" => "Photo Corrections",
-            "description1" => "Color Adjustments: Modifying photo color tones for accuracy and appeal.",
-            "description2" => "Lighting Fixes: Correcting lighting imbalances in images.",
-            "description3" => "Blemish Removal: Cleaning up imperfections and unwanted marks.",
+            "description1" => [
+                "bold" => "Color Adjustments:",
+                "text" => "Modifying photo color tones for accuracy and appeal.",
+            ],
+
+            "description2" => [
+                "bold" => "Lighting Fixes:",
+                "text" => "Correcting lighting imbalances in images.",
+            ],
+
+            "description3" => [
+                "bold" => "Blemish Removal:",
+                "text" => "Cleaning up imperfections and unwanted marks.",
+            ],
+
         ],
         // Product 2
         "item2" => [
             "title" => "Photo Manipulations",
-            "description1" => "Conceptual Art: Creating artistic imagery from combined elements.",
-            "description2" => "Composite Imagery: Blending multiple images into a cohesive visual.",
-            "description3" => "Digital Restoration: Restoring old or damaged photos to their former glory.",
+            "description1" => [
+                "bold" => "Conceptual Art:",
+                "text" => "Creating artistic imagery from combined elements.",
+            ],
+
+            "description2" => [
+                "bold" => "Composite Imagery:",
+                "text" => "Blending multiple images into a cohesive visual.",
+            ],
+
+            "description3" => [
+                "bold" => "Digital Restoration:",
+                "text" => "Restoring old or damaged photos to their former glory.",
+            ],
+
         ],
     ],
 ];

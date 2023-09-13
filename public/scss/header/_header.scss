@@ -13,7 +13,6 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-
     }
 
     &__category {
@@ -30,7 +29,7 @@
     &__categories {
         display: flex;
         align-items: center;
-        gap: 15px;
+        gap: 45px;
 
         &-list {
             list-style: none;
@@ -39,7 +38,7 @@
             margin: 0;
             padding: 0;
 
-            @media (max-width: 768px) {
+            @media (max-width: map-get($grid-breakpoints, lg)) {
                 flex-direction: column;
                 background-color: #333;
                 position: absolute;
@@ -51,7 +50,9 @@
                 z-index: 100;
                 visibility: hidden;
                 opacity: 0;
-                transition: all .3s ease-in-out;
+                height: 100vh;
+                overflow-y: auto;
+                transition: all 0.3s ease-in-out;
 
                 &.active {
                     visibility: visible;
@@ -66,21 +67,6 @@
             }
         }
     }
-
-    &__burger-menu {
-        display: none;
-        cursor: pointer;
-
-        svg {
-            stroke: white
-        }
-
-        @media (max-width: 768px) {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    }
 }
 
 .select {
@@ -88,12 +74,13 @@
 }
 
 .select-trigger {
-    width: 30px;
+    width: 60px;
     height: 30px;
     background-color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 5px;
     border-radius: 7px;
     position: relative;
     z-index: 5;
@@ -117,12 +104,16 @@
         opacity: 1;
     }
 
-    & li {
+    &>li {
         padding: 10px;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
+
+        &>a {
+            text-decoration: none;
+        }
 
         &:hover {
             background-color: #f0f0f0;
@@ -130,73 +121,57 @@
     }
 }
 
-.header__dropdown {
-    position: relative;
-
-    &.active {
-        opacity: 1;
-        visibility: visible;
-    }
-}
-
-.header__dropdown--button {
+.menu {
     cursor: pointer;
-    background: none;
+    display: none;
+    background-color: transparent;
     border: none;
-    color: white;
-    font-size: 1rem;
+
+
+    @media (max-width: map-get($grid-breakpoints, lg)) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
 
-.header__dropdown--list {
-    position: absolute;
-    top: 190%;
-    left: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 10px;
-    opacity: 0;
-    visibility: hidden;
-    background-color: white;
-    transition: all .3s ease-in-out;
-    list-style: none;
-    padding: 10px;
-    border-radius: 7px;
+.line {
+    fill: none;
+    stroke: white;
+    stroke-width: 6;
+    transition: stroke-dasharray 600ms cubic-bezier(0.4, 0, 0.2, 1),
+        stroke-dashoffset 600ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
-    &>li {
-        width: 100%;
+.line1 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
 
-        &>a {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            padding: 5px;
-            cursor: pointer;
-            gap: 15px;
-            text-decoration: none;
-            width: 100%;
-            border-radius: 7px;
-            transition: all .3s ease-in-out;
+.line2 {
+    stroke-dasharray: 60 60;
+    stroke-width: 6;
+}
 
-            &:hover {
-                background-color: #f2f2f2;
-            }
+.line3 {
+    stroke-dasharray: 60 207;
+    stroke-width: 6;
+}
 
-            &:active {
-                background-color: darken(#f2f2f2, 10%);
-            }
+.opened .line1 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
+}
 
-            &>img {
-                width: 50px;
-                height: auto;
-                object-fit: cover;
-            }
-        }
-    }
+.opened .line2 {
+    stroke-dasharray: 1 60;
+    stroke-dashoffset: -30;
+    stroke-width: 6;
+}
 
-
-    &.active {
-        opacity: 1;
-        visibility: visible;
-    }
+.opened .line3 {
+    stroke-dasharray: 90 207;
+    stroke-dashoffset: -134;
+    stroke-width: 6;
 }

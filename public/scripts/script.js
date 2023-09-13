@@ -163,6 +163,7 @@ function initializeAccordions(closeOthers) {
 function setupDropdownToggle(triggerSelector, targetSelector) {
     const trigger = document.querySelector(triggerSelector);
     const target = document.querySelector(targetSelector);
+    const body = document.querySelector("body");
 
     if (!trigger || !target) {
       return;
@@ -170,6 +171,8 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
 
     const toggleClass = () => {
       target.classList.toggle('active');
+      trigger.classList.toggle('opened');
+      body.classList.toggle('no-scroll');
     };
 
     trigger.addEventListener('click', toggleClass);
@@ -179,6 +182,8 @@ function setupDropdownToggle(triggerSelector, targetSelector) {
       const clickedElement = event.target;
       if (!target.contains(clickedElement) && !trigger.contains(clickedElement)) {
         target.classList.remove('active');
+        trigger.classList.remove('opened');
+        body.classList.remove('no-scroll');
       }
     });
   }

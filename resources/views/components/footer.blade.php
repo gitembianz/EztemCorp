@@ -1,12 +1,12 @@
 <footer class="footer">
     <div class="container footer__container">
-        <nav class="footer__nav">
+        <div class="footer__nav">
             <a href="/">
                 <img src="/img/logo.webp" alt="Logo = Creative Solutions" class="logo" loading="lazy">
             </a>
             <ul class="footer__nav--list">
                 <li class="footer__nav--item">
-                    <a href="https://www.instagram.com/" target="_blank">
+                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
                         <svg>
                             <rect x="2" y="2" width="20" height="20" rx="5"
                                 ry="5"></rect>
@@ -16,14 +16,15 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="https://www.facebook.com/profile.php?id=100065258780213" target="_blank">
+                    <a href="https://www.facebook.com/profile.php?id=100065258780213" target="_blank"
+                        aria-label="Facebook">
                         <svg>
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
                         </svg>
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="https://www.linkedin.com/" target="_blank">
+                    <a href="https://www.linkedin.com/" target="_blank" aria-label="LinkedIn">
                         <svg>
                             <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
                             </path>
@@ -33,71 +34,71 @@
                     </a>
                 </li>
             </ul>
-        </nav>
+        </div>
         <div class="footer__list">
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/" data-text="Home">
+                    <a href="/">
                         @lang("components.footer.home")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/contact" data-text="Contact Us">
+                    <a href="/contact">
                         @lang("components.footer.contact_us")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/about" data-text="About">
+                    <a href="/about">
                         @lang("components.footer.about_us")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/faq" data-text="faq_footer">
+                    <a href="/faq">
                         @lang("components.footer.faq")
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/web" data-text="Web">
+                    <a href="/web">
                         @lang("components.footer.web")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/graphics" data-text="Graphics">
+                    <a href="/graphics">
                         @lang("components.footer.graphics")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/retouch" data-text="Retouch">
+                    <a href="/retouch">
                         @lang("components.footer.retouch")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/marketing" data-text="Marketing">
+                    <a href="/marketing">
                         @lang("components.footer.marketing")
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/cookie" data-text="cookies_policy_footer">
+                    <a href="/cookie">
                         @lang("components.footer.cookies")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/privacy" data-text="privacy_policy_footer">
+                    <a href="/privacy">
                         @lang("components.footer.privacy")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap"
-                        data-text="sitemap_link">
+                    <a
+                        href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap">
                         @lang("components.footer.sitemap")
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="https://anpc.ro/" data-text="ANPC">
+                    <a href="https://anpc.ro/">
                         @lang("components.footer.anpc")
                     </a>
                 </li>

@@ -10,23 +10,23 @@ return [
     "card_list" => [
         // Produs 1
         "item1" => [
-            "description1" => "Publicitate plătită pe clic (PPC) - Plătind doar pentru clicurile reale, asigurând un ROI mai bun.",
-            "description2" => "Analiza concurenței - Monitorizarea și evaluarea continuă a activităților concurenților pentru a rămâne înainte.",
-            "description3" => "Marketing prin email - Folosirea campaniilor de email pentru a menține comunicarea directă cu clienții și pentru a stimula vânzările.",
-            "description4" => "Marketing de conținut - Crearea și distribuția de conținut valoros pentru a atrage, educa și reține publicul."
+            "description1" => "<b>Publicitate plătită pe clic (PPC)</b> - Plătind doar pentru clicurile reale, asigurând un ROI mai bun.",
+            "description2" => "<b>Analiza concurenței</b> - Monitorizarea și evaluarea continuă a activităților concurenților pentru a rămâne înainte.",
+            "description3" => "<b>Marketing prin email</b> - Folosirea campaniilor de email pentru a menține comunicarea directă cu clienții și pentru a stimula vânzările.",
+            "description4" => "<b>Marketing de conținut</b> - Crearea și distribuția de conținut valoros pentru a atrage, educa și reține publicul."
         ],
         // Produs 2
         "item2" => [
-            "description1" => "Analiză și raportare - Colectarea datelor și evaluarea performanței pentru luarea deciziilor informate.",
-            "description2" => "Optimizarea pentru dispozitive mobile - Asigurarea că toate strategiile și site-urile web sunt optimizate pentru experiența pe dispozitive mobile.",
-            "description3" => "Strategii de conținut video - Utilizarea videoclipurilor pentru a atrage și angaja publicul.",
-            "description4" => "Marketing cu influenceri - Colaborarea cu influencerii pentru a promova produsele sau serviciile dvs."
+            "description1" => "<b>Analiză și raportare</b> - Colectarea datelor și evaluarea performanței pentru luarea deciziilor informate.",
+            "description2" => "<b>Optimizarea pentru dispozitive mobile</b> - Asigurarea că toate strategiile și site-urile web sunt optimizate pentru experiența pe dispozitive mobile.",
+            "description3" => "<b>Strategii de conținut video</b> - Utilizarea videoclipurilor pentru a atrage și angaja publicul.",
+            "description4" => "<b>Marketing cu influenceri</b> - Colaborarea cu influencerii pentru a promova produsele sau serviciile dvs."
         ],
         "item3" => [
-            "description1" => "Strategii pentru rețelele de afiliere - Crearea de parteneriate pentru a extinde domeniul de marketing.",
-            "description2" => "Optimizarea experienței utilizatorului (UX) - Asigurarea unei experiențe web prietenoase și plăcute pentru utilizatori.",
-            "description3" => "În lumea digitală, strategia este busola succesului.",
-            "description4" => "Marketing pe rețelele de socializare - Utilizarea rețelelor de socializare pentru a interacționa cu publicul și a crește interacțiunea.",
+            "description1" => "<b>Strategii pentru rețelele de afiliere</b> - Crearea de parteneriate pentru a extinde domeniul de marketing.",
+            "description2" => "<b>Optimizarea experienței utilizatorului (UX)</b> - Asigurarea unei experiențe web prietenoase și plăcute pentru utilizatori.",
+            "description3" => "<b>În lumea digitală</b>, strategia este busola succesului.",
+            "description4" => "<b>Marketing pe rețelele de socializare</b> - Utilizarea rețelelor de socializare pentru a interacționa cu publicul și a crește interacțiunea.",
         ],
     ],
 ];

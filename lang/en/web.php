@@ -11,27 +11,86 @@ return [
         // Product 1
         "item1" => [
             "title" => "Front-End Development:",
-            "description1" => "HTML: Markup language for structuring web content.",
-            "description2" => "CSS: Styling sheet language for designing web visuals.",
-            "description3" => "JavaScript: Scripting language for interactive web elements.",
-            "description4" => "Responsive Design: Ensuring website compatibility across various devices and screen sizes.",
+            "description1" => [
+                "bold" => "HTML:",
+                "text" => "Markup language for structuring web content.",
+            ],
+            "description2" => [
+                "bold" => "CSS:",
+                "text" => "Styling sheet language for designing web visuals.",
+            ],
+
+            "description3" => [
+                "bold" => "JavaScript:",
+                "text" => "Scripting language for interactive web elements.",
+            ],
+
+            "description4" => [
+                "bold" => "Responsive Design:",
+                "text" => "Ensuring website compatibility across various devices and screen sizes.",
+            ],
+
         ],
         "item2" => [
             "title" => "Back-End Development:",
-            "description1" => "PHP (Laravel): Server-side scripting language using the Laravel framework.",
-            "description2" => "Server Management: Overseeing and managing server health, security, and optimization.",
-            "description3" => "SQL: Managing relational databases with structured query language.",
-            "description4" => "Database Optimization: Improving database performance and speed.",
-            "description5" => "Database Backup and Recovery: Safeguarding data with backup solutions and restoring capabilities.",
+            "description1" => [
+                "bold" => "PHP (Laravel):",
+                "text" => "Server-side scripting language using the Laravel framework.",
+            ],
+
+            "description2" => [
+                "bold" => "Server Management:",
+                "text" => "Overseeing and managing server health, security, and optimization.",
+            ],
+
+            "description3" => [
+                "bold" => "SQL:",
+                "text" => "Managing relational databases with structured query language.",
+            ],
+
+            "description4" => [
+                "bold" => "Database Optimization:",
+                "text" => "Improving database performance and speed.",
+            ],
+
+            "description5" => [
+                "bold" => "Database Backup and Recovery:",
+                "text" => "Safeguarding data with backup solutions and restoring capabilities.",
+            ],
+
         ],
         "item3" => [
             "title" => "Salesforce Administration",
-            "description1" => "Setting up user roles, profiles, and permissions",
-            "description2" => "Implementing sharing rules and security controls.",
-            "description3" => "Managing licenses and ensuring compliance.",
-            "description4" => "Data import, export, and migration.",
-            "description5" => "Data deduplication and cleansing.",
-            "description6" => "Setting up and maintaining automated data backup processes.",
+            "description1" => [
+                // "bold" => "",
+                "text" => "Setting up user roles, profiles, and permissions",
+            ],
+
+            "description2" => [
+                // "bold" => "",
+                "text" => "Implementing sharing rules and security controls.",
+            ],
+
+            "description3" => [
+                // "bold" => "",
+                "text" => "Managing licenses and ensuring compliance.",
+            ],
+
+            "description4" => [
+                // "bold" => "",
+                "text" => "Data import, export, and migration.",
+            ],
+
+            "description5" => [
+                // "bold" => "",
+                "text" => "Data deduplication and cleansing.",
+            ],
+
+            "description6" => [
+                // "bold" => "",
+                "text" => "Setting up and maintaining automated data backup processes.",
+            ],
+
         ],
     ],
 ];

@@ -3,79 +3,94 @@
     <div class="container contact__container">
         <div class="contact__title">
             <div class="contact__title--text">
-                <h1 data-text="contact_us_heading">
+                <h1>
                     @lang("components.contact.heading")
                 </h1>
-                <p data-text="contact_options">
+                <p>
                     @lang("components.contact.description")
                 </p>
             </div>
         </div>
-        <form class="contact__form" method="POST">
+
+        <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
+            method="POST">
+            <input type=hidden name="oid" value="00D09000008XPQu">
+            <input type=hidden name="retURL" value="dev.eztemcorp.com/confirm">
+
             <div class="contact__label">
-                <label for="nume" data-text="name_label">
+                <label for="last_name">
                     @lang("components.contact.name")
                 </label>
-                <input type="text" id="nume" name="nume" required placeholder="Name">
+                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="Name">
             </div>
 
             <div class="contact__label">
-                <label for="email" data-text="email_label">
+                <label for="email">
                     @lang("components.contact.email")
                 </label>
-                <input type="email" id="email" name="email" required placeholder="E-mail">
+                <input type="email" id="email" name="email" autocomplete="email" required placeholder="E-mail"
+                    maxlength="80">
             </div>
 
+            <!-------------------------------------------------------------------------->
+            <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+            <!--  these lines if you wish to test in debug mode.-->
+            {{-- <input type="hidden" name="debug" value=0>
+            <input type="hidden" name="_next" value="dev.eztemcorp.com">
+            <input type="hidden" name="debugEmail" value="stanislav.cortac@eztemcorp.com"> --}}
+            <!-------------------------------------------------------------------------->
+
             <div class="contact__solutions">
-                <label data-text="solutions_label">
+                <span>
                     @lang("components.contact.solutions")
-                </label>
+                </span>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution1" id="solution1" value="sol1">
-                    <label for="solution1">
+                    <input type="checkbox" id="00N9N000000PZPh" name="00N9N000000PZPh" value="1">
+                    <label for="00N9N000000PZPh">
                         <img src="/img/web.webp" alt="Soluție 1" class="image" loading="lazy">
-                        <span data-text="Web">
+                        <span>
                             @lang("components.contact.web")
                         </span>
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution2" id="solution2" value="sol2">
-                    <label for="solution2">
+                    <input type="checkbox" id="00N9N000000PZPm" name="00N9N000000PZPm" value="1">
+                    <label for="00N9N000000PZPm">
                         <img src="/img/graphics.webp" alt="Soluție 2" class="image" loading="lazy">
-                        <span data-text="Graphics">
+                        <span>
                             @lang("components.contact.graphics")
                         </span>
                     </label>
                 </label>
+
                 <label class="contact-image">
-                    <input type="checkbox" name="solution3" id="solution3" value="sol3">
-                    <label for="solution3">
+                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
+                    <label for="00N9N000000PZPr">
                         <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
-                        <span data-text="Retouch">
+                        <span>
                             @lang("components.contact.retouch")
                         </span>
                     </label>
                 </label>
                 <label class="contact-image">
-                    <input type="checkbox" name="solution4" id="solution4" value="sol4">
-                    <label for="solution4">
+                    <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
+                    <label for="00N9N000000PZPw">
                         <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
-                        <span data-text="Marketing">
+                        <span>
                             @lang("components.contact.marketing")
                         </span>
                     </label>
                 </label>
             </div>
+
+
             <div class="contact__label">
-                <label for="mesaj">
-                    <span data-text="message_label">
-                        @lang("components.contact.message")
-                    </span>
-                </label>
-                <textarea id="mesaj" name="mesaj" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
+                <span for="description" id="description">
+                    @lang("components.contact.message")
+                </span>
+                <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
             </div>
-            <button class="button" type="submit" value="Trimite" data-text="send_button" style="margin-left: 150px;">
+            <button class="button" type="submit" name="submit">
                 @lang("components.contact.send_button")
                 <svg>
                     <line x1="22" y1="2" x2="11" y2="13"></line>
@@ -84,6 +99,7 @@
             </button>
         </form>
         <div class="contact__connect">
+            <img src="/img/illustrations/form.webp" alt="form-complete">
             <a class="contact__link" href="mailto:contact@eztemcorp.com">
                 <svg>
                     <path d=" M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z">
@@ -94,7 +110,7 @@
             </a>
             <ul class="footer__nav--list" style="justify-content: center;width: 100%;">
                 <li class="footer__nav--item">
-                    <a href="https://viber.click" style="background-color: #5a267c;">
+                    <a href="https://viber.click" style="background-color: #5a267c;" aria-label="Viber">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0,0,256,256">
                             <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
@@ -120,7 +136,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="http://whatsapp.com" style="background-color: #50c351;">
+                    <a href="http://whatsapp.com" style="background-color: #50c351;" aria-label="Whatsapp">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0 0 48 48">
                             <path fill="#fff"
@@ -142,7 +158,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="http://web.telegram.org" style="background-color: #2bb6f5;">
+                    <a href="http://web.telegram.org" style="background-color: #2bb6f5;" aria-label="Telegram">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0 0 48 48">
                             <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
@@ -159,7 +175,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="https://www.messenger.com/" style="background-color: #1884ff;">
+                    <a href="https://www.messenger.com/" style="background-color: #1884ff;" aria-label="Messenger">
                         <svg width="50" height="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#0084ff" d="M512 0H0v512h512z" />
                             <path

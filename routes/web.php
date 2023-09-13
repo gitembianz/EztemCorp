@@ -37,8 +37,14 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/graphics', function () {
         return view('graphics');
     });
-    Route::get('/graphics/design', function () {
-        return view('design');
+    Route::get('/graphics/logo', function () {
+        return view('logo');
+    });
+    Route::get('/graphics/banners', function () {
+        return view('banners');
+    });
+    Route::get('/confirm', function () {
+        return view('confirm');
     });
     Route::get('/marketing', function () {
         return view('marketing');
@@ -66,6 +72,9 @@ Route::middleware(['set_locale'])->group(function () {
     });
     Route::get('/retouch/photo', function () {
         return view('photo');
+    });
+    Route::get('/retouch/manipulation', function () {
+        return view('manipulation');
     });
     Route::get('/web', function () {
         return view('web');
