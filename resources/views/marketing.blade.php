@@ -22,42 +22,64 @@
                     <ul>
                         <li>
                             <h3>
-                                @lang("marketing.product_list.item1.title1")
+                                <strong>
+                                    @lang("marketing.product_list.item1.title1")
+                                </strong>
                             </h3>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description1")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description1.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description2")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description2.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description3")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description3.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description3.text")
                             </p>
                         </li>
                         <li>
                             <h3>
-                                @lang("marketing.product_list.item1.title2")
+                                <strong>
+                                    @lang("marketing.product_list.item1.title2")
+                                </strong>
                             </h3>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description1")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description1.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description2")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description2.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item1.description3")
+                                <strong>
+                                    @lang("marketing.product_list.item1.description3.bold")
+                                </strong>
+                                @lang("marketing.product_list.item1.description3.text")
                             </p>
                         </li>
                         <li>
@@ -74,27 +96,41 @@
                     <ul>
                         <li>
                             <h3>
-                                @lang("marketing.product_list.item2.title")
+                                <strong>
+                                    @lang("marketing.product_list.item2.title")
+                                </strong>
                             </h3>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item2.description1")
+                                <strong>
+                                    @lang("marketing.product_list.item2.description1.bold")
+                                </strong>
+                                @lang("marketing.product_list.item2.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item2.description2")
+                                <strong>
+                                    @lang("marketing.product_list.item2.description2.bold")
+                                </strong>
+                                @lang("marketing.product_list.item2.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item2.description3")
+                                <strong>
+                                    @lang("marketing.product_list.item2.description3.bold")
+                                </strong>
+                                @lang("marketing.product_list.item2.description3.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("marketing.product_list.item2.description4")
+                                <strong>
+                                    @lang("marketing.product_list.item2.description4.bold")
+                                </strong>
+                                @lang("marketing.product_list.item2.description4.text")
                             </p>
                         </li>
                         <li>

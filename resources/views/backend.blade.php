@@ -2,7 +2,7 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            {{-- <img src="/img/laravel.svg" alt="Laravel Icon"> --}}
+            <img src="/img/icons/back-end.svg" alt="Back-end-Icon">
             <h1>
                 @lang("backend.title")
             </h1>

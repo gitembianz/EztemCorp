@@ -2,7 +2,7 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            {{-- <img src="/img/photoshop.svg" alt="Figma Icon"> --}}
+            <img src="/img/icons/correction.svg" alt="Figma Icon">
             <h1>
                 @lang("photo.title")
             </h1>

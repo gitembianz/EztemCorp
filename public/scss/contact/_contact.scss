@@ -22,7 +22,7 @@
     align-items: center;
     gap: 50px;
 
-    @media (min-width: map-get($grid-breakpoints, md)) {
+    @media (min-width: map-get($grid-breakpoints, lg)) {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
@@ -157,7 +157,7 @@
         width: 100%;
         background: #333;
 
-        @media (min-width: map-get($grid-breakpoints, md)) {
+        @media (min-width: map-get($grid-breakpoints, lg)) {
             top: 0;
             left: -15px;
             height: 100%;

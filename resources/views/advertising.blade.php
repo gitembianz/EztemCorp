@@ -2,7 +2,7 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            <img src="/img/ads.svg" alt="Figma Icon">
+            <img src="/img/icons/ads.svg" alt="Figma Icon">
             <h1>
                 @lang("advertising.title")
             </h1>

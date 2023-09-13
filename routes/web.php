@@ -37,8 +37,8 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/graphics', function () {
         return view('graphics');
     });
-    Route::get('/graphics/design', function () {
-        return view('design');
+    Route::get('/graphics/logo', function () {
+        return view('logo');
     });
     Route::get('/graphics/banners', function () {
         return view('banners');

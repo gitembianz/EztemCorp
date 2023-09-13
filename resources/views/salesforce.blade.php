@@ -2,7 +2,7 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            <img src="/img/salesforce.svg" alt="React Icon">
+            <img src="/img/icons/salesforce.svg" alt="React Icon">
             <h1>
                 @lang("salesforce.title")
             </h1>

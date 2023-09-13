@@ -27,17 +27,26 @@
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item1.description1")
+                                <strong>
+                                    @lang("retouch.product_list.item1.description1.bold")
+                                </strong>
+                                @lang("retouch.product_list.item1.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item1.description2")
+                                <strong>
+                                    @lang("retouch.product_list.item1.description2.bold")
+                                </strong>
+                                @lang("retouch.product_list.item1.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item1.description3")
+                                <strong>
+                                    @lang("retouch.product_list.item1.description3.bold")
+                                </strong>
+                                @lang("retouch.product_list.item1.description3.text")
                             </p>
                         </li>
                         <li>
@@ -59,17 +68,26 @@
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item2.description1")
+                                <strong>
+                                    @lang("retouch.product_list.item2.description1.bold")
+                                </strong>
+                                @lang("retouch.product_list.item2.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item2.description2")
+                                <strong>
+                                    @lang("retouch.product_list.item2.description2.bold")
+                                </strong>
+                                @lang("retouch.product_list.item2.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
-                                @lang("retouch.product_list.item2.description3")
+                                <strong>
+                                    @lang("retouch.product_list.item2.description3.bold")
+                                </strong>
+                                @lang("retouch.product_list.item2.description3.text")
                             </p>
                         </li>
                         <li>

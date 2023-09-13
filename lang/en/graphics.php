@@ -11,16 +11,40 @@ return [
         // Product 1
         "item1" => [
             "title" => "Logo Design",
-            "description1" => "Conceptualization: Brainstorming and sketching initial logo ideas.",
-            "description2" => "Vector Illustrations: Creating scalable graphic designs.",
-            "description3" => "Branding Kits: Assembling a package of consistent brand visuals for companies.",
+            "description1" => [
+                "bold" => "Conceptualization:",
+                "text" => "Brainstorming and sketching initial logo ideas.",
+            ],
+
+            "description2" => [
+                "bold" => "Vector Illustrations:",
+                "text" => "Creating scalable graphic designs.",
+            ],
+
+            "description3" => [
+                "bold" => "Branding Kits:",
+                "text" => "Assembling a package of consistent brand visuals for companies.",
+            ],
+
         ],
         // Product 2
         "item2" => [
             "title" => "Banner Design",
-            "description1" => "Web Banners: Designing attention-grabbing banners for websites.",
-            "description2" => "Promotional Banners: Creating banners for sales, offers, and special promotions.",
-            "description3" => "Event Banners: Crafting designs for events, conferences, and exhibitions.",
+            "description1" => [
+                "bold" => "Web Banners:",
+                "text" => "Designing attention-grabbing banners for websites.",
+            ],
+
+            "description2" => [
+                "bold" => "Promotional Banners:",
+                "text" => "Creating banners for sales, offers, and special promotions.",
+            ],
+
+            "description3" => [
+                "bold" => "Event Banners:",
+                "text" => "Crafting designs for events, conferences, and exhibitions.",
+            ],
+
         ],
     ],
 ];

@@ -2,7 +2,7 @@
 <main>
     <div class="container job__container">
         <div class="job__title">
-            <img src="/img/target.svg" alt="Figma Icon">
+            <img src="/img/icons/marketing.svg" alt="Figma Icon">
             <h1>
                 @lang("strategies.title")
             </h1>

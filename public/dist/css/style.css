@@ -645,7 +645,7 @@ section::before {
   align-items: center;
   gap: 50px;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .contact__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -772,7 +772,7 @@ section::before {
   width: 100%;
   background: #333;
 }
-@media (min-width: 768px) {
+@media (min-width: 992px) {
   .contact__connect::after {
     top: 0;
     left: -15px;
@@ -1079,7 +1079,7 @@ section::before {
     border-radius: 10px 10px 0px 0px;
   }
 }
-.job__section:nth-child(even) > .job__list > li > p {
+.job__section:nth-child(even) > .job__list > li > p, .job__section:nth-child(even) > .job__list > li > p > b {
   color: white;
 }
 @media (min-width: 768px) {
