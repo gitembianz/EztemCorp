@@ -14,7 +14,7 @@
                 <img src="../img/about.webp" alt="about our company">
             </div>
             <span class="hero__subtext">
-                @lang("about.about.qoute")
+                @lang("about.about.quote")
             </span>
     </section>
     {{-- Sectiunea de team --}}{{-- Section of team --}}
@@ -69,7 +69,7 @@
             </div>
         </div>
         <span class="hero__subtext">
-            @lang("about.team.qoute")
+            @lang("about.team.quote")
         </span>
     </section>
 
@@ -85,7 +85,7 @@
                 </p>
             </div>
             <span class="hero__subtext">
-                @lang("about.mission.qoute")
+                @lang("about.mission.quote")
             </span>
         </div>
     </section>
