@@ -2,6 +2,8 @@
 // Privacy Page EN
 return [
     // Privacy Section
+    "pageTitle" => "Privacy Policy",
+
     "privacy" => [
         "heading" => "PRIVACY NOTICE",
         "description" => "This Privacy Notice explains how and why Eztem Corp uses personal data of individuals who purchase goods from us, visit ourwebsite, enquire about products or otherwise communicate or do business with us.",

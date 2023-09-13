@@ -2,6 +2,7 @@
 // Pagina de Publicitate RO
 return [
     // Secțiunea de publicitate
+    "pageTitle" => "Marketing / Publicitate",
     // Titlu și Descriere
     "title" => "Dezvoltarea Publicității Online: Anunțuri Google și Facebook",
     "description" => "Valorificați potențialul uimitor al anunțurilor Google și Facebook pentru a conecta afacerea dvs. cu exact publicul potrivit. Cu o strategie bine definită și o doză de creativitate, elaborăm campanii de publicitate care captivantează, generează conversii și măresc vizibilitatea mărcii dvs. Expertiza noastră constă în a extrage fiecare valoare din publicitatea online, asigurându-vă că fiecare clic aduce o valoare reală afacerii dvs.",

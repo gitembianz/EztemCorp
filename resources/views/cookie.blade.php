@@ -1,4 +1,5 @@
-<x-header />
+<x-header :title='"Eztem Corp - " . __("cookie.pageTitle")' />
+
 {{-- Pagina "Cookie" --}}{{-- Page "Cookie" --}}
 <main>
     {{-- Sectiunea de Cookies --}}{{-- Section of Cookies --}}

@@ -2,6 +2,7 @@
 // Pagina FAQ RO
 return [
     // Secțiunea FAQ
+    "pageTitle" => "Întrebări frecvente (FAQ)",
     // Titlu
     "heading" => "Întrebări frecvente (FAQ)",
     // Descriere

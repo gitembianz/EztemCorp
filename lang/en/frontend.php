@@ -2,8 +2,9 @@
 // Front-End Page EN
 return [
     // Front-End section
+    "pageTitle" => "Web / Front-End",
     // Title and Description
-    "title" => "Front-End Developer",
+    "title" => "Front-End Development",
     "description" => "A Front-End Developer is the magician behind captivating websites. With skills juggling between HTML, CSS, SCSS, and JavaScript, this expert transforms code into interactive experiences. HTML serves as their foundational palette, turning structure into reality. CSS and SCSS add the necessary style and elegance, crafting stunning and adaptive interfaces. But the real magic happens with JavaScript, where they create interactive and dynamic functionality. The Front-End Developer is a perpetual learner, exploring new technologies and trends to keep websites at the forefront of performance and design. In a word, the Front-End Developer makes the web world shine.",
     "quote" => "HTML - Building the fundamental structure of websites.",
     "button" => "Back to Web",

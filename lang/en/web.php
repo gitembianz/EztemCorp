@@ -2,6 +2,7 @@
 // Web Page EN
 return [
     // Web section
+    "pageTitle" => "Web",
     // Web Title
     "title" => "Web",
     "description1" => "Crafting resilient and adaptive digital experiences that effortlessly cater to diverse user needs. We meticulously design, ensuring intuitive navigation and optimal performance across all devices.",

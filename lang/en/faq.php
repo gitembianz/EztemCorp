@@ -2,6 +2,7 @@
 // FAQ Page EN
 return [
     // FAQ Section
+    "pageTitle" => "FAQ",
     // Title
     "heading" => "Frequently Asked Questions (FAQ)",
     // Description

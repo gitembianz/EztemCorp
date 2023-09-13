@@ -50,6 +50,7 @@ return [
     ],
     // Contact Form
     "contact" => [
+        "pageTitle" => "Contact Us",
         "heading" => "Contact Us",
         "description" => "Send the Form or contact us directly on social media",
         "name" => "Name",

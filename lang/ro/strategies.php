@@ -2,6 +2,7 @@
 // Pagina Strategie EN
 return [
     // Secțiunea Strategie
+    "pageTitle" => "Marketing / Strategies",
     // Titlul și Descrierea
     "title" => "Navigarea în Lumea Marketingului Online: Strategii Eficiente",
     "description" => "Strategiile de marketing online sunt coloana vertebrală a succesului în era digitală. Cu expertiză și creativitate, dezvoltăm abordări personalizate pentru a atrage publicul țintă, a crește conștientizarea mărcii și a genera conversii. De la SEO și social media la publicitatea PPC și conținut de calitate, gestionăm fiecare aspect al strategiilor dvs. online. Cu noi la conducere, veți naviga cu succes în lumea marketingului online.",

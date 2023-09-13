@@ -10,8 +10,8 @@ return [
         "solutions_dropdown" => [
             "Solutions" => "Soluții",
             "Web" => "Web",
-            "Graphics" => "Grafică",
-            "Retouch" => "Retușare",
+            "Graphics" => "Graphics",
+            "Retouch" => "Retouch",
             "Marketing" => "Marketing"
         ],
         // Another Links
@@ -25,8 +25,8 @@ return [
         "about_us" => "Despre noi",
         "faq" => "Întrebări frecvente",
         "web" => "Web",
-        "graphics" => "Grafică",
-        "retouch" => "Retușare",
+        "graphics" => "Graphics",
+        "retouch" => "Retouch",
         "marketing" => "Marketing",
         "cookies" => "Politica de Cookie-uri",
         "privacy" => "Politica de Confidențialitate",
@@ -50,14 +50,15 @@ return [
     ],
     // Contact Form
     "contact" => [
+        "pageTitle" => "Contactați-ne",
         "heading" => "Contactați-ne",
         "description" => "Trimite formularul sau contactați-ne direct pe platforma noastră de social media",
         "name" => "Nume",
         "email" => "E-mail",
         "solutions" => "Soluții",
         "web"  => "Web",
-        "graphics"  => "Grafică",
-        "retouch"  => "Retușare",
+        "graphics"  => "Graphics",
+        "retouch"  => "Retouch",
         "marketing"  => "Marketing",
         "message" => "Mesaj",
         "message_placeholder" => "Introduceți mesajul",

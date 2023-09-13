@@ -2,6 +2,7 @@
 // Pagina Retușare RO
 return [
     // Secțiunea Retușare
+    "pageTitle" => "Retouch",
     // Titlul și Descrierea
     "title" => "Retușare",
     "description1" => "Elevăm imaginile prin rafinarea imperfecțiunilor și îmbunătățirea elementelor cheie. Retușăm fotografii pentru a captura esența, oferind în același timp un aspect polisat și profesional.",

@@ -1,4 +1,5 @@
-<x-header />
+<x-header :title='"Eztem Corp - " . __("privacy.pageTitle")' />
+
 <main>
     <div class="container notes__container">
         <h1>

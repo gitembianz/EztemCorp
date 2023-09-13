@@ -2,6 +2,7 @@
 // Pagina Salesforce RO
 return [
     // Secțiunea Salesforce
+    "pageTitle" => "Web / Salesforce",
     // Titlul și Descrierea
     "title" => "Administrația Salesforce",
     "description" => "Administrația Salesforce este arta de a conduce cu măiestrie forța de vânzări prin platforma Salesforce. Administratorii Salesforce acționează ca gardieni ai succesului, configurând, personalizând și menținând acest ecosistem pentru a obține performanțe extraordinare. Ei sunt navigatorii care optimizează fluxurile de date, măresc productivitatea și transformă o simplă platformă într-o armă strategică pentru afaceri.",

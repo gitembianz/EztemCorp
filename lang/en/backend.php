@@ -2,6 +2,7 @@
 // Back-End Page EN
 return [
     // Back-End section
+    "pageTitle" => "Web / Back-End",
     // Title and Description
     "title" => "Back-End Developer",
     "description" => "The Back-End Developer is the technological maestro of the digital realm, the silent architect behind every web application and online service. With meticulous attention to detail and flawless logic, this expert engineers the system that makes everything run seamlessly. Using programming languages like Java, Python, or Node.js, they tackle the unseen side of websites, handling databases, security, performance, and optimization. They are the architects ensuring data integrity and functionality, turning requirements into reality, always concerned with stability and scalability.",

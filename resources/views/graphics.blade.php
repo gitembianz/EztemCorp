@@ -1,4 +1,5 @@
-<x-header />
+<x-header :title='"Eztem Corp - " . __("graphics.pageTitle")' />
+
 <main>
     <div class="container">
         <div class="product">

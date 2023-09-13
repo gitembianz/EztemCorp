@@ -2,8 +2,9 @@
 // Pagina Front-End Developer RO
 return [
     // Secțiunea Front-End Developer
+    "pageTitle" => "Web / Front-End",
     // Titlul și Descrierea
-    "title" => "Front-End Developer",
+    "title" => "Front-End Development",
     "description" => "Un dezvoltator Front-End este magicianul din spatele site-urilor captivante. Cu abilități care jonglează între HTML, CSS, SCSS și JavaScript, acest expert transformă codul în experiențe interactive. HTML servește ca paleta lor fundamentală, transformând structura în realitate. CSS și SCSS adaugă stilul și eleganța necesare, creând interfețe uimitoare și adaptive. Dar adevărata magie se întâmplă cu JavaScript, unde creează funcționalități interactive și dinamice. Dezvoltatorul Front-End este un învățăcel perpetuu, explorând tehnologii noi și tendințe pentru a menține site-urile în fruntea performanței și designului. Pe scurt, Dezvoltatorul Front-End face să strălucească lumea web.",
     "quote" => "HTML - Construirea structurii fundamentale a site-urilor web.",
     "button" => "Înapoi la Web",

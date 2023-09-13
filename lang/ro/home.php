@@ -2,6 +2,8 @@
 // Home Page RO
 return [
     // Hero Section
+    "pageTitle" => "Soluții Creative - Web, Graphics, Retouch, Marketing",
+
     "hero" => [
         "heading" => "Soluții Creative",
         "description" => "Unele dintre cele mai bune soluții pentru tine.",

@@ -2,6 +2,8 @@
 // Cookie Page EN
 return [
     // Cookie Section
+    "pageTitle" => "Cookie Policy",
+
     "cookie" => [
         "heading" => "Cookie Policy",
         "category1" => [

@@ -2,6 +2,7 @@
 // Graphics Page EN
 return [
     // Graphics section
+    "pageTitle" => "Graphics",
     // Title and Description
     "title" => "Graphics",
     "description1" => "Crafting unique visuals tailored to each brand's distinct identity. These designs deeply resonate with the target audience.",

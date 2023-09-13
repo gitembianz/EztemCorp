@@ -2,6 +2,8 @@
 // Cookie Page RO
 return [
     // Cookie Section
+    "pageTitle" => "Politica de Cookie-uri",
+
     "cookie" => [
         "heading" => "Politica de Cookie-uri",
         "category1" => [

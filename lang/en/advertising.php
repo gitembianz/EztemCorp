@@ -2,6 +2,7 @@
 // Enhanced Advertising Page EN
 return [
     // Advertising section
+    "pageTitle" => "Marketing / Advertising",
     // Title and Description
     "title" => "Unlocking the Power of Online Advertising: Google and Facebook Ads",
     "description" => "Harness the incredible potential of Google and Facebook ads to connect your business with precisely the right audience. With a well-crafted strategy and a touch of creativity, we craft advertising campaigns that captivate, drive conversions, and elevate your brand's visibility. Our expertise lies in squeezing every drop of value from online advertising, ensuring each click is a valuable asset to your business.",

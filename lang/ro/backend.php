@@ -2,6 +2,8 @@
 // Pagina Back-End Developer RO
 return [
     // Secțiunea Back-End Developer
+    "pageTitle" => "Web / Back-End",
+
     // Titlul și Descrierea
     "title" => "Dezvoltator Back-End",
     "description" => "Dezvoltatorul Back-End este maestrul tehnologic al lumii digitale, arhitectul tăcut din spatele fiecărei aplicații web și servicii online. Cu o atenție meticuloasă la detalii și o logică impecabilă, acest expert proiectează sistemul care face ca totul să ruleze fără cusur. Utilizând limbaje de programare precum Java, Python sau Node.js, ei abordează partea nevăzută a site-urilor web, gestionând baze de date, securitate, performanță și optimizare. Sunt arhitecții care asigură integritatea și funcționalitatea datelor, transformând cerințele în realitate, mereu preocupați de stabilitate și scalabilitate.",

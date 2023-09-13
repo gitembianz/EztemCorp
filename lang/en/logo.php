@@ -2,6 +2,8 @@
 // Design Page EN
 return [
     // Design section
+    "pageTitle" => "Design / Logo",
+
     // Title and Description
     "title" => "Design Logo",
     "description" => "Logo and banner design is much more than just imagination. It's the graphical representation of a company, a story in an image, and banners are windows to the online world. With passion and creativity, we create logos that define brands, inspire trust, and convey values, and banners that catch the eye and support marketing objectives. Each element has a story to tell, and we are the storytellers.",

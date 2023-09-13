@@ -2,6 +2,7 @@
 // Pagina Marketing RO
 return [
     // Secțiunea Marketing
+    "pageTitle" => "Marketing",
     // Titlul și Descrierea
     "title" => "Marketing",
     "description1" => "Elaborăm planuri strategice personalizate pentru maximizarea prezenței online și atragerea atenției. Prin executie meticuloasă, campaniile noastre vizează amplificarea angajamentului și promovarea interacțiunilor semnificative.",

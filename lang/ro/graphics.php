@@ -2,8 +2,9 @@
 // Pagina Grafică RO
 return [
     // Secțiunea Grafică
+    "pageTitle" => "Graphics",
     // Titlul și Descrierea
-    "title" => "Grafică",
+    "title" => "Graphics",
     "description1" => "Crearea de vizuale unice adaptate identității distincte a fiecărei mărci. Aceste design-uri resonantează profund cu audiența țintă.",
     "description2" => "Oferim următoarele soluții grafice:",
     "product_list" => [

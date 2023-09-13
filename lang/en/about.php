@@ -2,6 +2,8 @@
 // About Page EN
 return [
     // About Section
+    "pageTitle" => "About Us",
+
     "about" => [
         "heading" => "Who Are We?",
         "description" => "At Eztem Corp, we transcend the definition of a mere company; we are your companions in innovation and triumph. Established in 2023, Eztem Corp proudly calls the Republic of Moldova its home. We comprise a united force of zealous and visionary experts, guided by a singular aspiration: to empower you to transform your ideas into tangible and pioneering realities.",

@@ -2,6 +2,8 @@
 // Home Page EN
 return [
     // Hero Section
+    "pageTitle" => "Creative Solutions - Web, Graphics, Retouch, Marketing",
+
     "hero" => [
         "heading" => "Creative Solutions",
         "description" => "A wide spectrum of solutions for your tasks and ideas.",

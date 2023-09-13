@@ -2,6 +2,7 @@
 // About Page RO
 return [
     // Sectiunea Despre
+    "pageTitle" => "Despre noi",
     "about" => [
         "heading" => "Cine Suntem?",
         "description" => "La Eztem Corp, transcendem definiția unei simple companii; suntem partenerii tăi în inovație și triumf. Fondată în 2023, Eztem Corp își numește cu mândrie Republica Moldova drept casă. Suntem o echipă unită de experți pasionați și vizionari, ghidați de o aspirație singulară: să te împuternicim să-ți transformi ideile în realități palpabile și pionere.",

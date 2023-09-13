@@ -2,6 +2,7 @@
 // Photo Page EN
 return [
     // Photo section
+    "pageTitle" => "Retouch / Manipulations",
     // Title and Description
     "title" => "The Art of Manipulations",
     "description" => "Photo correction and manipulations are a subtle and creative form of digital art. This practice involves enhancing the visual quality of images, correcting imperfections, and turning them into works of art. With expertise and passion, we bring unique ideas and concepts to life, transforming ordinary photos into visual masterpieces. Each image has its own story, and we are the artists who complete it.",

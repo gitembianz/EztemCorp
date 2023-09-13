@@ -1,4 +1,5 @@
-<x-header />
+<x-header :title='"Eztem Corp - " . __("confirm.pageTitle")' />
+
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
     <div class="container succes__container">
