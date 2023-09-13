@@ -75,9 +75,9 @@
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
                     <label for="00N9N000000PZPr">
-                        <img src="/img/graphic.webp" alt="Soluție 4" class="image" loading="lazy">
+                        <img src="/img/graphics.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span>
-                            @lang("components.contact.graphic")
+                            @lang("components.contact.graphics")
                         </span>
                     </label>
                 </label>
