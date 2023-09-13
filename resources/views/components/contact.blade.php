@@ -56,28 +56,28 @@
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPm" name="00N9N000000PZPm" value="1">
                     <label for="00N9N000000PZPm">
-                        <img src="/img/graphics.webp" alt="Soluție 2" class="image" loading="lazy">
-                        <span>
-                            @lang("components.contact.graphics")
-                        </span>
-                    </label>
-                </label>
-
-                <label class="contact-image">
-                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
-                    <label for="00N9N000000PZPr">
-                        <img src="/img/retouch.webp" alt="Soluție 3" class="image" loading="lazy">
+                        <img src="/img/retouch.webp" alt="Soluție 2" class="image" loading="lazy">
                         <span>
                             @lang("components.contact.retouch")
                         </span>
                     </label>
                 </label>
+
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPw" name="00N9N000000PZPw" value="1">
                     <label for="00N9N000000PZPw">
-                        <img src="/img/marketing.webp" alt="Soluție 4" class="image" loading="lazy">
+                        <img src="/img/marketing.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span>
                             @lang("components.contact.marketing")
+                        </span>
+                    </label>
+                </label>
+                <label class="contact-image">
+                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
+                    <label for="00N9N000000PZPr">
+                        <img src="/img/graphic.webp" alt="Soluție 4" class="image" loading="lazy">
+                        <span>
+                            @lang("components.contact.graphic")
                         </span>
                     </label>
                 </label>
