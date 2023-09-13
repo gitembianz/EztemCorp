@@ -4,6 +4,7 @@ return [
     // Title of Website
     "title" => "Eztem Corp - Creative Solutions - Web, Graphics, Retouch, Marketing",
     // Header
+    "about" => "about",
     "header" => [
         // Solutions Dropdown
         "solutions_dropdown" => [

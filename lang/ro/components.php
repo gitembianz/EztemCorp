@@ -4,6 +4,7 @@ return [
     // Title of Website
     "title" => "Eztem Corp - Soluții Creative - Web, Grafică, Retușare, Marketing",
     // Header
+    "about" => "Despre noi",
     "header" => [
         // Solutions Dropdown
         "solutions_dropdown" => [
