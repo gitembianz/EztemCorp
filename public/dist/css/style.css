@@ -506,6 +506,8 @@ section::before {
   text-align: center;
   display: flex;
   flex-direction: column;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px;
   align-items: center;
   color: #46454c;
   z-index: 5;
@@ -537,8 +539,9 @@ section::before {
 .hero__subtext {
   position: absolute;
   left: 50%;
+  width: 100%;
   text-align: center;
-  bottom: 30px;
+  bottom: 20px;
   font-style: italic;
   transform: translateX(-50%);
   z-index: 1000;
