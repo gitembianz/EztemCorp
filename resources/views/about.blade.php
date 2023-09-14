@@ -12,7 +12,7 @@
                 <p>
                     @lang("about.about.description")
                 </p>
-                <img src="../img/about.webp" alt="about our company">
+                <img src="../img/banner.webp" alt="about our company">
             </div>
             <span class="hero__subtext">
                 @lang("about.about.quote")
