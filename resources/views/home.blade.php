@@ -6,7 +6,7 @@
     {{-- Sectiunea de hero --}}{{-- Section of hero --}}
     <section class="hero">
         <div class="container hero__container">
-            <svg viewBox="0 0 1820 1080">
+            <svg>
 
                 <g id="home">
                     <defs>

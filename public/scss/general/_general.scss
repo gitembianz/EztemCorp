@@ -108,6 +108,7 @@ section {
         position: absolute;
         left: 0;
         bottom: 58px;
+        z-index: 3;
     }
 
     &::before {
@@ -116,6 +117,7 @@ section {
         height: 58px;
         background-color: white;
         position: absolute;
+        z-index: 3;
         left: 0;
         bottom: 0;
     }

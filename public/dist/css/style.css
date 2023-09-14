@@ -195,6 +195,7 @@ section::after {
   position: absolute;
   left: 0;
   bottom: 58px;
+  z-index: 3;
 }
 section::before {
   content: "";
@@ -202,6 +203,7 @@ section::before {
   height: 58px;
   background-color: white;
   position: absolute;
+  z-index: 3;
   left: 0;
   bottom: 0;
 }
@@ -497,6 +499,7 @@ section::before {
   height: 100%;
   position: absolute;
   opacity: 0.7;
+  z-index: 0;
 }
 
 .hero__text {
