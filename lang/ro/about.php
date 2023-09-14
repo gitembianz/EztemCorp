@@ -14,18 +14,28 @@ return [
         "quote" => "Triumful nostru se măsoară în realizările noastre.",
         "card_list" => [
             "card1" => [
-                "name" => "Mihai Tanase",
+                "name" => "Mihail",
                 "role" => "Manager Salesforce",
                 "description" => "Îndrumând demersurile noastre strategice este Managerul nostru Salesforce, un profesionist cu experiență dotat cu un talent nativ pentru crearea de soluții personalizate. Cu o devotare neclintită pentru îmbunătățirea relațiilor cu clienții, Managerul nostru Salesforce asigură prosperitatea afacerii tale în era digitală."
             ],
             "card2" => [
-                "name" => "Iosif Relia",
+                "name" => "Iosif",
                 "role" => "Dezvoltator Back-end",
                 "description" => "În culise, echipa noastră de dezvoltatori back-end lucrează asiduu pentru a construi infrastructura robustă care alimentează proiectele tale. Cu o atenție meticuloasă la detalii și o bogată experiență, constituie fundamentul supremației noastre tehnice."
             ],
             "card3" => [
-                "name" => "Cortac Stanislav",
+                "name" => "Stanislav",
                 "role" => "Dezvoltator Front-end",
+                "description" => "La vanguarda esteticii și experienței utilizatorului, dezvoltatorii noștri front-end dau viață conceptelor tale, creând interfețe vizual captivante și prietenoase utilizatorilor, care lasă o impresie indelebilă asupra audienței tale."
+            ],
+            "card4" => [
+                "name" => "Violina",
+                "role" => "Project Manager",
+                "description" => "În culise, echipa noastră de dezvoltatori back-end lucrează asiduu pentru a construi infrastructura robustă care alimentează proiectele tale. Cu o atenție meticuloasă la detalii și o bogată experiență, constituie fundamentul supremației noastre tehnice."
+            ],
+            "card5" => [
+                "name" => "Adelina",
+                "role" => "Marketing Expert",
                 "description" => "La vanguarda esteticii și experienței utilizatorului, dezvoltatorii noștri front-end dau viață conceptelor tale, creând interfețe vizual captivante și prietenoase utilizatorilor, care lasă o impresie indelebilă asupra audienței tale."
             ]
         ]

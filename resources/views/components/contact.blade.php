@@ -53,6 +53,17 @@
                         </span>
                     </label>
                 </label>
+
+                <label class="contact-image">
+                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
+                    <label for="00N9N000000PZPr">
+                        <img src="/img/graphics.webp" alt="Soluție 4" class="image" loading="lazy">
+                        <span>
+                            @lang("components.contact.graphics")
+                        </span>
+                    </label>
+                </label>
+
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPm" name="00N9N000000PZPm" value="1">
                     <label for="00N9N000000PZPm">
@@ -72,17 +83,7 @@
                         </span>
                     </label>
                 </label>
-                <label class="contact-image">
-                    <input type="checkbox" id="00N9N000000PZPr" name="00N9N000000PZPr" value="1">
-                    <label for="00N9N000000PZPr">
-                        <img src="/img/graphics.webp" alt="Soluție 4" class="image" loading="lazy">
-                        <span>
-                            @lang("components.contact.graphics")
-                        </span>
-                    </label>
-                </label>
             </div>
-
 
             <div class="contact__label">
                 <span for="description" id="description">

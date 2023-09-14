@@ -73,7 +73,7 @@
                 <div class="details__title">
                     <img src="img/marketing.webp" alt="marketing details" loading="lazy">
                     <h2>
-                        @lang("home.details.button")
+                        @lang("home.details.card_web4.heading")
                     </h2>
                 </div>
                 <p class="details__text">
