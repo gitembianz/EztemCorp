@@ -24,20 +24,7 @@
             <div class="about__title">
                 <h1>@lang("about.team.heading")</h1>
                 <div class="about__grid">
-                    <div class="about__personalities">
-                        <img src="/img/personalities/Mihai.webp" alt="about our company">
-                        <div class="about__personalities--text">
-                            <h2>
-                                @lang("about.team.card_list.card1.name")
-                            </h2>
-                            <h3>
-                                @lang("about.team.card_list.card1.role")
-                            </h3>
-                            <p>
-                                @lang("about.team.card_list.card1.description")
-                            </p>
-                        </div>
-                    </div>
+
                     <div class="about__personalities">
                         <img src="/img/personalities/Iosif.webp" alt="about our company">
                         <div class="about__personalities--text">
@@ -49,6 +36,20 @@
                             </h3>
                             <p>
                                 @lang("about.team.card_list.card2.description")
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__personalities">
+                        <img src="/img/personalities/Adelina.webp" alt="about our company">
+                        <div class="about__personalities--text">
+                            <h2>
+                                @lang("about.team.card_list.card5.name")
+                            </h2>
+                            <h3>
+                                @lang("about.team.card_list.card5.role")
+                            </h3>
+                            <p>
+                                @lang("about.team.card_list.card5.description")
                             </p>
                         </div>
                     </div>
@@ -66,6 +67,8 @@
                             </p>
                         </div>
                     </div>
+
+
                     <div class="about__personalities">
                         <img src="/img/personalities/Violina.webp" alt="about our company">
                         <div class="about__personalities--text">
@@ -81,16 +84,16 @@
                         </div>
                     </div>
                     <div class="about__personalities">
-                        <img src="/img/personalities/Adelina.webp" alt="about our company">
+                        <img src="/img/personalities/Mihai.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
-                                @lang("about.team.card_list.card5.name")
+                                @lang("about.team.card_list.card1.name")
                             </h2>
                             <h3>
-                                @lang("about.team.card_list.card5.role")
+                                @lang("about.team.card_list.card1.role")
                             </h3>
                             <p>
-                                @lang("about.team.card_list.card5.description")
+                                @lang("about.team.card_list.card1.description")
                             </p>
                         </div>
                     </div>

@@ -7,6 +7,11 @@
     transition: transform 0.3s ease-in-out;
     z-index: 1000;
 
+    &__logo {
+        display: flex;
+        align-items: center;
+    }
+
     &__container {
         color: white;
         height: 100%;
