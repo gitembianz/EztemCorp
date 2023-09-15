@@ -67,7 +67,7 @@
                         </div>
                     </div>
                     <div class="about__personalities">
-                        <img src="/img/personalities/Adelina.webp" alt="about our company">
+                        <img src="/img/personalities/Violina.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
                                 @lang("about.team.card_list.card4.name")
@@ -81,7 +81,7 @@
                         </div>
                     </div>
                     <div class="about__personalities">
-                        <img src="/img/personalities/Evelina.webp" alt="about our company">
+                        <img src="/img/personalities/Adelina.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
                                 @lang("about.team.card_list.card5.name")
