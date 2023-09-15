@@ -810,7 +810,7 @@ section::before {
 .contact__solutions > span {
   grid-row: 1/5;
 }
-@media (min-width: 0) {
+@media (min-width: 576px) {
   .contact__solutions {
     grid-template-columns: repeat(5, 1fr);
   }

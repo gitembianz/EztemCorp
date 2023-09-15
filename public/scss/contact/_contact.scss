@@ -61,7 +61,7 @@
     //     grid-template-columns: repeat(3, 1fr);
     // }
 
-    @media (min-width: map-get($grid-breakpoints, xs)) {
+    @media (min-width: map-get($grid-breakpoints, sm)) {
         grid-template-columns: repeat(5, 1fr);
 
     }
