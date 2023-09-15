@@ -52,7 +52,7 @@ return [
     "contact" => [
         "pageTitle" => "Contact Us",
         "heading" => "Contact Us",
-        "description" => "Send the Form or contact us directly on social media",
+        "description" => "Send the form, reach out via e-mail, or contact us directly on social media.",
         "name" => "Name",
         "email" => "Email",
         "solutions" => "Solutions",
@@ -63,7 +63,7 @@ return [
         "message" => "Message",
         "message_placeholder" => "Type your message here...",
         "send_button" => "Send",
-        "quote" => "“Our success is measured by our achievements”"
+        "quote" => "<i>“Alone we can do so little; together we can do so much”</i> – Helen Keller"
     ],
     "lang" => [
         "name" => "EN"

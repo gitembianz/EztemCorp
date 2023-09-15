@@ -130,32 +130,32 @@
                         </li>
                         <li>
                             <p>
+                                <strong>@lang("web.product_list.item3.description1.bold")</strong>
                                 @lang("web.product_list.item3.description1.text")
                             </p>
                         </li>
                         <li>
                             <p>
+                                <strong>@lang("web.product_list.item3.description2.bold")</strong>
                                 @lang("web.product_list.item3.description2.text")
                             </p>
                         </li>
                         <li>
                             <p>
+                                <strong>@lang("web.product_list.item3.description3.bold")</strong>
                                 @lang("web.product_list.item3.description3.text")
                             </p>
                         </li>
                         <li>
                             <p>
+                                <strong>@lang("web.product_list.item3.description4.bold")</strong>
                                 @lang("web.product_list.item3.description4.text")
                             </p>
                         </li>
                         <li>
                             <p>
+                                <strong>@lang("web.product_list.item3.description5.bold")</strong>
                                 @lang("web.product_list.item3.description5.text")
-                            </p>
-                        </li>
-                        <li>
-                            <p>
-                                @lang("web.product_list.item3.description6.text")
                             </p>
                         </li>
                         <li>

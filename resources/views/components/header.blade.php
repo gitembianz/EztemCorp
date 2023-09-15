@@ -9,7 +9,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
     <meta name="description"
         content="Explore our creative solutions for web development, graphics design, photo retouching, and marketing services.">
-    <link rel="stylesheet" href="/dist/css/style.css">
+    <link rel="stylesheet" href="/scss/style.css">
 </head>
 
 <body>
