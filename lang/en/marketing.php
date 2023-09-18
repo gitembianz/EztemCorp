@@ -3,6 +3,7 @@
 return [
     // Marketing section
     "pageTitle" => "Marketing",
+    "metadescription" => "Crafting strategic plans tailored to maximize online presence and draw attention. Through meticulous execution, our campaigns aim to amplify engagement and foster meaningful interactions",
     // Title and Description
     "title" => "Marketing",
     "description1" => "Crafting strategic plans tailored to maximize online presence and draw attention. Through meticulous execution, our campaigns aim to amplify engagement and foster meaningful interactions",

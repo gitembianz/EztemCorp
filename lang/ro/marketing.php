@@ -3,6 +3,7 @@
 return [
     // Secțiunea Marketing
     "pageTitle" => "Marketing",
+    "metadescription" => "Luminatează visul nostru digital într-o afacere de marketing. Oferim soluții de marketing digital și tehnologii de optimizare a afacerii.",
     // Titlul și Descrierea
     "title" => "Marketing",
     "description1" => "Elaborăm planuri strategice personalizate pentru maximizarea prezenței online și atragerea atenției. Prin executie meticuloasă, campaniile noastre vizează amplificarea angajamentului și promovarea interacțiunilor semnificative.",

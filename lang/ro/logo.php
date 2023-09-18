@@ -3,6 +3,7 @@
 return [
     // Secțiunea Design
     "pageTitle" => "Design / Logo",
+    "metadescription" => "Descoperă lumea captivantă a dezvoltării logo-urilor. Creăm designuri vizuale de impact pentru afacerea ta.",
     // Titlul și Descrierea
     "title" => "Design Logo",
     "description" => "Designul logo-ului și al bannerelor înseamnă mult mai mult decât imaginație. Este reprezentarea grafică a unei companii, o poveste într-o imagine și bannerele sunt ferestre către lumea online. Cu pasiune și creativitate, creăm logo-uri care definesc brandurile, inspiră încredere și transmit valori, și bannere care atrag atenția și susțin obiectivele de marketing. Fiecare element are o poveste de spus, iar noi suntem povestitorii.",

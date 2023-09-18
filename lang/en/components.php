@@ -51,6 +51,7 @@ return [
     // Contact Form
     "contact" => [
         "pageTitle" => "Contact Us",
+        "metadescription" => "Send the form, reach out via e-mail, or contact us directly on social media.",
         "heading" => "Contact Us",
         "description" => "Send the form, reach out via e-mail, or contact us directly on social media.",
         "name" => "Name",

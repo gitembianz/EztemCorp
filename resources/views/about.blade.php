@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("about.pageTitle")' />
+<x-header :title='"Eztem Corp - " . __("about.pageTitle")' :metadescription='__("about.metadescription")' />
 
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>

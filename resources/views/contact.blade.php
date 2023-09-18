@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("components.contact.pageTitle")' />
+<x-header :title='"Eztem Corp - " . __("components.contact.pageTitle")' :metadescription='__("components.contact.metadescription")' />
 <main>
     {{-- Sectiunea de contact --}}
     {{-- Section of contact --}}

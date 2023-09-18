@@ -51,6 +51,7 @@ return [
     // Contact Form
     "contact" => [
         "pageTitle" => "Contactați-ne",
+        "metadescription" => "Trimite formularul sau contactați-ne direct pe platforma noastră de social media",
         "heading" => "Contactați-ne",
         "description" => "Trimite formularul sau contactați-ne direct pe platforma noastră de social media",
         "name" => "Nume",
