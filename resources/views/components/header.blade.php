@@ -46,39 +46,42 @@
                         <img class="logo" src="/img/logo.webp" alt="Logo = Creative Solutions" loading="lazy">
                     </a>
                     <nav class="header__categories">
-                        <ul class="header__categories-list">
-                            <li class="header__category">
-                                <a href="/web">
-                                    @lang("components.header.solutions_dropdown.Web")
-                                </a>
-                            </li>
-                            <li class="header__category">
-                                <a href="/graphics">
-                                    @lang("components.header.solutions_dropdown.Graphics")
-                                </a>
-                            </li>
-                            <li class="header__category">
-                                <a href="/retouch">
-                                    @lang("components.header.solutions_dropdown.Retouch")
-                                </a>
-                            </li>
-                            <li class="header__category">
-                                <a href="/marketing">
-                                    @lang("components.header.solutions_dropdown.Marketing")
-                                </a>
-                            </li>
-                            </li>
-                            <li class="header__category">
-                                <a href="/contact">
-                                    @lang("components.header.contact_us")
-                                </a>
-                            </li>
-                            <li class="header__category">
-                                <a href="/about">
-                                    @lang("components.header.about_us")
-                                </a>
-                            </li>
-                        </ul>
+                        <div class="container">
+                            <ul class="header__categories-list">
+                                <li class="header__category">
+                                    <a href="/web">
+                                        @lang("components.header.solutions_dropdown.Web")
+                                    </a>
+                                </li>
+                                <li class="header__category">
+                                    <a href="/graphics">
+                                        @lang("components.header.solutions_dropdown.Graphics")
+                                    </a>
+                                </li>
+                                <li class="header__category">
+                                    <a href="/retouch">
+                                        @lang("components.header.solutions_dropdown.Retouch")
+                                    </a>
+                                </li>
+                                <li class="header__category">
+                                    <a href="/marketing">
+                                        @lang("components.header.solutions_dropdown.Marketing")
+                                    </a>
+                                </li>
+                                </li>
+                                <li class="header__category">
+                                    <a href="/contact">
+                                        @lang("components.header.contact_us")
+                                    </a>
+                                </li>
+                                <li class="header__category">
+                                    <a href="/about">
+                                        @lang("components.header.about_us")
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+
                         {{-- <div class="header__burger-menu">
                                 <svg>
                                     <line x1="3" y1="12" x2="21" y2="12"></line>
