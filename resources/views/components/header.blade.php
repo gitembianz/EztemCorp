@@ -20,13 +20,21 @@
         <meta property="og:type" content="website" />
         <meta property="twitter:card" content="summary_large_image" />
         {{-- ----------------------------------------------------------- --}}
-
         <!-- Open Graph / Facebook -->
         <meta property="og:title" content="{{ $title }}" />
         <meta property="og:description" content="{{ $metadescription }}" />
         <!-- Twitter -->
         <meta property="twitter:title" content="{{ $title }}" />
         <meta property="twitter:description" content="{{ $metadescription }}" />
+        {{-- ----------------------------------------------------------- --}}
+
+        <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
+        <link rel="manifest" href="img/favicons/site.webmanifest">
+        <link rel="mask-icon" href="img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00a300">
+        <meta name="theme-color" content="#ffffff">
 
     </head>
 
