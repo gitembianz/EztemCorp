@@ -53,14 +53,6 @@
         grid-row: 1/5;
     }
 
-    // &>label:first-child {
-    //     grid-row: 1/3;
-    // }
-
-    // @media (min-width: map-get($grid-breakpoints, sm)) {
-    //     grid-template-columns: repeat(3, 1fr);
-    // }
-
     @media (min-width: map-get($grid-breakpoints, sm)) {
         grid-template-columns: repeat(5, 1fr);
 
@@ -148,22 +140,22 @@
 
     }
 
-    &::after {
-        content: "";
-        position: absolute;
-        top: -25px;
-        left: 0;
-        height: 1px;
-        width: 100%;
-        background: #333;
+    // &::after {
+    //     content: "";
+    //     position: absolute;
+    //     top: -25px;
+    //     left: 0;
+    //     height: 1px;
+    //     width: 100%;
+    //     background: #333;
 
-        @media (min-width: map-get($grid-breakpoints, lg)) {
-            top: 0;
-            left: -15px;
-            height: 100%;
-            width: 1px;
-        }
-    }
+    //     @media (min-width: map-get($grid-breakpoints, lg)) {
+    //         top: 0;
+    //         left: -15px;
+    //         height: 100%;
+    //         width: 1px;
+    //     }
+    // }
 }
 
 .contact__link {

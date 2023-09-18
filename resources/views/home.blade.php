@@ -1,6 +1,4 @@
 <x-header :title='"Eztem Corp - " . __("home.pageTitle")' />
-
-
 {{-- Pagina "Home sau Index" --}}{{-- Page "Home or Index" --}}
 <main>
     {{-- Sectiunea de hero --}}{{-- Section of hero --}}

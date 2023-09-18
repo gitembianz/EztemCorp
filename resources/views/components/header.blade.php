@@ -7,8 +7,7 @@
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <title>{{ $title }}</title>
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <meta name="description"
-        content="Explore our creative solutions for web development, graphics design, photo retouching, and marketing services.">
+    
     <link rel="stylesheet" href="/scss/style.css">
 </head>
 
