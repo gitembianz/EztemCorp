@@ -147,7 +147,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web1.description")
                 </p>
-                <a href="/solutions/web" class="button">
+                <a href="/web" class="button">
                     @lang("home.details.card_web1.button")
                 </a>
             </div>
@@ -161,7 +161,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web2.description")
                 </p>
-                <a href="/solutions/graphics" class="button">
+                <a href="/graphics" class="button">
                     @lang("home.details.card_web2.button")
                 </a>
             </div>
@@ -175,7 +175,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web3.description")
                 </p>
-                <a href="/solutions/retouch" class="button">
+                <a href="/retouch" class="button">
                     @lang("home.details.card_web3.button")
                 </a>
             </div>
@@ -189,7 +189,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web4.description")
                 </p>
-                <a href="/solutions/marketing" class="button">
+                <a href="/marketing" class="button">
                     @lang("home.details.card_web4.button")
                 </a>
             </div>
