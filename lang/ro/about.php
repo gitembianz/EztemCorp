@@ -15,7 +15,7 @@ return [
         "card_list" => [
             "card1" => [
                 "name" => "Mihail",
-                "role" => "Manager Salesforce",
+                "role" => "Manager Consultant",
                 "description" => "Îndrumând demersurile noastre strategice este Managerul nostru Salesforce, un profesionist cu experiență dotat cu un talent nativ pentru crearea de soluții personalizate. Cu o devotare neclintită pentru îmbunătățirea relațiilor cu clienții, Managerul nostru Salesforce asigură prosperitatea afacerii tale în era digitală."
             ],
             "card2" => [
@@ -30,13 +30,18 @@ return [
             ],
             "card4" => [
                 "name" => "Violina",
-                "role" => "Project Manager",
+                "role" => "QA Specialist",
                 "description" => "În culise, echipa noastră de dezvoltatori back-end lucrează asiduu pentru a construi infrastructura robustă care alimentează proiectele tale. Cu o atenție meticuloasă la detalii și o bogată experiență, constituie fundamentul supremației noastre tehnice."
             ],
             "card5" => [
                 "name" => "Adelina",
                 "role" => "Marketing Expert",
                 "description" => "La vanguarda esteticii și experienței utilizatorului, dezvoltatorii noștri front-end dau viață conceptelor tale, creând interfețe vizual captivante și prietenoase utilizatorilor, care lasă o impresie indelebilă asupra audienței tale."
+            ],
+            "card6" => [
+                "name" => "Adrian",
+                "role" => "Project Manager",
+                "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
             ]
         ]
     ],

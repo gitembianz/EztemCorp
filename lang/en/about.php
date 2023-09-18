@@ -16,7 +16,7 @@ return [
         "card_list" => [
             "card1" => [
                 "name" => "Mihail",
-                "role" => "Salesforce Manager",
+                "role" => "Salesforce Consultant",
                 "description" => "Guiding our strategic endeavors is our Salesforce Manager, a seasoned professional with an innate talent for crafting bespoke solutions. With an unwavering dedication to enhancing customer relationships, our Salesforce Manager ensures the prosperity of your business in the digital era."
             ],
             "card2" => [
@@ -31,7 +31,7 @@ return [
             ],
             "card4" => [
                 "name" => "Violina",
-                "role" => "Project Manager",
+                "role" => "QA Specialist",
                 "description" => "Behind the scenes, our squad of back-end developers toils diligently to construct the sturdy infrastructure that powers your ventures. With scrupulous attention to detail and a wealth of experience, they constitute the bedrock of our technical supremacy."
             ],
             "card5" => [
@@ -41,7 +41,7 @@ return [
             ],
             "card6" => [
                 "name" => "Adrian",
-                "role" => "Marketing Expert",
+                "role" => "Project Manager",
                 "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
             ]
         ]
