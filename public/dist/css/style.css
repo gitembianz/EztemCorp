@@ -99,6 +99,10 @@ body {
   font-family: "Montserrat";
 }
 
+.container {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 svg {
   width: 24px;
   height: 24px;
@@ -152,7 +156,6 @@ input[type=submit] {
   color: #f9f8fd;
   border-radius: 3px;
   border: none;
-  width: -moz-max-content;
   width: max-content;
   height: 37px;
   display: flex;
@@ -358,6 +361,7 @@ section::before {
     left: 0;
     width: 100%;
     padding: 20px;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 100;
     visibility: hidden;
@@ -536,8 +540,7 @@ section::before {
   height: 60%;
   aspect-ratio: 1/1;
   z-index: 5;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .hero__subtext {
@@ -546,14 +549,12 @@ section::before {
   width: 100%;
   text-align: center;
   bottom: 20px;
-  font-style: italic;
   transform: translateX(-50%);
   z-index: 1000;
 }
 
 #home {
-  -webkit-clip-path: url(#cache);
-          clip-path: url(#cache);
+  clip-path: url(#cache);
 }
 
 #red {
@@ -682,8 +683,7 @@ section::before {
   height: auto;
   flex: 1;
   max-height: 400px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 @media (min-width: 768px) {
   .related__image {
@@ -824,7 +824,6 @@ section::before {
   gap: 50px;
 }
 .contact__label > label {
-  width: -moz-max-content;
   width: max-content;
 }
 .contact__label > input {
@@ -883,27 +882,9 @@ section::before {
 }
 .contact__connect > img {
   aspect-ratio: 1/1;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   width: 70%;
   height: auto;
-}
-.contact__connect::after {
-  content: "";
-  position: absolute;
-  top: -25px;
-  left: 0;
-  height: 1px;
-  width: 100%;
-  background: #333;
-}
-@media (min-width: 992px) {
-  .contact__connect::after {
-    top: 0;
-    left: -15px;
-    height: 100%;
-    width: 1px;
-  }
 }
 
 .contact__link {
@@ -959,8 +940,7 @@ section::before {
 .product__item > img {
   flex: 1;
   width: 100%;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   border-radius: 10px;
   aspect-ratio: 16/10;
 }
@@ -1130,8 +1110,7 @@ section::before {
 .job__title > img {
   width: 70px;
   height: 70px;
-  -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
 }
 
 .job__cards {
@@ -1164,8 +1143,7 @@ section::before {
   width: 100%;
   height: auto;
   aspect-ratio: 16/10;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   flex: 1;
   border-radius: 10px 10px 0px 0px;
 }
@@ -1271,8 +1249,7 @@ section::before {
   width: 100%;
   height: auto;
   aspect-ratio: 16/9;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   border-radius: 15px;
   transition: height 0.2s ease-in-out;
 }
