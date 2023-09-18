@@ -8,8 +8,31 @@
         <title>{{ $title }}</title>
         <meta name="description" content="{{ $metadescription }}">
         <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-
         <link rel="stylesheet" href="/scss/style.css">
+
+        <!-- Primary Meta Tags -->
+        <title>Eztem Corp - Creative Digital Solutions</title>
+        <meta name="title" content="Eztem Corp - Creative Digital Solutions" />
+        <meta name="description"
+            content="We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing. Turning ideas into reality." />
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="http://dev.eztemcorp.com/" />
+        <meta property="og:title" content="Eztem Corp - Creative Digital Solutions" />
+        <meta property="og:description"
+            content="We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing. Turning ideas into reality." />
+        <meta property="og:image" content="https://metatags.io/images/meta-tags.png" />
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content="http://dev.eztemcorp.com/" />
+        <meta property="twitter:title" content="Eztem Corp - Creative Digital Solutions" />
+        <meta property="twitter:description"
+            content="We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing. Turning ideas into reality." />
+        <meta property="twitter:image" content="https://metatags.io/images/meta-tags.png" />
+
+        <!-- Meta Tags Generated with https://metatags.io -->
     </head>
 
     <body>
