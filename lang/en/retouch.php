@@ -3,6 +3,7 @@
 return [
     // Retouch section
     "pageTitle" => "Retouch",
+    "metadescription" => "Retouch and manipulate photos to create unique images.",
     // Title and Description
     "title" => "Retouch",
     "description1" => "Elevating imagery by refining imperfections and enhancing key elements. We retouch photos to capture the essence while delivering a polished and professional appearance.",

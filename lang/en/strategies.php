@@ -3,6 +3,7 @@
 return [
     // Strategy section
     "pageTitle" => "Marketing / Strategies",
+    "metadescription" => "Navigating the Online Marketing World: Effective Strategies",
     // Title and Description
     "title" => "Navigating the Online Marketing World: Effective Strategies",
     "description" => "Online marketing strategies are the backbone of success in the digital age. With expertise and creativity, we develop customized approaches to attract the target audience, increase brand awareness, and generate conversions. From SEO and social media to PPC advertising and quality content, we handle every aspect of your online strategies. With us at the helm, you will successfully navigate the waters of online marketing.",

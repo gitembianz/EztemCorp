@@ -3,6 +3,7 @@
 return [
     // Secțiunea Grafică
     "pageTitle" => "Graphics",
+    "metadescription" => "Descoperă creații grafice impresionante și bannere captivante. Transformăm ideile în imagini vizuale de impact pentru afacerea ta.",
     // Titlul și Descrierea
     "title" => "Graphics",
     "description1" => "Crearea de vizuale unice adaptate identității distincte a fiecărei mărci. Aceste design-uri resonantează profund cu audiența țintă.",

@@ -3,6 +3,8 @@
 return [
     // Secțiunea de publicitate
     "pageTitle" => "Marketing / Publicitate",
+    "metadescription" => "Descoperă strategii creative de marketing și soluții de publicitate de top. Află cum putem promova afacerea ta și atrage mai mulți clienți.",
+
     // Titlu și Descriere
     "title" => "Dezvoltarea Publicității Online: Anunțuri Google și Facebook",
     "description" => "Valorificați potențialul uimitor al anunțurilor Google și Facebook pentru a conecta afacerea dvs. cu exact publicul potrivit. Cu o strategie bine definită și o doză de creativitate, elaborăm campanii de publicitate care captivantează, generează conversii și măresc vizibilitatea mărcii dvs. Expertiza noastră constă în a extrage fiecare valoare din publicitatea online, asigurându-vă că fiecare clic aduce o valoare reală afacerii dvs.",

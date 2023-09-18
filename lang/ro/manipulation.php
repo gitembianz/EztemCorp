@@ -3,6 +3,7 @@
 return [
     // Secțiunea Foto
     "pageTitle" => "Retouch / Manipulări",
+    "metadescription" => "Corectarea imaginilor, crearea compoziției fotografice și a efectelor specifice.",
     // Titlul și Descrierea
     "title" => "Arta Manipulărilor Foto",
     "description" => "Corecțiile și manipulările foto reprezintă o formă subtilă și creativă de artă digitală. Această practică implică îmbunătățirea calității vizuale a imaginilor, corectarea imperfecțiunilor și transformarea lor în opere de artă. Cu expertiză și pasiune, aducem la viață idei și concepte unice, transformând fotografii obișnuite în capodopere vizuale. Fiecare imagine are propria sa poveste, iar noi suntem artiștii care o completează.",

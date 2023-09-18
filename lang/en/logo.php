@@ -3,6 +3,7 @@
 return [
     // Design section
     "pageTitle" => "Design / Logo",
+    "metadescription" => "Explore stunning graphic designs and captivating banners. We transform ideas into visually impactful images for your business.",
 
     // Title and Description
     "title" => "Design Logo",

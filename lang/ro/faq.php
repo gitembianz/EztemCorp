@@ -3,6 +3,7 @@
 return [
     // Secțiunea FAQ
     "pageTitle" => "Întrebări frecvente (FAQ)",
+    "metadescription" => "Găsește răspunsuri rapide la cele mai frecvente întrebări. Consultă secțiunea noastră de Întrebări frecvente pentru informații utile și clarificări.",
     // Titlu
     "heading" => "Întrebări frecvente (FAQ)",
     // Descriere

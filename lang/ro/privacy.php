@@ -3,6 +3,7 @@
 return [
     // Secțiunea de Confidențialitate
     "pageTitle" => "Confidențialitate",
+    "metadescription" => "Află cum ne protejăm confidențialitatea și datele tale personale. Politica noastră de confidențialitate explică modul în care gestionăm informațiile tale.",
 
     "privacy" => [
         "heading" => "ANUNȚ DE CONFIDENȚIALITATE",

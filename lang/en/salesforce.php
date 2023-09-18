@@ -3,6 +3,7 @@
 return [
     // Salesforce section
     "pageTitle" => "Web / Salesforce",
+    "metadescription" => "Explore the exciting world of Salesforce. We create visually impactful interfaces for your website using cutting-edge technologies.",
     // Title and Description
     "title" => "Salesforce Administration",
     "description" => "Salesforce Administration is the art of masterfully steering the sales force through the Salesforce platform. Salesforce administrators act as guardians of success, configuring, customizing, and maintaining this ecosystem to achieve extraordinary performance. They are the navigators who optimize data flows, boost productivity, and transform a mere platform into a strategic business weapon.",

@@ -3,6 +3,7 @@
 return [
     // Privacy Section
     "pageTitle" => "Privacy Policy",
+    "metadescription" => "Learn how we protect your privacy and personal data. Our privacy policy explains how we handle your information.",
 
     "privacy" => [
         "heading" => "PRIVACY NOTICE",

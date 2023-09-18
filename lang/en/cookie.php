@@ -3,6 +3,7 @@
 return [
     // Cookie Section
     "pageTitle" => "Cookie Policy",
+    "metadescription" => "Discover how we use cookies to enhance your online experience and protect your privacy. Our Cookie Policy explains it all.",
 
     "cookie" => [
         "heading" => "Cookie Policy",

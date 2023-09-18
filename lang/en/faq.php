@@ -3,6 +3,7 @@
 return [
     // FAQ Section
     "pageTitle" => "FAQ",
+    "metadescription" => "Find quick answers to the most common questions. Visit our Frequently Asked Questions section for useful information and clarifications.",
     // Title
     "heading" => "Frequently Asked Questions (FAQ)",
     // Description

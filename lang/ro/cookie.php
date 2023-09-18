@@ -3,6 +3,7 @@
 return [
     // Cookie Section
     "pageTitle" => "Politica de Cookie-uri",
+    "metadescription" => "Află cum utilizăm cookie-urile pentru a îmbunătăți experiența ta online și pentru a-ți proteja confidențialitatea. Politica noastră de Cookie-uri explică totul.",
 
     "cookie" => [
         "heading" => "Politica de Cookie-uri",

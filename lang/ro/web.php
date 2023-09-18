@@ -3,6 +3,7 @@
 return [
     // Secțiunea Web
     "pageTitle" => "Web",
+    "metadescription" => "Creăm experiențe digitale reziliente și adaptive care satisfac cu ușurință diverse nevoi ale utilizatorilor.",
     // Titlul pentru Web
     "title" => "Web",
     "description1" => "Creăm experiențe digitale reziliente și adaptive care satisfac cu ușurință diverse nevoi ale utilizatorilor. Proiectăm meticulos, asigurând navigarea intuitivă și performanța optimă pe toate dispozitivele.",

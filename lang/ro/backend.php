@@ -3,6 +3,7 @@
 return [
     // Secțiunea Back-End Developer
     "pageTitle" => "Web / Back-End",
+    "metadescription" => "Descoperă secretele dezvoltării web din spatele scenei. Explorăm lumea back-end-ului web și soluțiile tehnice care fac internetul să funcționeze.",
 
     // Titlul și Descrierea
     "title" => "Dezvoltator Back-End",
