@@ -9,17 +9,15 @@ body {
     font-family: "Montserrat";
 }
 
-@supports(padding: max(0px)) {
-    .post {
-        padding-left: max(12px, env(safe-area-inset-left));
-        padding-right: max(12px, env(safe-area-inset-right));
-    }
-}
+// @supports(padding: max(0px)) {
+//     .post {
+//         padding-left: max(12px, env(safe-area-inset-left));
+//         padding-right: max(12px, env(safe-area-inset-right));
+//     }
+// }
 
-.ion-app {
-    --safe-area-inset-top: env(safe-area-inset-top);
-    --safe-area-inset-bottom: env(safe-area-inset-bottom);
-    height: calc(100% + (var(--safe-area-inset-top) + var(--safe-area-inset-bottom)));
+.container {
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 svg {
