@@ -38,6 +38,11 @@ return [
                 "name" => "Adelina",
                 "role" => "Marketing Expert",
                 "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
+            ],
+            "card6" => [
+                "name" => "Adrian",
+                "role" => "Marketing Expert",
+                "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
             ]
         ]
     ],

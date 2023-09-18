@@ -84,6 +84,20 @@
                         </div>
                     </div>
                     <div class="about__personalities">
+                        <img src="/img/personalities/Adrian.webp" alt="about our company">
+                        <div class="about__personalities--text">
+                            <h2>
+                                @lang("about.team.card_list.card6.name")
+                            </h2>
+                            <h3>
+                                @lang("about.team.card_list.card6.role")
+                            </h3>
+                            <p>
+                                @lang("about.team.card_list.card6.description")
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about__personalities">
                         <img src="/img/personalities/Mihai.webp" alt="about our company">
                         <div class="about__personalities--text">
                             <h2>
