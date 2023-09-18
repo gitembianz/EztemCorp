@@ -9,6 +9,13 @@ body {
     font-family: "Montserrat";
 }
 
+@supports(padding: max(0px)) {
+    .post {
+        padding-left: max(12px, env(safe-area-inset-left));
+        padding-right: max(12px, env(safe-area-inset-right));
+    }
+}
+
 svg {
     width: 24px;
     height: 24px;
