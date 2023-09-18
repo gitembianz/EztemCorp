@@ -23,7 +23,6 @@
     &__category {
         cursor: pointer;
         color: white;
-        padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 
         a {
             color: white;
@@ -64,6 +63,8 @@
                     visibility: visible;
                     opacity: 1;
                     display: flex;
+                    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+
                 }
 
                 &-item {
