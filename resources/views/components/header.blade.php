@@ -10,9 +10,24 @@
 
         <title>{{ $title }}</title>
         <meta name="description" content="{{ $metadescription }}">
-        <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+        {{-- ----------------------------------------------------------- --}}
+        <meta property="og:image" content="img/logo-banner.webp" />
+        <meta property="twitter:image" content="img/logo-banner.webp" />
+        {{-- ----------------------------------------------------------- --}}
+        <meta property="og:url" content="http://dev.eztemcorp.com/" />
+        <meta property="twitter:url" content="http://dev.eztemcorp.com/" />
+        {{-- ----------------------------------------------------------- --}}
+        <meta property="og:type" content="website" />
+        <meta property="twitter:card" content="summary_large_image" />
+        {{-- ----------------------------------------------------------- --}}
 
-        <link rel="stylesheet" href="/scss/style.css">
+        <!-- Open Graph / Facebook -->
+        <meta property="og:title" content="{{ $title }}" />
+        <meta property="og:description" content="{{ $metadescription }}" />
+        <!-- Twitter -->
+        <meta property="twitter:title" content="{{ $title }}" />
+        <meta property="twitter:description" content="{{ $metadescription }}" />
+
     </head>
 
     <body>
