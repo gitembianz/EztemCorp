@@ -1,46 +1,47 @@
 <?php
-// Pagina Web RO
+// Pagina web EN
 return [
-    // Secțiunea Web
+    // Secțiunea web
     "pageTitle" => "Web",
-    "metadescription" => "Creăm experiențe digitale reziliente și adaptive care satisfac cu ușurință diverse nevoi ale utilizatorilor.",
-    // Titlul pentru Web
+    "metadescription" => "Explorați lumea captivantă a dezvoltării web. Creăm interfețe vizual impactante pentru site-ul dvs. folosind tehnologii de ultimă generație.",
+    // Titlul web
     "title" => "Web",
     "description1" => "Creăm experiențe digitale reziliente și adaptive care satisfac cu ușurință diverse nevoi ale utilizatorilor. Proiectăm meticulos, asigurând navigarea intuitivă și performanța optimă pe toate dispozitivele.",
     "description2" => "Oferim următoarele soluții web:",
     "product_list" => [
-        "button" => "Detalii",
-        // Produs 1
+        "button" => "Vezi mai mult",
+        // Produsul 1
         "item1" => [
             "title" => "Dezvoltare Front-End:",
             "description1" => [
                 "bold" => "HTML:",
-                "text" => "Limbaj de marcare pentru structurarea conținutului web."
+                "text" => "Limbaj de marcare pentru structurarea conținutului web.",
             ],
             "description2" => [
                 "bold" => "CSS:",
-                "text" => "Limbajul de stil pentru designul vizual al paginilor web.",
+                "text" => "Limbaj de stil pentru proiectarea elementelor vizuale ale site-ului web.",
             ],
 
             "description3" => [
                 "bold" => "JavaScript:",
-                "text" => "Limbajul de scripting pentru elemente web interactive.",
+                "text" => "Limbaj de scripting pentru elemente web interactive.",
             ],
 
             "description4" => [
-                "bold" => "Design responsiv:",
+                "bold" => "Design Receptiv:",
                 "text" => "Asigurarea compatibilității site-ului web pe diverse dispozitive și dimensiuni de ecran.",
-            ]
+            ],
+
         ],
         "item2" => [
             "title" => "Dezvoltare Back-End:",
             "description1" => [
-                "bold" => "PHP (Laravel):",
-                "text" => "Limbaj de scripting server-side folosind framework-ul Laravel.",
+                "bold" => "PHP:",
+                "text" => "Limbaj de scripting pentru partea de server folosind framework-ul Laravel.",
             ],
 
             "description2" => [
-                "bold" => "Gestionarea serverului:",
+                "bold" => "Administrarea Serverului:",
                 "text" => "Supravegherea și gestionarea sănătății serverului, securității și optimizării.",
             ],
 
@@ -50,46 +51,41 @@ return [
             ],
 
             "description4" => [
-                "bold" => "Optimizarea bazelor de date:",
+                "bold" => "Optimizarea Bazei de Date:",
                 "text" => "Îmbunătățirea performanței și vitezei bazei de date.",
             ],
 
             "description5" => [
-                "bold" => "Backup și recuperare a bazelor de date:",
-                "text" => "Protejarea datelor cu soluții de backup și posibilitatea de restaurare.",
+                "bold" => "Backup și Recuperare a Bazei de Date:",
+                "text" => "Protejarea datelor cu soluții de backup și capacități de restaurare.",
             ],
 
         ],
         "item3" => [
-            "title" => "Administrare Salesforce",
+            "title" => "Administrație Avansată Salesforce și Consultanță",
             "description1" => [
-                // "bold" => "",
-                "text" => "Configurarea rolurilor, profilurilor și permisiunilor utilizatorilor.",
+                "bold" => "Gestionarea Sistemului:",
+                "text" => "Configurarea conturilor de utilizator, menținerea integrității datelor, personalizarea Salesforce pentru a se potrivi nevoilor unice ale afacerii și monitorizarea actualizărilor sistemului.",
             ],
 
             "description2" => [
-                // "bold" => "",
-                "text" => "Implementarea regulilor de partajare și a controalelor de securitate.",
+                "bold" => "Implementare Strategică:",
+                "text" => "Evaluarea nevoilor afacerii, planificarea și realizarea implementărilor Salesforce și integrarea cu alte sisteme pentru funcționalitate fără probleme.",
             ],
 
             "description3" => [
-                // "bold" => "",
-                "text" => "Gestionarea licențelor și asigurarea conformității.",
+                "bold" => "Raportare și Automatizare:",
+                "text" => "Crearea de rapoarte personalizate și tablouri de bord și configurarea automatizărilor pentru eficiență.",
             ],
 
             "description4" => [
-                // "bold" => "",
-                "text" => "Importul, exportul și migrarea datelor.",
+                "bold" => "Instruire și Suport:",
+                "text" => "Oferirea de instruire utilizatorilor, suport post-implementare, depistarea problemelor și asigurarea adaptării continue la nevoile în continuă evoluție ale afacerii.",
             ],
 
             "description5" => [
-                // "bold" => "",
-                "text" => "Deduplicarea și curățarea datelor.",
-            ],
-
-            "description6" => [
-                // "bold" => "",
-                "text" => "Configurarea și menținerea proceselor automate de backup a datelor.",
+                "bold" => "Păstrarea la Curent:",
+                "text" => "Învățarea continuă și menținerea la curent cu noile caracteristici Salesforce și cele mai bune practici pentru a oferi soluții optime.",
             ],
 
         ],

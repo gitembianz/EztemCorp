@@ -1,56 +1,56 @@
 <?php
-// Pagina Salesforce RO
+// Pagină Salesforce EN
 return [
     // Secțiunea Salesforce
-    "pageTitle" => "Web / Salesforce",
-    "metadescription" => "Administrația Salesforce este arta de a conduce cu măiestrie forța de vânzări prin platforma Salesforce.",
-    // Titlul și Descrierea
-    "title" => "Administrația Salesforce",
-    "description" => "Administrația Salesforce este arta de a conduce cu măiestrie forța de vânzări prin platforma Salesforce. Administratorii Salesforce acționează ca gardieni ai succesului, configurând, personalizând și menținând acest ecosistem pentru a obține performanțe extraordinare. Ei sunt navigatorii care optimizează fluxurile de date, măresc productivitatea și transformă o simplă platformă într-o armă strategică pentru afaceri.",
-    "quote" => "Import, export și migrare de date.",
+    "pageTitle" => "Administrare Avansată Salesforce și Consultanță",
+    "metadescription" => "Specializați în soluții Salesforce, livrăm personalizări de platformă, analize avansate, integrări perfecte și securitate de nivel înalt pentru afaceri la nivel global.",
+    // Titlul și descrierea
+    "title" => "Administrare Avansată Salesforce și Consultanță",
+    "description" => "Suntem experți de încredere în Salesforce, livrând personalizări personalizate de platformă, analize acționabile și integrări fără probleme. Angajamentul nostru față de excelență asigură ROI maximizat, operațiuni streamline și performanță îmbunătățită a afacerii. Colaborați cu noi pentru o experiență Salesforce transformatoare.",
+    "quote" => "<i>„Oportunitățile nu apar. Tu le creezi.”</i> - Chris Grosser",
     "button" => "Înapoi la Web",
     "card_list" => [
-        // Produs 1
+        // Produsul 1
         "item1" => [
-            "description1" => "Configurarea și menținerea proceselor automate de backup de date.",
-            "description2" => "Sincronizarea datelor între Salesforce și alte sisteme.",
-            "description3" => "Crearea și personalizarea obiectelor, câmpurilor, tipurilor de înregistrări și aspectelor paginilor.",
-            "description4" => "Proiectarea tablourilor de bord și a rapoartelor prietenoase cu utilizatorul, adaptate nevoilor de afaceri."
+            "description1" => "<b>Personalizare Platformă</b> - Adaptarea Salesforce pentru a se potrivi nevoilor specifice ale afacerii.",
+            "description2" => "<b>Gestionare Utilizatori și Roluri</b> - Configurarea rolurilor, profilurilor și permisiunilor utilizatorilor pentru acces și securitate optimă.",
+            "description3" => "<b>Automatizare</b> - Implementarea fluxurilor de lucru, constructorilor de procese și a proceselor de aprobare.",
+            "description4" => "<b>Experiență Lightning</b> - Tranziționarea și optimizarea interfeței Salesforce pentru o utilizare îmbunătățită."
         ],
-        // Produs 2
+        // Produsul 2
         "item2" => [
-            "description1" => "Crearea regulilor de flux de lucru, a fluxurilor din procesul constructor și a proceselor de aprobare pentru automatizarea sarcinilor.",
-            "description2" => "Integrarea Salesforce cu alte instrumente și platforme software utilizând API-uri.",
-            "description3" => "Configurarea rolurilor utilizatorilor, profilurilor și permisiunilor.",
-            "description4" => "Implementarea regulilor de partajare și a controalelor de securitate."
+            "description1" => "<b>Import și Export Date</b> - Transfer eficient de date către și de la Salesforce.",
+            "description2" => "<b>Curățarea Datelor</b> - Asigurarea datelor precise, fără duplicări și standardizate.",
+            "description3" => "<b>Mentenanța Bazei de Date</b> - Auditarea și optimizarea regulată a stocării datelor Salesforce.",
+            "description4" => "<b>Tipuri de Înregistrări și Aspecte de Pagină</b> - Personalizarea vederilor și categoriilor de date pentru experiențe personalizate ale utilizatorilor."
         ],
-        // Produs 3
+        // Produsul 3
         "item3" => [
-            "description1" => "Gestionarea licențelor și asigurarea conformității.",
-            "description2" => "Configurarea și gestionarea produselor AppExchange și a soluțiilor terților.",
-            "description3" => "Auditarea regulată a mediului Salesforce pentru a asigura performanțe optime.",
-            "description4" => "Efectuarea lansărilor și actualizărilor planificate fără a perturba operațiunile de afaceri.",
+            "description1" => "<b>Rapoarte Personalizate</b> - Crearea de rapoarte detaliate și acționabile.",
+            "description2" => "<b>Design de Tablou de Bord</b> - Vizualizarea datelor pentru insights și decizii strategice.",
+            "description3" => "<b>Analize</b> - Folosirea Salesforce Einstein pentru analize predictive.",
+            "description4" => "<b>Rapoarte Programate</b> - Configurarea generării automate a rapoartelor și distribuția acestora."
         ],
-        // Produs 4
+        // Produsul 4
         "item4" => [
-            "description1" => "Depistarea și rezolvarea problemelor de sistem și utilizator într-un timp util.",
-            "description2" => "Auditarea regulată a mediului Salesforce pentru a asigura performanțe optime.",
-            "description3" => "Import, export și migrare de date.",
-            "description4" => "Deduplicarea și curățarea datelor."
+            "description1" => "<b>Consultanță Strategică</b> - Furnizarea de îndrumare privind practicile Salesforce.",
+            "description2" => "<b>Training și Ateliere</b> - Înzestrați echipele cu cunoștințe Salesforce.",
+            "description3" => "<b>Gestionarea Schimbărilor</b> - Ghidarea adoptării cu succes a Salesforce.",
+            "description4" => "<b>Analiza Performanței</b> - Evaluarea și îmbunătățirea eficacității și eficienței Salesforce."
         ],
-        // Produs 5
+        // Produsul 5
         "item5" => [
-            "description1" => "Configurarea și menținerea proceselor automate de backup de date.",
-            "description2" => "Sincronizarea datelor între Salesforce și alte sisteme.",
-            "description3" => "Crearea și personalizarea obiectelor, câmpurilor, tipurilor de înregistrări și aspectelor paginilor.",
-            "description4" => "Proiectarea tablourilor de bord și a rapoartelor prietenoase cu utilizatorul, adaptate nevoilor de afaceri."
+            "description1" => "<b>Integrări cu Terțe Părți</b> - Conectarea Salesforce cu platforme externe.",
+            "description2" => "<b>Soluții AppExchange</b> - Recomandarea și implementarea aplicațiilor pentru nevoi.",
+            "description3" => "<b>Management API</b> - Asigurarea schimbului fluent de date între Salesforce și alte sisteme.",
+            "description4" => "<b>Configurare Mobilă</b> - Optimizarea Salesforce pentru acces și funcționalități mobile."
         ],
-        // Produs 6
+        // Produsul 6
         "item6" => [
-            "description1" => "Crearea regulilor de flux de lucru, a fluxurilor din procesul constructor și a proceselor de aprobare pentru automatizarea sarcinilor.",
-            "description2" => "Integrarea Salesforce cu alte instrumente și platforme software utilizând API-uri.",
-            "description3" => "Un administrator Salesforce priceput deschide uși către oportunități nelimitate.",
-            "description4" => "Deduplicarea și curățarea datelor.",
+            "description1" => "<b>Protocoale de Securitate</b> - Implementarea măsurilor robuste de securitate.",
+            "description2" => "<b>Conformitate</b> - Asigurarea că configurația respectă reglementările și standardele.",
+            "description3" => "<b>Jurnal de Audit</b> - Monitorizarea și analizarea schimbărilor.",
+            "description4" => "<b>Autentificare Cu Două Factori</b> - Îmbunătățirea securității la autentificare și prevenirea accesului neautorizat."
         ]
     ],
 ];
