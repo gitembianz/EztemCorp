@@ -4,6 +4,15 @@
     <div class="container">
         <div class="product">
             <div class="product__text">
+                <div class="breadcrums">
+                    <a href="/" _target="_blank">
+                        @lang("components.breadcrums.Home")
+                    </a>
+                    <span> > </span>
+                    <a href="/web" _target="_blank">
+                        @lang("components.breadcrums.Retouch")
+                    </a>
+                </div>
                 <div class="product__title">
                     <img src="/img/retouch.webp" alt="Retouch">
                     <h1>

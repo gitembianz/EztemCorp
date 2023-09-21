@@ -18,6 +18,28 @@ return [
         "contact_us" => "Contact Us",
         "about_us" => "About Us"
     ],
+
+    "breadcrums" => [
+        "Home" => "Home",
+        "Web" => "Web",
+        "Graphics" => "Graphics",
+        "Retouch" => "Retouch",
+        "Marketing" => "Marketing",
+        "Front-end" => "Front-end",
+        "Back-end" => "Back-end",
+        "Salesforce" => "Salesforce",
+        "Logo" => "Logo Design",
+        "Banner" => "Banner Design",
+        "Manipulation" => "Photo Manipulation",
+        "Correction" => "Photo Correction",
+        "Ads" => "Advertising",
+        "Strategies" => "Strategies",
+        "Contact" => "Contact Us",
+        "About" => "About Us",
+        "Faq" => "Faq",
+        "Cookie" => "Cookie Policy",
+        "Privacy" => "Privacy Policy",
+    ],
     // Footer
     "footer" => [
         "home" => "Home",

@@ -3,8 +3,18 @@
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
     {{-- Sectiunea de about --}}{{-- Section of about --}}
+
     <section class="about">
         <div class=" container about__container">
+            <div class="breadcrums">
+                <a href="/" _target="_blank">
+                    @lang("components.breadcrums.Home")
+                </a>
+                <span> > </span>
+                <a href="/web" _target="_blank">
+                    @lang("components.breadcrums.About")
+                </a>
+            </div>
             <div class="about__title">
                 <h1>
                     @lang("about.about.heading")
