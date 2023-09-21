@@ -50,7 +50,7 @@ return [
             "description1" => "<b>Security Protocols</b> - Implementing robust security measures.",
             "description2" => "<b>Compliance</b> - Ensuring setup adheres to regulations and standards.",
             "description3" => "<b>Audit Trail</b> - Monitoring and analyzing changes.",
-            "description4" => "<b>Two-Factor Authentication</b> - Boosting login security and unauthorized access prevention.",
+            "description4" => "<b>Two-Factor Authentication</b> - Boosting login security and unauthorized access prevention. ",
 
         ]
     ],
