@@ -120,7 +120,7 @@
                 </div>
             </article>
             <article class="product__item">
-                <img src="/img/icons/salesforce.svg" alt="webdesign">
+                <img src="/img/icons/salesforce.svg" alt="webdesign" style="scale: .8;">
                 <div class="product__item--text">
                     <ul>
                         <li>
