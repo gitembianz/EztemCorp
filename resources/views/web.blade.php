@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("web.pageTitle")' :metadescription='__("web.metadescription")' />
+<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' />
 
 <main>
     <div class="container">

@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("backend.pageTitle")' :metadescription='__("backend.metadescription")' />
+<x-header :title='__("backend.pageTitle") ." | ". __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("backend.metadescription")' />
 
 <main>
     <div class="container job__container">
@@ -31,11 +31,6 @@
                             @lang("backend.card_list.item1.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item1.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -56,11 +51,6 @@
                             @lang("backend.card_list.item2.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item2.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -79,11 +69,6 @@
                     <li>
                         <p>
                             @lang("backend.card_list.item3.description3")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>

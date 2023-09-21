@@ -99,6 +99,10 @@ body {
   font-family: "Montserrat";
 }
 
+.container {
+  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+}
+
 svg {
   width: 24px;
   height: 24px;
@@ -357,6 +361,7 @@ section::before {
     left: 0;
     width: 100%;
     padding: 20px;
+    padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 100;
     visibility: hidden;
@@ -881,23 +886,6 @@ section::before {
   width: 70%;
   height: auto;
 }
-.contact__connect::after {
-  content: "";
-  position: absolute;
-  top: -25px;
-  left: 0;
-  height: 1px;
-  width: 100%;
-  background: #333;
-}
-@media (min-width: 992px) {
-  .contact__connect::after {
-    top: 0;
-    left: -15px;
-    height: 100%;
-    width: 1px;
-  }
-}
 
 .contact__link {
   color: #4b7a55;
@@ -1104,7 +1092,6 @@ section::before {
 .job__container > span {
   font-family: "corbelbold", sans-serif;
   text-align: center;
-  font-style: italic;
 }
 .job__container > .contact__container {
   background-color: #e5e5e5;

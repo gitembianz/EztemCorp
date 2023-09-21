@@ -2,12 +2,12 @@
 // Front-End Page EN
 return [
     // Front-End section
-    "pageTitle" => "Web / Front-End",
-    "metadescription" => "Explore the exciting world of front-end web development. We create visually impactful interfaces for your website using cutting-edge technologies.",
+    "pageTitle" => "Front-End Development",
+    "metadescription" => "We offer front-end development with SCSS, JavaScript, and React, ensuring fast, responsive sites with a strong UX/UI focus and seamless animations.",
     // Title and Description
     "title" => "Front-End Development",
-    "description" => "A Front-End Developer is the magician behind captivating websites. With skills juggling between HTML, CSS, SCSS, and JavaScript, this expert transforms code into interactive experiences. HTML serves as their foundational palette, turning structure into reality. CSS and SCSS add the necessary style and elegance, crafting stunning and adaptive interfaces. But the real magic happens with JavaScript, where they create interactive and dynamic functionality. The Front-End Developer is a perpetual learner, exploring new technologies and trends to keep websites at the forefront of performance and design. In a word, the Front-End Developer makes the web world shine.",
-    "quote" => "HTML - Building the fundamental structure of websites.",
+    "description" => "A Front-End Developer creates engaging websites using tools like HTML, CSS, SCSS, and JavaScript. They make sites look good and function well, constantly learning to stay updated with the latest trends. In short, they make the web sparkle.",
+    "quote" => "<i>“Design is not just what it looks like and feels like. Design is how it works.“</i> - Steve Jobs",
     "button" => "Back to Web",
 
     "card_list" => [
