@@ -1,7 +1,20 @@
-<x-header :title='__("salesforce.pageTitle") ." | ". __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' />
+<x-header :title='__("salesforce.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' />
 
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Web")
+            </a>
+            <span> > </span>
+            <a href="/web/salesforce" _target="_blank">
+                @lang("components.breadcrums.Salesforce")
+            </a>
+        </div>
         <div class="job__title">
             <img src="/img/icons/salesforce.svg" alt="React Icon">
             <h1>

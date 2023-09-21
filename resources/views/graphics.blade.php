@@ -1,9 +1,18 @@
-<x-header :title='__("graphics.pageTitle") ." | Eztem Corp"' :metadescription='__("graphics.metadescription")' />
+<x-header :title='__("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("graphics.metadescription")' />
 
 <main>
     <div class="container">
         <div class="product">
             <div class="product__text">
+                <div class="breadcrums">
+                    <a href="/" _target="_blank">
+                        @lang("components.breadcrums.Home")
+                    </a>
+                    <span> > </span>
+                    <a href="/web" _target="_blank">
+                        @lang("components.breadcrums.Graphics")
+                    </a>
+                </div>
                 <div class="product__title">
                     <img src="/img/graphics.webp" alt="graphics">
                     <h1>

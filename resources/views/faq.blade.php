@@ -2,6 +2,15 @@
 
 <main>
     <div class="container faq__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Faq")
+            </a>
+        </div>
         <div class="faq__text">
             <h1>
                 @lang("faq.heading")

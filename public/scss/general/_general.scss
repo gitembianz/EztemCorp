@@ -5,7 +5,8 @@
     color: #333333;
 }
 
-b, strong{
+b,
+strong {
     font-weight: 600;
 }
 
@@ -235,4 +236,21 @@ section {
     font-weight: normal;
     position: absolute;
     left: -30px;
+}
+
+.breadcrums {
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+    text-align: start;
+    gap: 10px;
+
+    &>span,
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        color: darken(#4b7a55, 10%);
+    }
 }

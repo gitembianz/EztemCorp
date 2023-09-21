@@ -1,6 +1,15 @@
 {{-- Sectia de contact ce se afla la final de pagina --}}{{-- Section of contact in the end of the page --}}
 <section class="contact">
     <div class="container contact__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Contact")
+            </a>
+        </div>
         <div class="contact__title">
             <div class="contact__title--text">
                 <h1>

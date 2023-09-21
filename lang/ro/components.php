@@ -18,6 +18,28 @@ return [
         "contact_us" => "Contactați-ne",
         "about_us" => "Despre noi"
     ],
+    "breadcrums" => [
+        "Home" => "Acasă",
+        "Web" => "Web",
+        "Graphics" => "Graphics",
+        "Retouch" => "Retouch",
+        "Marketing" => "Marketing",
+        "Front-end" => "Front-end",
+        "Back-end" => "Back-end",
+        "Salesforce" => "Salesforce",
+        "Logo" => "Design Logo",
+        "Banner" => "Design Banner",
+        "Manipulation" => "Manipulare Foto",
+        "Correction" => "Corecție Foto",
+        "Ads" => "Publicitate",
+        "Strategies" => "Strategii",
+        "Contact" => "Contactează-ne",
+        "About" => "Despre Noi",
+        "Faq" => "Întrebări frecvente (FAQ)",
+        "Cookie" => "Politica de Cookie-uri",
+        "Privacy" => "Politica de Confidențialitate",
+    ],
+
     // Footer
     "footer" => [
         "home" => "Acasă",

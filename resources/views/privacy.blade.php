@@ -2,6 +2,15 @@
 
 <main>
     <div class="container notes__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Privacy")
+            </a>
+        </div>
         <h1>
             @lang("privacy.privacy.heading")
         </h1>

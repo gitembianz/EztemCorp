@@ -2,6 +2,19 @@
 
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/retouch" _target="_blank">
+                @lang("components.breadcrums.Retouch")
+            </a>
+            <span> > </span>
+            <a href="/retouch/manipulation" _target="_blank">
+                @lang("components.breadcrums.Manipulation")
+            </a>
+        </div>
         <div class="job__title">
             <img src="/img/icons/manipulation.svg" alt="Figma Icon">
             <h1>

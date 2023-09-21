@@ -2,6 +2,19 @@
 
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/graphics" _target="_blank">
+                @lang("components.breadcrums.Graphics")
+            </a>
+            <span> > </span>
+            <a href="/graphics/logo" _target="_blank">
+                @lang("components.breadcrums.Logo")
+            </a>
+        </div>
         <div class="job__title">
             <img src="/img/icons/logo.svg" alt="Figma Icon">
             <h1>
