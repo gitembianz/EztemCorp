@@ -101,6 +101,7 @@
     opacity: 0;
     overflow: hidden;
     background-color: #fff;
+    list-style: none;
     transition: opacity 0.3s, height 0.3s;
     z-index: 1;
     left: 50%;
@@ -110,16 +111,13 @@
         opacity: 1;
     }
 
-    &>li {
+    &>li>a {
         padding: 10px;
         cursor: pointer;
         display: flex;
         align-items: center;
         justify-content: center;
-
-        &>a {
-            text-decoration: none;
-        }
+        text-decoration: none;
 
         &:hover {
             background-color: #f0f0f0;

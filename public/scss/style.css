@@ -411,6 +411,7 @@ section::before {
   opacity: 0;
   overflow: hidden;
   background-color: #fff;
+  list-style: none;
   transition: opacity 0.3s, height 0.3s;
   z-index: 1;
   left: 50%;
@@ -419,17 +420,15 @@ section::before {
 .select-options.active {
   opacity: 1;
 }
-.select-options > li {
+.select-options > li > a {
   padding: 10px;
   cursor: pointer;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.select-options > li > a {
   text-decoration: none;
 }
-.select-options > li:hover {
+.select-options > li > a:hover {
   background-color: #f0f0f0;
 }
 
