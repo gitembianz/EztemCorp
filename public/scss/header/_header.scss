@@ -15,6 +15,7 @@
     &__container {
         color: white;
         height: 100%;
+        padding: 0 20px;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -24,23 +25,11 @@
         cursor: pointer;
         color: white;
 
-        margin: 0 auto;
-        transition: all 0.3s ease-in-out;
-
-        @include container2(sm);
-        @include container2(md);
-        @include container2(lg);
-        @include container2(xl);
-        @include container2(xxl);
-        padding: 20px;
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-        cursor: pointer;
-        width: 100%;
-
+        a {
+            color: white;
+            text-decoration: none;
+            cursor: pointer;
+        }
     }
 
     &__categories {
@@ -62,7 +51,7 @@
                 top: 50px;
                 left: 0;
                 width: 100%;
-                padding: 30px;
+                padding: 20px;
                 // padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
                 box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
                 z-index: 100;
