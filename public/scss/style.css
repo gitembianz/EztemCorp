@@ -3,37 +3,32 @@
   transition: all 0.3s ease-in-out;
   padding: 0 20px;
 }
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px;
-    padding: 0;
   }
 }
 @media (min-width: 768px) {
   .container {
     max-width: 720px;
-    padding: 0;
   }
 }
 @media (min-width: 992px) {
   .container {
     max-width: 960px;
-    padding: 0;
   }
 }
 @media (min-width: 1200px) {
   .container {
     max-width: 1140px;
-    padding: 0;
   }
 }
 @media (min-width: 1400px) {
   .container {
     max-width: 1320px;
-    padding: 0;
   }
 }
-
 @font-face {
   font-family: "Montserrat";
   src: url("/fonts/Montserrat-Thin.ttf");
@@ -102,10 +97,6 @@ strong {
 
 body {
   font-family: "Montserrat";
-}
-
-.container {
-  padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
 }
 
 svg {
@@ -348,6 +339,7 @@ section::before {
 .header__container {
   color: white;
   height: 100%;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -355,45 +347,11 @@ section::before {
 .header__category {
   cursor: pointer;
   color: white;
-  margin: 0 auto;
-  transition: all 0.3s ease-in-out;
-  padding: 20px;
 }
-@media (min-width: 576px) {
-  .header__category {
-    min-width: 540px;
-    padding: 0;
-  }
-}
-@media (min-width: 768px) {
-  .header__category {
-    min-width: 720px;
-    padding: 0;
-  }
-}
-@media (min-width: 992px) {
-  .header__category {
-    min-width: 960px;
-    padding: 0;
-  }
-}
-@media (min-width: 1200px) {
-  .header__category {
-    min-width: 1140px;
-    padding: 0;
-  }
-}
-@media (min-width: 1400px) {
-  .header__category {
-    min-width: 1320px;
-    padding: 0;
-  }
-}
-.header a {
+.header__category a {
   color: white;
   text-decoration: none;
   cursor: pointer;
-  width: 100%;
 }
 .header__categories {
   display: flex;
@@ -415,7 +373,7 @@ section::before {
     top: 50px;
     left: 0;
     width: 100%;
-    padding: 30px;
+    padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     z-index: 100;
     visibility: hidden;

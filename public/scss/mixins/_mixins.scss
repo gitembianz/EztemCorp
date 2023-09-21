@@ -2,15 +2,10 @@
 // <------------------------------- Container ---------------------------------->
 @mixin container($breakpoint) {
     @media (min-width: map-get($grid-breakpoints, $breakpoint)) {
-        max-width: map-get($container-max-widths, $breakpoint);
-        padding: 0;
-    }
-}
-
-@mixin container2($breakpoint) {
-    @media (min-width: map-get($grid-breakpoints, $breakpoint)) {
-        min-width: map-get($container-max-widths, $breakpoint);
-        padding: 0;
+        .container {
+            max-width: map-get($container-max-widths, $breakpoint);
+            // padding: 0 20px;
+        }
     }
 }
 
@@ -18,14 +13,13 @@
     margin: 0 auto;
     transition: all 0.3s ease-in-out;
     padding: 0 20px;
-
-    @include container(sm);
-    @include container(md);
-    @include container(lg);
-    @include container(xl);
-    @include container(xxl);
 }
 
+@include container(sm);
+@include container(md);
+@include container(lg);
+@include container(xl);
+@include container(xxl);
 
 // <------------------------------- End Container ------------------------------>
 // <---------------------------------------------------------------------------->
