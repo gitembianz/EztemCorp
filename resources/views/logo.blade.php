@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("logo.pageTitle")' :metadescription='__("logo.metadescription")' />
+<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' />
 
 <main>
     <div class="container job__container">
@@ -16,7 +16,7 @@
             </a>
         </div>
         <div class="job__title">
-            <img src="/img/icons/logo.svg" alt="Figma Icon">
+          
             <h1>
                 @lang("logo.title")
             </h1>
@@ -43,11 +43,6 @@
                             @lang("logo.card_list.item1.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item1.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -68,11 +63,6 @@
                             @lang("logo.card_list.item2.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item2.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -91,11 +81,6 @@
                     <li>
                         <p>
                             @lang("logo.card_list.item3.description3")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>

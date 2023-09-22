@@ -96,16 +96,17 @@ input[type="submit"] {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 60px;
     min-height: 100vh;
 }
 
 section {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 120px;
     position: relative;
     overflow-x: hidden;
-    background-color: #f7f7f7;
+    background: linear-gradient(90deg, rgba(255,255,255,255) 0%, rgba(75 122 85 / 7%) 25%, rgba(225 255 255 / 0%) 40%, rgba(75 122 85 / 7%) 80%, rgba(225 255 255 / 0%) 100%);
+
 
     &::after {
         content: "";

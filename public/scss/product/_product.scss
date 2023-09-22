@@ -3,8 +3,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    gap: 10px;
-    padding: 50px 0;
+    //gap: 30px;
+    padding:20px 0px;
 }
 
 .product__title {
@@ -34,8 +34,9 @@
     align-items: center;
     flex-direction: column;
     gap: 15px;
-    background-color: #f7f7f7;
+    background: linear-gradient(90deg, rgba(255,255,255,255) 0%, rgba(75 122 85 / 7%) 25%, rgba(225 255 255 / 0%) 40%, rgba(75 122 85 / 7%) 80%, rgba(225 255 255 / 0%) 100%);
     border-radius: 10px;
+   // padding:20px 0px;
 
     &>img {
         flex: 1;

@@ -16,7 +16,6 @@
             </a>
         </div>
         <div class="job__title">
-            <img src="/img/icons/back-end.svg" alt="Back-end-Icon">
             <h1>
                 @lang("backend.title")
             </h1>
