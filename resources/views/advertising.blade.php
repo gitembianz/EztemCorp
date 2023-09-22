@@ -24,6 +24,7 @@
         <p>
             @lang("advertising.description")
         </p>
+
         <div class="job__cards">
             <div class="job__section">
                 <img src="/img/card-images/ads-1.webp" alt="only code">
