@@ -36,7 +36,7 @@
                 <label for="company">
                     @lang("components.contact.company")
                 </label>
-                <input id="company" maxlength="80" name="company" type="text" placeholder="Name">
+                <input id="company" maxlength="80" name="company" type="text" placeholder="Company">
             </div>
 
             <div class="contact__label">
