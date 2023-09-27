@@ -39,73 +39,73 @@
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/">
-                        @lang("components.footer.home")
+                        @lang('components.footer.home')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/contact">
-                        @lang("components.footer.contact_us")
+                        @lang('components.footer.contact_us')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/about">
-                        @lang("components.footer.about_us")
+                        @lang('components.footer.about_us')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/faq">
-                        @lang("components.footer.faq")
+                        @lang('components.footer.faq')
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/web">
-                        @lang("components.footer.web")
+                        @lang('components.footer.web')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/graphics">
-                        @lang("components.footer.graphics")
+                        @lang('components.footer.graphics')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/retouch">
-                        @lang("components.footer.retouch")
+                        @lang('components.footer.retouch')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/marketing">
-                        @lang("components.footer.marketing")
+                        @lang('components.footer.marketing')
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
                     <a href="/cookie">
-                        @lang("components.footer.cookies")
+                        @lang('components.footer.cookies')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="/privacy">
-                        @lang("components.footer.privacy")
+                        @lang('components.footer.privacy')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a
                         href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap">
-                        @lang("components.footer.sitemap")
+                        @lang('components.footer.sitemap')
                     </a>
                 </li>
                 <li class="footer__category">
                     <a href="https://anpc.ro/">
-                        @lang("components.footer.anpc")
+                        @lang('components.footer.anpc')
                     </a>
                 </li>
             </ul>
         </div>
         <span class="footer__subtext">
-            @lang("components.footer.copyright")
+            @lang('components.footer.copyright')
         </span>
     </div>
 </footer>
@@ -116,6 +116,7 @@
     </svg>
 </button>
 <script src="/scripts/min-script.js"></script>
+<x-main-bottom />
 </body>
 
 </html>
