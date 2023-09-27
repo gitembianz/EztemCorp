@@ -7,7 +7,7 @@ return [
     // Web Title
     "title" => "Web",
     "description1" => "Crafting resilient and adaptive digital experiences that effortlessly cater to diverse user needs. We meticulously design, ensuring intuitive navigation and optimal performance across all devices.",
-    "description2" => "We provide the following web solutions:",
+    "description2" => "We provide the following Web Solutions:",
     "product_list" => [
         "button" => "See more",
         // Product 1

@@ -8,7 +8,7 @@ return [
     "title" => "Graphics",
     "description1" => "
     Transform your brand identity with our top-notch graphic design solutions. From crafting unique logos and compelling illustrations to designing eye-catching banners, we make sure your brand resonates with excellence and innovation. ",
-    "description2" => "We provide the following Graphics solutions:",
+    "description2" => "We provide the following Graphics Solutions:",
     "product_list" => [
         "button" => "See more",
         // Product 1

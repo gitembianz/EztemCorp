@@ -32,6 +32,12 @@
                 </label>
                 <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="Name">
             </div>
+            <div class="contact__label">
+                <label for="company">
+                    @lang("components.contact.company")
+                </label>
+                <input id="company" maxlength="80" name="company" type="text" placeholder="Name">
+            </div>
 
             <div class="contact__label">
                 <label for="email">

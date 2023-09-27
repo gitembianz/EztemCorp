@@ -30,8 +30,8 @@ return [
         "Salesforce" => "Salesforce",
         "Logo" => "Logo Design",
         "Banner" => "Banner Design",
-        "Manipulation" => "Photo Manipulation",
-        "Correction" => "Photo Correction",
+        "Manipulation" => "Photo Manipulations",
+        "Correction" => "Photo Corrections",
         "Ads" => "Advertising",
         "Strategies" => "Strategies",
         "Contact" => "Contact Us",
@@ -73,9 +73,10 @@ return [
     // Contact Form
     "contact" => [
         "pageTitle" => "Contact Us",
-        "metadescription" => "Send the form, reach out via e-mail, or contact us directly on social media.",
+        "metadescription" => "Use our form, drop an e-mail, or connect on social media. We're here to assist and look forward to hearing from you.",
         "heading" => "Contact Us",
         "description" => "Send the form, reach out via e-mail, or contact us directly on social media.",
+        "company" =>"Company",
         "name" => "Name",
         "email" => "Email",
         "solutions" => "Solutions",
