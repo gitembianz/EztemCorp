@@ -52,7 +52,6 @@
             <!--  these lines if you wish to test in debug mode.-->
             {{-- <input type="hidden" name="debug" value=0>
             <input type="hidden" name="_next" value="dev.eztemcorp.com">
-            <input type="hidden" name="debugEmail" value="stanislav.cortac@eztemcorp.com"> --}}
             <!-------------------------------------------------------------------------->
 
             <div class="contact__solutions">
