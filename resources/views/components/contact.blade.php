@@ -53,7 +53,7 @@
             {{-- <input type="hidden" name="debug" value=0>
             <input type="hidden" name="_next" value="dev.eztemcorp.com">
             <!-------------------------------------------------------------------------->
-
+            --}}
             <div class="contact__solutions">
                 <span>
                     @lang("components.contact.solutions")
