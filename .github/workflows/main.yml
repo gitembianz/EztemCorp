@@ -2,7 +2,7 @@ on: push
 name: Deploy Dev to dev.eztemcorp.com on push
 jobs:
   web-deploy:
-    name: Deploy to Dev
+    name: Deploy to Main
     runs-on: ubuntu-latest
     steps:
     - name: Get latest code
@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.eztemcorp.com
-        username: gituser@dev.eztemcorp.com
-        password: ${{ secrets.devftp}}
+        username: gituser@eztemcorp.com
+        password: ${{secrets.mainftp}}
