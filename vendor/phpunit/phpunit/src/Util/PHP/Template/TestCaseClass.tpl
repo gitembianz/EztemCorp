@@ -77,18 +77,15 @@ function __phpunit_run_isolated_test()
         }
     }
 
-    file_put_contents(
-        '{processResultFile}',
-        serialize(
-            [
-                'testResult'    => $test->result(),
-                'codeCoverage'  => {collectCodeCoverageInformation} ? CodeCoverage::instance()->codeCoverage() : null,
-                'numAssertions' => $test->numberOfAssertionsPerformed(),
-                'output'        => $output,
-                'events'        => $dispatcher->flush(),
-                'passedTests'   => PassedTests::instance()
-            ]
-        )
+    print serialize(
+        [
+            'testResult'    => $test->result(),
+            'codeCoverage'  => {collectCodeCoverageInformation} ? CodeCoverage::instance()->codeCoverage() : null,
+            'numAssertions' => $test->numberOfAssertionsPerformed(),
+            'output'        => $output,
+            'events'        => $dispatcher->flush(),
+            'passedTests'   => PassedTests::instance()
+        ]
     );
 }
 

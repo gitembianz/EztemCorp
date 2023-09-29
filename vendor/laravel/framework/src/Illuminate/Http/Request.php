@@ -477,9 +477,9 @@ class Request extends SymfonyRequest implements Arrayable, ArrayAccess
      */
     public static function createFromBase(SymfonyRequest $request)
     {
-        $newRequest = new static(
+        $newRequest = (new static)->duplicate(
             $request->query->all(), $request->request->all(), $request->attributes->all(),
-            $request->cookies->all(), (new static)->filterFiles($request->files->all()) ?? [], $request->server->all()
+            $request->cookies->all(), $request->files->all(), $request->server->all()
         );
 
         $newRequest->headers->replace($request->headers->all());
