@@ -13,4 +13,4 @@ jobs:
       with:
         server: ftp.eztemcorp.com
         username: gituser@eztemcorp.com
-        password: ${{ secrets.mainftp}}
+        password: ${{secrets.mainftp}}
