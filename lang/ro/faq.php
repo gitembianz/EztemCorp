@@ -16,11 +16,11 @@ return [
     "accordion_list" => [
         "accordion_1" => [
             "question" => "Ce este acest site web și ce oferă?",
-            "answer" => "Acest site web este o platformă de aterizare care oferă soluții pentru crearea diferitelor tipuri de proiecte. Categoriile disponibile sunt: web, retușare, grafică și marketing.",
+            "answer" => "Acest site web este o platformă care oferă soluții digitale pentru aplicții web și design. Categoriile disponibile sunt: web, retouch, grafică și marketing.",
         ],
         "accordion_2" => [
-            "question" => "Cum funcționează acest site web?",
-            "answer" => "Site-ul nostru funcționează printr-un formular simplu pe care îl completați cu detaliile proiectului dvs. După ce trimiteți detaliile, vă vom contacta pentru a discuta mai mult despre proiect și pentru a începe colaborarea.",
+            "question" => "Cum funcționează?",
+            "answer" => "Luăm legătura printr-un formular simplu sau prin intermediul rețelelor sociale. După ce trimiteți detaliile, vă vom contacta pentru a discuta mai multe despre proiect și pentru a începe colaborarea.",
         ],
         "accordion_3" => [
             "question" => "Este necesară crearea unui cont sau înregistrarea?",
@@ -48,7 +48,7 @@ return [
         ],
         "accordion_9" => [
             "question" => "Cum pot obține asistență suplimentară sau răspunsuri la întrebările mele?",
-            "answer" => "Dacă aveți nevoie de asistență suplimentară sau aveți mai multe întrebări, nu ezitați să contactați echipa noastră de suport prin intermediul formularului de contact. Suntem aici pentru a vă ajuta și a vă furniza orice informații aveți nevoie pentru a vă asigura o experiență fără probleme cu platforma noastră.",
+            "answer" => "Dacă aveți nevoie de asistență suplimentară sau aveți mai multe întrebări, nu ezitați să contactați. Suntem aici pentru a vă ajuta și a vă furniza orice informații aveți nevoie pentru a vă asigura o experiență fără probleme cu platforma noastră.",
         ],
         "accordion_10" => [
             "question" => "Ce metode de plată sunt acceptate?",

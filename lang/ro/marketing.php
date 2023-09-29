@@ -1,73 +1,60 @@
 <?php
 // Pagina Marketing RO
 return [
-    // Secțiunea Marketing
+    // Secțiunea de Marketing
     "pageTitle" => "Marketing",
-    "metadescription" => "Luminatează visul nostru digital într-o afacere de marketing. Oferim soluții de marketing digital și tehnologii de optimizare a afacerii.",
-    // Titlul și Descrierea
+    "metadescription" => "Elaborăm planuri strategice personalizate pentru a maximiza prezența online și pentru a atrage atenția. Prin execuție meticuloasă, campaniile noastre au scopul de a amplifica angajamentul și de a stimula interacțiuni semnificative.",
+    // Titlu și Descriere
     "title" => "Marketing",
-    "description1" => "Elaborăm planuri strategice personalizate pentru maximizarea prezenței online și atragerea atenției. Prin executie meticuloasă, campaniile noastre vizează amplificarea angajamentului și promovarea interacțiunilor semnificative.",
-    "description2" => "Oferim următoarele soluții de Marketing:",
+    "description1" => "Elaborăm planuri strategice personalizate pentru a maximiza prezența online și pentru a atrage atenția. Prin execuție meticuloasă, campaniile noastre au scopul de a amplifica angajamentul și de a stimula interacțiuni semnificative.",
+    "description2" => "Oferim următoarele soluții de marketing:",
     "product_list" => [
-        "button" => "Aflați mai multe",
+        "button" => "Vezi mai mult",
         // Produs 1
         "item1" => [
-            "title1" => "Google Ads:",
-            "title2" => "Facebook Ads:",
+            "title" => "Google Ads & Facebook Ads:",
             "description1" => [
-                "bold" => "Anunțuri de Afișare:",
-                "text" => "Anunțuri vizuale care apar pe site-urile partenere.",
+                "bold" => "Campanii optimizate prin cuvinte cheie:",
+                "text" => "Utilizăm cuvinte cheie precise pentru a ajunge eficient la potențialii clienți.",
             ],
 
             "description2" => [
-                "bold" => "Anunțuri Video:",
-                "text" => "Angajarea utilizatorilor prin conținut video pe platforme precum YouTube.",
+                "bold" => "Reclame display și video:",
+                "text" => "Reclame vizuale care captează atenția pe diverse platforme.",
             ],
 
             "description3" => [
-                "bold" => "Anunțuri de Căutare:",
-                "text" => "Promovarea afacerilor pe paginile de rezultate ale căutării Google.",
+                "bold" => "Strategii de retargeting:",
+                "text" => "Reangajarea vizitatorilor anteriori pentru a stimula conversiile.",
             ],
 
             "description4" => [
-                "bold" => "Anunțuri de Imagini:",
-                "text" => "Afișarea promoțiilor vizuale pe Facebook.",
-            ],
-
-            "description5" => [
-                "bold" => "Anunțuri în Carusel:",
-                "text" => "Prezentarea mai multor imagini sau videoclipuri într-un singur anunț.",
-            ],
-
-            "description6" => [
-                "bold" => "Anunțuri Video:",
-                "text" => "Partajarea poveștilor de brand sau a promoțiilor prin conținut video.",
-            ],
-
+                "bold" => "Analiza performanței:",
+                "text" => "Monitorizarea și analizarea rezultatelor reclamelor pentru îmbunătățire continuă.",
+            ]
         ],
         // Produs 2
         "item2" => [
-            "title" => "Strategii de Marketing Online",
+            "title" => "Strategii de marketing web",
             "description1" => [
-                "bold" => "SEO (Optimizare pentru Motoarele de Căutare):",
-                "text" => "Îmbunătățirea clasamentelor site-ului web în motoarele de căutare.",
+                "bold" => "SEO (Optimizare pentru motoarele de căutare):",
+                "text" => "Îmbunătățirea poziționării site-ului pe motoarele de căutare.",
             ],
 
             "description2" => [
-                "bold" => "Marketing de Conținut:",
-                "text" => "Crearea și partajarea de conținut valoros pentru a atrage o audiență țintă.",
+                "bold" => "Marketing de conținut:",
+                "text" => "Crearea și distribuirea de conținut valoros pentru a atrage o audiență țintă.",
             ],
 
             "description3" => [
-                "bold" => "Marketing prin Email:",
-                "text" => "Angajarea clienților și a potențialilor clienți prin campanii de email personalizate.",
+                "bold" => "Marketing prin email:",
+                "text" => "Angajarea clienților și lead-urilor prin campanii de email personalizate.",
             ],
 
             "description4" => [
-                "bold" => "Marketing Afiliat:",
+                "bold" => "Marketing afiliat:",
                 "text" => "Promovarea produselor prin parteneri și câștigarea de comisioane.",
             ],
-
         ],
     ],
 ];

@@ -1,55 +1,57 @@
 <?php
-// About Page RO
+// Pagina Despre Noi RO
 return [
-    // Sectiunea Despre
-    "pageTitle" => "Despre noi",
-    "metadescription" => "Descoperă povestea noastră și angajamentul nostru pentru excelență. Eztem Corp - O echipă dedicată inovației și soluțiilor digitale de vârf.",
+    // Secțiunea Despre
+    "pageTitle" => "Despre Noi",
+    "metadescription" => "Descoperă povestea și angajamentul nostru pentru excelență. Eztem Corp - O echipă dedicată inovației și soluțiilor digitale de ultimă generație.",
 
     "about" => [
-        "heading" => "Cine Suntem?",
-        "description" => "La Eztem Corp, transcendem definiția unei simple companii; suntem partenerii tăi în inovație și triumf. Fondată în 2023, Eztem Corp își numește cu mândrie Republica Moldova drept casă. Suntem o echipă unită de experți pasionați și vizionari, ghidați de o aspirație singulară: să te împuternicim să-ți transformi ideile în realități palpabile și pionere.",
-        "quote" => "Triumful nostru se măsoară în realizările noastre."
+        "heading" => "Descoperă Eztem Corp",
+        "description" => "Eztem Corp, înființată în 2019, excelează în oferirea de soluții digitale personalizate. Oferim servicii specializate de dezvoltare Web, Design Grafic, Retușare avansată de fotografii și servicii de Marketing. Echipa noastră de experți asigură o prezență distinctivă a mărcii și o creștere robustă în spațiul digital competitiv.",
+        "quote" => "<i>„A ne întâlni este un început; a rămâne împreună este un progres; a lucra împreună este un succes.“</i> - Henry Ford"
     ],
-    // Sectiunea Echipa
+    // Secțiunea Echipă
     "team" => [
-        "heading" => "Echipa dinamică de la Eztem Corp - Pionieri ai Excelenței și Inovației",
-        "quote" => "Triumful nostru se măsoară în realizările noastre.",
+        "heading" => "Cunoaște Echipa",
+        "quote" => "<i>„Lucrurile mari în afaceri nu sunt realizate de o singură persoană; sunt realizate de o echipă de oameni.“</i> - Steve Jobs",
         "card_list" => [
             "card1" => [
                 "name" => "Mihail",
-                "role" => "Manager Consultant",
-                "description" => "Îndrumând demersurile noastre strategice este Managerul nostru Salesforce, un profesionist cu experiență dotat cu un talent nativ pentru crearea de soluții personalizate. Cu o devotare neclintită pentru îmbunătățirea relațiilor cu clienții, Managerul nostru Salesforce asigură prosperitatea afacerii tale în era digitală."
+                "role" => "Consultant Salesforce",
+                "description" => "
+                Consultantul Salesforce este adeptul optimizărilor CRM ale clienților noștri. Intuițiile și abilitățile sale în personalizare și analiză, împuternicesc afacerile să-și eficientizeze operațiunile, să îmbunătățească relațiile cu clienții și să crească numărul vânzărilor."
             ],
             "card2" => [
                 "name" => "Iosif",
                 "role" => "Dezvoltator Back-end",
-                "description" => "În culise, echipa noastră de dezvoltatori back-end lucrează asiduu pentru a construi infrastructura robustă care alimentează proiectele tale. Cu o atenție meticuloasă la detalii și o bogată experiență, constituie fundamentul supremației noastre tehnice."
+                "description" => "Iosif, un dezvoltatorul Backend remarcabil, creează și optimizează cu măiestrie codul care alimentează platformele noastre digitale. El se asigură că fiecare proiect este robust, scalabil și sigur, garantând experiențe fiabile utilizatorilor pentru toți clienții noștri."
             ],
             "card3" => [
                 "name" => "Stanislav",
                 "role" => "Dezvoltator Front-end",
-                "description" => "La vanguarda esteticii și experienței utilizatorului, dezvoltatorii noștri front-end dau viață conceptelor tale, creând interfețe vizual captivante și prietenoase utilizatorilor, care lasă o impresie indelebilă asupra audienței tale."
+                "description" => "Un dezvoltator Frontend priceput, excellează în crearea de interfețe intuitive și vizual atractive. Iosif se asigură că fiecare utilizator se bucură de o experiență de navigare captivantă, reflectând inovația și calitatea site-urilor noastre."
             ],
             "card4" => [
                 "name" => "Violina",
-                "role" => "QA Specialist",
-                "description" => "În culise, echipa noastră de dezvoltatori back-end lucrează asiduu pentru a construi infrastructura robustă care alimentează proiectele tale. Cu o atenție meticuloasă la detalii și o bogată experiență, constituie fundamentul supremației noastre tehnice."
+                "role" => "Specialist QA",
+                "description" => "Asigurarea calității impecabile a soluțiilor noastre este urmărită de Violina, specialistul nostru dedicat QA. Procesele meticuloase de testare și rafinament garantează ca fiecare produs livrat să fie fără defecte, oferind fiabilitate și excelență."
             ],
             "card5" => [
                 "name" => "Adelina",
-                "role" => "Marketing Expert",
-                "description" => "La vanguarda esteticii și experienței utilizatorului, dezvoltatorii noștri front-end dau viață conceptelor tale, creând interfețe vizual captivante și prietenoase utilizatorilor, care lasă o impresie indelebilă asupra audienței tale."
+                "role" => "Expert Marketing",
+                "description" => "
+                În domeniul marketingului, Adelina se remarcă cu abilitatea ei de a îmbina creativitatea și analitica în strategii personalizate. Expertiza ei amplifică vizibilitatea mărcii și implică audiențele, asigurând o acoperire optimizată, angajament și creștere a cifrei de afaceri."
             ],
             "card6" => [
                 "name" => "Adrian",
-                "role" => "Project Manager",
-                "description" => "At the vanguard of aesthetics and user experience, our front-end developers breathe life into your concepts, crafting visually striking and user-friendly interfaces that leave an indelible impression on your audience."
+                "role" => "Manager de Proiect",
+                "description" => "Adrian conduce proiectele noastre către succes ca un Manager de Proiect experimentat. Cu un ochi ager pentru detalii și o pricepere organizațională, el se asigură că fiecare parte a proiectului este de calitate și eficientă, conducând echipele să ofere soluții care depășesc așteptările clienților."
             ]
         ]
     ],
     "mission" => [
         "heading" => "Misiunea Noastră",
-        "description" => "La Eztem Corp, misiunea noastră fundamentală este să livrăm soluții personalizate de cea mai înaltă calitate care să conducă la triumful tău. Nu lucrăm doar pentru tine; lucrăm cu tine, umăr la umăr, de la idee la implementare și dincolo de aceasta. Misiunea noastră este să te împuternicim să creezi proiecte inovatoare și site-uri captivante care să aibă un impact pozitiv asupra comunității tale și a clienților. Alătură-te nouă într-o călătorie a inovației și excelenței. La Eztem Corp, suntem aici pentru a te sprijini în fiecare pas, transformând visele tale în realitate. Contactează-ne astăzi pentru a începe următorul tău proiect palpitant!",
-        "quote" => "Triumful nostru se măsoară în realizările noastre."
+        "description" => "Misiunea noastră este să dezvoltăm afacerea ta cu Soluții Digitale Creative fără egal cu distinție în lumea digitală. Ne angajăm să oferim strategii adaptate nevoilor tale, garantând o vizibilitate sporită și o creștere semnificativă. Expertiza noastră în dezvoltare web, design și marketing este concepută să ridice prezența brand-ului, având un impact monumental în industrie. Alături de noi, fiecare client beneficiază de un parteneriat dedicat, asigurându-ne să nu doar îndeplinim, ci și să depășim aspirațiile.",
+        "quote" => "<i>„Cel mai bun mod de a prezice viitorul este să-l creezi.“</i> - Peter Drucker"
     ]
 ];

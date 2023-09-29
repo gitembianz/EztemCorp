@@ -2,51 +2,51 @@
 // Pagina Grafică RO
 return [
     // Secțiunea Grafică
-    "pageTitle" => "Graphics",
-    "metadescription" => "Descoperă creații grafice impresionante și bannere captivante. Transformăm ideile în imagini vizuale de impact pentru afacerea ta.",
-    // Titlul și Descrierea
-    "title" => "Graphics",
-    "description1" => "Crearea de vizuale unice adaptate identității distincte a fiecărei mărci. Aceste design-uri resonantează profund cu audiența țintă.",
-    "description2" => "Oferim următoarele soluții grafice:",
+    "pageTitle" => "Grafică",
+    "metadescription" => "Crearea de imagini unice adaptate identității distincte a fiecărui brand. Creare de Web Design specific pentru publicul țintă.",
+    
+    // Titlu și Descriere
+    "title" => "Grafică",
+    "description1" => "
+    Transformă-ți identitatea brandului cu soluțiile noastre de top pentru design grafic. De la crearea logo-urilor unice și ilustrațiilor convingătoare până la designul bannerelor care atrag atenția. Ne asigurăm ca brandul să rezoneze cu excelența și inovația.",
+    "description2" => "Oferim următoarele soluții de Design Grafic:",
     "product_list" => [
-        "button" => "Detalii",
-        // Produs 1
+        "button" => "Vezi mai multe",
+        // Produsul 1
         "item1" => [
-            "title" => "Design de Logo",
+            "title" => "Design Logo",
             "description1" => [
                 "bold" => "Conceptualizare:",
-                "text" => "Brainstorming și schițarea ideilor de logo inițiale.",
+                "text" => "Colaborăm îndeaproape pentru a înțelege brandul și a crea un concept de logo care se potrivește perfect cu viziunea clientului.",
             ],
 
             "description2" => [
-                "bold" => "Ilustrații vectoriale:",
-                "text" => "Crearea de designuri grafice scalabile.",
+                "bold" => "Design Iterativ:",
+                "text" => "Echipa noastră utilizează mai multe runde de revizuiri, asigurându-se că designul final este rafinat conform satisfacției clientului.",
             ],
 
             "description3" => [
-                "bold" => "Kituri de Branding:",
-                "text" => "Asamblarea unui pachet de vizualuri de marcă consistente pentru companii.",
+                "bold" => "Format Versatil:",
+                "text" => "Primește logo-ul final în format de fișier corespunzător, optimizat pentru tipărire, web și altele, asigurând flexibilitatea în utilizare.",
             ],
-
         ],
-        // Produs 2
+        // Produsul 2
         "item2" => [
-            "title" => "Design de Bannere",
+            "title" => "Ilustrații & Design Bannere",
             "description1" => [
-                "bold" => "Bannere Web:",
-                "text" => "Design de bannere captivante pentru site-uri web.",
+                "bold" => "Ilustrații Personalizate:",
+                "text" => "De la caractere stilizate la motive intricate, oferim servicii personalizate de ilustrații pentru fiecare nevoie, inclusiv scopuri editoriale, publicitare și educaționale.",
             ],
 
             "description2" => [
-                "bold" => "Bannere Promoționale:",
-                "text" => "Crearea de bannere pentru vânzări, oferte și promoții speciale.",
+                "bold" => "Bannere Dinamice:",
+                "text" => "Creăm bannere care nu doar că arată grozav, dar obțin și rate mari de click, optimizate pentru aplicații web și tipărire.",
             ],
 
             "description3" => [
-                "bold" => "Bannere pentru Evenimente:",
-                "text" => "Crearea de designuri pentru evenimente, conferințe și expoziții.",
+                "bold" => "Branding Integrat:",
+                "text" => "Ilustrațiile și bannerele noastre sunt concepute pentru a se alinia perfect cu elementele existente ale brandului existent, creând o experiență vizuală coerentă pe toate platformele.",
             ],
-
         ],
     ],
 ];
