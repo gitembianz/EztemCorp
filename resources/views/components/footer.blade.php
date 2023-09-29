@@ -93,7 +93,7 @@
                 </li>
                 <li class="footer__category">
                     <a
-                        href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap">
+                        href="/sitemap.xml">
                         @lang('components.footer.sitemap')
                     </a>
                 </li>
