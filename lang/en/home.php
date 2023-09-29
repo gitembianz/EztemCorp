@@ -45,7 +45,7 @@ return [
             "item1" => "Choose from a variety of options tailored to your needs.",
             "item2" => "There are no pre-defined plans here. We treat each customer as an individual, providing exclusive service.",
             "item3" => "Guidance and support are always included throughout our collaboration.",
-            "item4" => "Our customers are unique, and similarly, our works are original. We don't use templates."
+            "item4" => "Our customers are unique, and similarly, our works are original. We don’t rely on predefined designs."
         ]
     ]
 ];
