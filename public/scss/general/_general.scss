@@ -5,9 +5,18 @@
     color: #333333;
 }
 
+b,
+strong {
+    font-weight: 600;
+}
+
 body {
     font-family: "Montserrat";
 }
+
+// .container {
+//     padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+// }
 
 svg {
     width: 24px;
@@ -87,16 +96,17 @@ input[type="submit"] {
 }
 
 main {
-    margin-top: 50px;
+    margin-top: 60px;
     min-height: 100vh;
 }
 
 section {
-    padding-top: 50px;
+    padding-top: 25px;
     padding-bottom: 120px;
     position: relative;
     overflow-x: hidden;
-    background-color: #f7f7f7;
+    background: linear-gradient(90deg, rgba(255,255,255,255) 0%, rgba(75 122 85 / 7%) 25%, rgba(225 255 255 / 0%) 40%, rgba(75 122 85 / 7%) 80%, rgba(225 255 255 / 0%) 100%);
+
 
     &::after {
         content: "";
@@ -108,6 +118,7 @@ section {
         position: absolute;
         left: 0;
         bottom: 58px;
+        z-index: 3;
     }
 
     &::before {
@@ -116,6 +127,7 @@ section {
         height: 58px;
         background-color: white;
         position: absolute;
+        z-index: 3;
         left: 0;
         bottom: 0;
     }
@@ -169,4 +181,77 @@ section {
 //<--------------------Move to General.scss---------------->
 .hidden {
     display: none;
+}
+
+.category {
+    counter-reset: category-counter;
+    list-style-type: none;
+}
+
+.category>li {
+    counter-increment: category-counter;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.category>li::before {
+    content: counter(category-counter) ". ";
+    font-weight: bold;
+    position: absolute;
+    left: -20px;
+}
+
+.sub-category {
+    counter-reset: sub-category-counter;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sub-category>li {
+    counter-increment: sub-category-counter;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.sub-category>li::before {
+    content: counter(category-counter) "." counter(sub-category-counter) " ";
+    font-weight: normal;
+    position: absolute;
+    left: -25px;
+}
+
+.sub-sub-category {
+    counter-reset: sub-category-counter;
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.sub-sub-category>li {
+    counter-increment: sub-category-counter;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.sub-sub-category>li::before {
+    content: counter(category-counter) "." counter(sub-category-counter) " ";
+    font-weight: normal;
+    position: absolute;
+    left: -30px;
+}
+
+.breadcrums {
+    display: flex;
+    align-self: flex-start;
+    justify-self: center;
+    text-align: start;
+    gap: 10px;
+
+    &>span,
+    a {
+        text-decoration: none;
+        font-size: 16px;
+        line-height: 1.5;
+        font-weight: 400;
+        color: darken(#4b7a55, 10%);
+    }
 }

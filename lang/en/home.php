@@ -2,24 +2,27 @@
 // Home Page EN
 return [
     // Hero Section
+    "pageTitle" => "Creative Digital Solutions",
+    "metadescription" => "We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing. Turning ideas into reality.",
+
     "hero" => [
-        "heading" => "Creative Solutions",
-        "description" => "A wide spectrum of solutions for your tasks and ideas.",
-        "quote" => "“Our success is measured by our achievements”",
+        "heading" => "Creative Digital Solutions",
+        "description" => "A wide spectrum of digital solutions for your visions and needs.",
+        "quote" => "<i>“Our success is measured by our achievements.”</i> - Eztem Corp",
     ],
     // Details Section
     "details" => [
         "heading" => "Solutions",
-        "quote" => "“Our success is measured by our achievements”",
+        "quote" => "“<i>The best way to find yourself is to lose yourself in the service of others.”</i> – Mahatma Gandhi",
         "button" => "Learn More",
         "card_web1" => [
             "heading" => "Web",
-            "description" => "From building the cores of custom web applications to polish in gout of the box details, we strive to provide combined efficiency, effectiveness, and elegance.",
+            "description" => "From building the cores of custom web applications to polishing out-of-the-box details, we strive to provide combined efficiency, effectiveness, and elegance.",
             "button" => "See Web"
         ],
         "card_web2" => [
             "heading" => "Graphics",
-            "description" => "Either it is a company logo or a component for a project, we like to think about illustrations as shortcuts that overwrite complexity and point out the goals.",
+            "description" => "Whether it's a company logo or a component for a project, we like to think of illustrations as shortcuts that overwrite complexity and highlight the goals.",
             "button" => "See Graphics"
         ],
         "card_web3" => [
@@ -29,7 +32,7 @@ return [
         ],
         "card_web4" => [
             "heading" => "Marketing",
-            "description" => "Good content placed in the right place engages, but we also always focus on bringing the conversion rate to its maximum.",
+            "description" => "Good content, when placed in the right spot, engages. However, we also consistently focus on maximizing the conversion rate.",
             "button" => "See Marketing"
         ],
     ],
@@ -37,12 +40,12 @@ return [
     "related" => [
         "heading" => "Build Your Bundle",
         "description" => "Do you need support starting a new project, or adding new features to your current one? Whether it's a simple or complex task, our skills are at your service!",
-        "quote" => "“Our success is measured by our achievements”",
+        "quote" => "<i>”Most people spend more time and energy going around problems than in trying to solve them.</i>” – Henry Ford",
         "list" => [
-            "item1" => "Choose from a variety of options that fit your demand",
-            "item2" => "No pre-defined plans. We treat each customer as an individual, offering exclusive service.",
-            "item3" => "Guidance and support are always in the bundle throughout our collaboration.",
-            "item4" => "Our customers are unique. Similarly, our works are original, with no use of templates."
+            "item1" => "Choose from a variety of options tailored to your needs.",
+            "item2" => "There are no pre-defined plans here. We treat each customer as an individual, providing exclusive service.",
+            "item3" => "Guidance and support are always included throughout our collaboration.",
+            "item4" => "Our customers are unique, and similarly, our works are original. We don’t rely on predefined designs."
         ]
     ]
 ];

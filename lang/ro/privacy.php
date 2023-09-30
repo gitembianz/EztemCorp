@@ -2,6 +2,9 @@
 // Pagină de Confidențialitate RO
 return [
     // Secțiunea de Confidențialitate
+    "pageTitle" => "Confidențialitate",
+    "metadescription" => "Află cum ne protejăm confidențialitatea și datele tale personale. Politica noastră de confidențialitate explică modul în care gestionăm informațiile tale.",
+
     "privacy" => [
         "heading" => "ANUNȚ DE CONFIDENȚIALITATE",
         "description" => "Acest Anunț de Confidențialitate explică cum și de ce Eztem Corp utilizează datele personale ale persoanelor care achiziționează produse de la noi, vizitează site-ul nostru web, solicită informații despre produse sau comunică în orice alt mod sau fac afaceri cu noi.",

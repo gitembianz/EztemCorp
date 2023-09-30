@@ -1,8 +1,22 @@
-<x-header />
+<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' />
+
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/graphics" _target="_blank">
+                @lang("components.breadcrums.Graphics")
+            </a>
+            <span> > </span>
+            <a href="/graphics/logo" _target="_blank">
+                @lang("components.breadcrums.Logo")
+            </a>
+        </div>
         <div class="job__title">
-            <img src="/img/icons/logo.svg" alt="Figma Icon">
+          
             <h1>
                 @lang("logo.title")
             </h1>
@@ -29,11 +43,6 @@
                             @lang("logo.card_list.item1.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item1.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -54,11 +63,6 @@
                             @lang("logo.card_list.item2.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item2.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -77,11 +81,6 @@
                     <li>
                         <p>
                             @lang("logo.card_list.item3.description3")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("logo.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>

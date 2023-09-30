@@ -2,23 +2,25 @@
 // Pagina Retușare RO
 return [
     // Secțiunea Retușare
+    "pageTitle" => "Retouch",
+    "metadescription" => "Îmbunătățește-ți fotografiile prin retușarea. Perfecționăm imperfecțiunile și evidențiem detalii cruciale, asigurând că imaginile radiază profesionalism și esență adevărată. Capturați perfecțiunea cu noi.",
     // Titlul și Descrierea
-    "title" => "Retușare",
-    "description1" => "Elevăm imaginile prin rafinarea imperfecțiunilor și îmbunătățirea elementelor cheie. Retușăm fotografii pentru a captura esența, oferind în același timp un aspect polisat și profesional.",
-    "description2" => "Oferim următoarele soluții de Retușare:",
+    "title" => "Retouch",
+    "description1" => "Înălțarea imaginii prin rafinarea imperfecțiunilor și amplificarea elementelor cheie. Retușăm fotografiile pentru a captura esența, oferind în același timp un aspect finisat și profesional.",
+    "description2" => "Oferim următoarele soluții de retușare:",
     "product_list" => [
-        "button" => "Detalii",
+        "button" => "Vezi mai mult",
         // Produs 1
         "item1" => [
             "title" => "Corecții Foto",
             "description1" => [
-                "bold" => "Ajustări de Culori:",
-                "text" => "Modificarea tonurilor de culoare ale fotografiei pentru precizie și atractivitate.",
+                "bold" => "Ajustări de Culoare:",
+                "text" => "Modificarea tonurilor de culoare ale fotografiei pentru acuratețe și atractivitate.",
             ],
 
             "description2" => [
-                "bold" => "Corecții ale Iluminatului:",
-                "text" => "Corectarea dezechilibrelor de iluminare din imagini.",
+                "bold" => "Corecții de Iluminare:",
+                "text" => "Corectarea dezechilibrelor de iluminare în imagini.",
             ],
 
             "description3" => [
@@ -36,13 +38,13 @@ return [
             ],
 
             "description2" => [
-                "bold" => "Imagini Compuse:",
-                "text" => "Amestecarea mai multor imagini într-un conținut vizual coerent.",
+                "bold" => "Imagini Composite:",
+                "text" => "Combinarea mai multor imagini într-un vizual coerent.",
             ],
 
             "description3" => [
                 "bold" => "Restaurare Digitală:",
-                "text" => "Restaurarea fotografiilor vechi sau deteriorate la gloria lor anterioară.",
+                "text" => "Restaurarea fotografiilor vechi sau deteriorate la fosta lor glorie.",
             ],
 
         ],

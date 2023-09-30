@@ -2,6 +2,8 @@
 // FAQ Page EN
 return [
     // FAQ Section
+    "pageTitle" => "FAQ",
+    "metadescription" => "Find quick answers to the most common questions. Visit our Frequently Asked Questions section for useful information and clarifications.",
     // Title
     "heading" => "Frequently Asked Questions (FAQ)",
     // Description
@@ -17,8 +19,8 @@ return [
             "answer" => "This website is a landing platform that offers solutions for creating various types of projects. The available categories are: web, retouching, graphics, and marketing.",
         ],
         "accordion_2" => [
-            "question" => "How does this website work?",
-            "answer" => "Our website operates through a simple form that you fill out with your project details. After you submit the details, we will contact you to discuss more about the project and start the collaboration.",
+            "question" => "How does it work?",
+            "answer" => "We get in touch through a simple form, or via social media. After you send the details, we will contact you to discuss more about the project and start the collaboration.",
         ],
         "accordion_3" => [
             "question" => "Is creating an account or registration necessary?",
@@ -46,7 +48,7 @@ return [
         ],
         "accordion_9" => [
             "question" => "How can I get additional assistance or answers to my questions?",
-            "answer" => "If you need further assistance or have more questions, feel free to reach out to our support team through our contact form. We're here to help and provide you with any information you need to ensure a smooth experience with our platform.",
+            "answer" => "If you need further assistance or have more questions, feel free to reach out. We're here to help and provide you with any information you need to ensure a smooth experience with our platform.",
         ],
         "accordion_10" => [
             "question" => "What payment methods are accepted?",

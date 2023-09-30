@@ -2,7 +2,7 @@
 // Components of Page EN
 return [
     // Title of Website
-    "title" => "Eztem Corp - Creative Solutions - Web, Graphics, Retouch, Marketing",
+    "title" => "Eztem Corp - Creative Digital Solutions - Web, Graphics, Retouch, Marketing",
     // Header
     "about" => "about",
     "header" => [
@@ -17,6 +17,28 @@ return [
         // Another Links
         "contact_us" => "Contact Us",
         "about_us" => "About Us"
+    ],
+
+    "breadcrums" => [
+        "Home" => "Home",
+        "Web" => "Web",
+        "Graphics" => "Graphics",
+        "Retouch" => "Retouch",
+        "Marketing" => "Marketing",
+        "Front-end" => "Front-end",
+        "Back-end" => "Back-end",
+        "Salesforce" => "Salesforce",
+        "Logo" => "Logo Design",
+        "Banner" => "Banner Design",
+        "Manipulation" => "Photo Manipulations",
+        "Correction" => "Photo Corrections",
+        "Ads" => "Advertising",
+        "Strategies" => "Strategies",
+        "Contact" => "Contact Us",
+        "About" => "About Us",
+        "Faq" => "Faq",
+        "Cookie" => "Cookie Policy",
+        "Privacy" => "Privacy Policy",
     ],
     // Footer
     "footer" => [
@@ -50,8 +72,11 @@ return [
     ],
     // Contact Form
     "contact" => [
+        "pageTitle" => "Contact Us",
+        "metadescription" => "Use our form, drop an e-mail, or connect on social media. We're here to assist and look forward to hearing from you.",
         "heading" => "Contact Us",
-        "description" => "Send the Form or contact us directly on social media",
+        "description" => "Send the form, reach out via e-mail, or contact us directly on social media.",
+        "company" =>"Company",
         "name" => "Name",
         "email" => "Email",
         "solutions" => "Solutions",
@@ -62,7 +87,7 @@ return [
         "message" => "Message",
         "message_placeholder" => "Type your message here...",
         "send_button" => "Send",
-        "quote" => "“Our success is measured by our achievements”"
+        "quote" => "<i>“Alone we can do so little; together we can do so much”</i> – Helen Keller"
     ],
     "lang" => [
         "name" => "EN"

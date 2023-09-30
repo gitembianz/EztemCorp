@@ -2,10 +2,12 @@
 // Web Page EN
 return [
     // Web section
+    "pageTitle" => "Web",
+    "metadescription" => "Explore the exciting world of web development. We create visually impactful interfaces for your website using cutting-edge technologies.",
     // Web Title
     "title" => "Web",
     "description1" => "Crafting resilient and adaptive digital experiences that effortlessly cater to diverse user needs. We meticulously design, ensuring intuitive navigation and optimal performance across all devices.",
-    "description2" => "We provide the following web solutions:",
+    "description2" => "We provide the following Web Solutions:",
     "product_list" => [
         "button" => "See more",
         // Product 1
@@ -34,7 +36,7 @@ return [
         "item2" => [
             "title" => "Back-End Development:",
             "description1" => [
-                "bold" => "PHP (Laravel):",
+                "bold" => "PHP:",
                 "text" => "Server-side scripting language using the Laravel framework.",
             ],
 
@@ -60,35 +62,30 @@ return [
 
         ],
         "item3" => [
-            "title" => "Salesforce Administration",
+            "title" => "Salesforce Advanced Administration & Consulting",
             "description1" => [
-                // "bold" => "",
-                "text" => "Setting up user roles, profiles, and permissions",
+                "bold" => "System Management:",
+                "text" => "Setting up user accounts, maintaining data integrity, customizing Salesforce to fit unique business needs, and monitoring system updates.",
             ],
 
             "description2" => [
-                // "bold" => "",
-                "text" => "Implementing sharing rules and security controls.",
+                "bold" => "Strategic Implementation:",
+                "text" => "Assessing business needs, planning and executing Salesforce implementations, and integrating with other systems for seamless functionality.",
             ],
 
             "description3" => [
-                // "bold" => "",
-                "text" => "Managing licenses and ensuring compliance.",
+                "bold" => "Reporting & Automation:",
+                "text" => "Creating customized reports and dashboards, and setting up workflow and process automations for efficiency.",
             ],
 
             "description4" => [
-                // "bold" => "",
-                "text" => "Data import, export, and migration.",
+                "bold" => "Training & Support:",
+                "text" => "Providing user training, post-implementation support, troubleshooting issues, and ensuring continuous adaptation to evolving business needs.",
             ],
 
             "description5" => [
-                // "bold" => "",
-                "text" => "Data deduplication and cleansing.",
-            ],
-
-            "description6" => [
-                // "bold" => "",
-                "text" => "Setting up and maintaining automated data backup processes.",
+                "bold" => "Staying Updated:",
+                "text" => "Continuously learning and staying informed about new Salesforce features and best practices to deliver optimal solutions.",
             ],
 
         ],

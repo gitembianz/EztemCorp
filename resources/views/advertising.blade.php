@@ -1,8 +1,21 @@
-<x-header />
+<x-header :title='__("advertising.pageTitle") . " | " . __("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("advertising.metadescription")' />
+
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/marketing" _target="_blank">
+                @lang("components.breadcrums.Marketing")
+            </a>
+            <span> > </span>
+            <a href="/marketing/advertising" _target="_blank">
+                @lang("components.breadcrums.Ads")
+            </a>
+        </div>
         <div class="job__title">
-            <img src="/img/icons/ads.svg" alt="Figma Icon">
             <h1>
                 @lang("advertising.title")
             </h1>
@@ -10,6 +23,7 @@
         <p>
             @lang("advertising.description")
         </p>
+
         <div class="job__cards">
             <div class="job__section">
                 <img src="/img/card-images/ads-1.webp" alt="only code">

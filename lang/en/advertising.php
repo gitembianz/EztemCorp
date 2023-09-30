@@ -2,10 +2,13 @@
 // Enhanced Advertising Page EN
 return [
     // Advertising section
+    "pageTitle" => "Google Ads & Facebook Ads",
+    "metadescription" => "Maximize reach with Google & Facebook Ads: expert keyword campaigns, captivating visuals, smart retargeting, and in-depth analytics. Elevate your brand's online impact.",
+
     // Title and Description
-    "title" => "Unlocking the Power of Online Advertising: Google and Facebook Ads",
-    "description" => "Harness the incredible potential of Google and Facebook ads to connect your business with precisely the right audience. With a well-crafted strategy and a touch of creativity, we craft advertising campaigns that captivate, drive conversions, and elevate your brand's visibility. Our expertise lies in squeezing every drop of value from online advertising, ensuring each click is a valuable asset to your business.",
-    "quote" => "Laser-Focused Targeting - Connect with your ideal audience based on demographics, interests, and online behavior.",
+    "title" => "Google Ads & Facebook Ads",
+    "description" => "Harness the power of Google and Facebook Ads with our comprehensive ad solutions. From keyword-optimized campaigns and engaging visual ads to sophisticated retargeting strategies, we monitor and analyze every step to ensure your brand stands out and achieves optimal results.",
+    "quote" => "<i>“Good advertising does not just circulate information. It penetrates the public mind with desires and belief.“</i> - David Ogilvy",
     "button" => "Return to Marketing",
     "card_list" => [
         // Product 1

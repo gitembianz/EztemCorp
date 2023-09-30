@@ -2,31 +2,34 @@
 // Pagina Foto RO
 return [
     // Secțiunea Foto
+    "pageTitle" => "Manipulări Foto",
+    "metadescription" => "Descoperă arta posibilului cu Manipulările noastre Foto. Modelăm măiestrit imaginile, creând vizuale care sfidează așteptările și încântă privitorii.",
+    
     // Titlul și Descrierea
-    "title" => "Arta Manipulărilor Foto",
-    "description" => "Corecțiile și manipulările foto reprezintă o formă subtilă și creativă de artă digitală. Această practică implică îmbunătățirea calității vizuale a imaginilor, corectarea imperfecțiunilor și transformarea lor în opere de artă. Cu expertiză și pasiune, aducem la viață idei și concepte unice, transformând fotografii obișnuite în capodopere vizuale. Fiecare imagine are propria sa poveste, iar noi suntem artiștii care o completează.",
-    "quote" => "Restaurarea imaginilor vechi - Fotografiile de familie și cele istorice pot fi restaurate și aduse la viață.",
-    "button" => "Înapoi la Retuș",
+    "title" => "Manipulări Foto",
+    "description" => "Transformă realitatea cu Manipulările Foto. Pătrunde într-o lume în care remodelăm și redefinim artistic imaginile, creând vizuale care captivează și intrigă.",
+    "quote" => "„<i>Nu fotografiez natura. Fotografiez viziunile mele.</i>“ - Man Ray",
+    "button" => "Înapoi la Retouch",
     "card_list" => [
         // Produs 1
         "item1" => [
-            "description1" => "<b>Corecție expunere și culoare</b> - Ajustarea luminozității, contrastului și echilibrului de culoare.",
-            "description2" => "<b>Îndepărtarea obiectelor nedorite</b> - Ștergerea sau mascarea elementelor care perturbă compoziția fotografiei.",
-            "description3" => "<b>Accentuarea detaliilor</b> - Evidențierea detaliilor și claritatea imaginii.",
-            "description4" => "<b>Manipulare creativă</b> - Adăugarea elementelor artistice și a efectelor pentru a crea imagini unice."
+            "description1" => "<b>Fuziune Conceptuală</b> - Crearea de piese imaginative prin integrarea elementelor diverse.",
+            "description2" => "<b>Creație Narativă</b> - Construirea imaginii care spune povești convingătoare și memorabile.",
+            "description3" => "<b>Selecție Elemente</b> - Utilizarea uneltelor avansate pentru a combina elementele fotografice pentru tranziții naturale.",
+            "description4" => "<b>Adâncime și Dimensiune</b> - Construirea compozițiilor cu diverse elemente care adaugă adâncime imaginilor compuse."
         ],
         // Produs 2
         "item2" => [
-            "description1" => "<b>Corecție perspectivă</b> - Minimizarea distorsiunilor și ajustarea perspectivelor în arhitectură și peisaje.",
-            "description2" => "<b>Stilizarea fotografiei</b> - Aplicarea filtrelor și stilurilor pentru a crea atmosfera dorită.",
-            "description3" => "<b>Crearea colaje foto</b> - Combinarea mai multor imagini pentru a crea colaje creative și compoziții unice.",
-            "description4" => "<b>Efecte artistice</b> - Aplicarea efectelor de pictură sau ilustrație pentru a transforma fotografii în opere de artă."
+            "description1" => "<b>Alegerea Calității</b> - Selectarea celor mai faine imagini pentru a obține cea mai bună claritate și atracție.",
+            "description2" => "<b>Îmbinări Subtile</b> - Asigurarea că și cele mai mici detalii sunt păstrate și îmbunătățite.",
+            "description3" => "<b>Înnoire Digitală</b> - Readucerea farmecului fotografiilor vechi prin ștergerea deteriorărilor și estomparea culorilor.",
+            "description4" => "<b>Corecția Culorilor</b> - Revigorarea și îmbunătățirea nuanțelor originale în fotografiile restaurate."
         ],
         "item3" => [
-            "description1" => "<b>Corecție ochi roșii</b> - Îndepărtarea efectului de ochi roșii în fotografiile cu bliț.",
-            "description2" => "<b>Îmbunătățirea calității pentru tipărire</b> - Pregătirea fotografiilor pentru tipărirea de înaltă calitate pe suport fizic.",
-            "description3" => "O <b>imagine corectată</b> valorează o mie de cuvinte.",
-            "description4" => "<b>Retușarea portretelor</b> - Corectarea imperfecțiunilor pielii și evidențierea trăsăturilor frumoase."
+            "description1" => "<b>Îmbunătățirea Texturii</b> - Îmbunătățirea simțului și adâncimii fotografiilor, făcându-le mai realiste.",
+            "description2" => "<b>Înnoirea Fundalului</b> - Schimbarea sau îmbunătățirea decorului pentru a se potrivi mai bine cu punctul focal al imaginii.",
+            "description3" => "<b>Efecte Dinamice</b> - Introducerea efectelor artistice pentru a adăuga dramatism și atmosferă imaginii.",
+            "description4" => "<b>Întoarcerea Realității</b> - Introducerea elementelor care provoacă convenționalul, făcând fotografiile intrigante și provocatoare."
         ],
     ],
 ];

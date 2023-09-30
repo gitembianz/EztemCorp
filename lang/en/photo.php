@@ -2,10 +2,12 @@
 // Photo Page EN
 return [
     // Photo section
+    "pageTitle" => "Photo Corrections",
+    "metadescription" => "Optimize your images with our Photo Corrections. We expertly adjust and rectify, ensuring your photos showcase only the finest details. Elevate every snapshot.",
     // Title and Description
-    "title" => "The Art of Photo Correction",
-    "description" => "Photo correction and manipulations are a subtle and creative form of digital art. This practice involves enhancing the visual quality of images, correcting imperfections, and turning them into works of art. With expertise and passion, we bring unique ideas and concepts to life, transforming ordinary photos into visual masterpieces. Each image has its own story, and we are the artists who complete it.",
-    "quote" => "Restoring old images - Family and historical photos can be restored and brought to life.",
+    "title" => "Photo Corrections",
+    "description" => "Dive into our Photo Corrections services where we meticulously address and amend any discrepancies in your images. From adjusting exposure to rectifying color imbalances, we're dedicated to transforming your photos into their best possible versions, preserving their authenticity while elevating their quality.",
+    "quote" => "“<i>You don't take a photograph, you make it.“</i> - Ansel Adams",
     "button" => "Back to Retouch",
     "card_list" => [
         // Product 1

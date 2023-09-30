@@ -2,31 +2,33 @@
 // Strategy Page EN
 return [
     // Strategy section
+    "pageTitle" => "Web Marketing Strategies",
+    "metadescription" => "Drive online success with tailored web strategies: SEO, content, email, & affiliate marketing. Creating value, engaging audiences, boosting conversions",
     // Title and Description
-    "title" => "Navigating the Online Marketing World: Effective Strategies",
-    "description" => "Online marketing strategies are the backbone of success in the digital age. With expertise and creativity, we develop customized approaches to attract the target audience, increase brand awareness, and generate conversions. From SEO and social media to PPC advertising and quality content, we handle every aspect of your online strategies. With us at the helm, you will successfully navigate the waters of online marketing.",
-    "quote" => "Search Engine Optimization (SEO) - Creating content optimized to rank higher on search engines.",
+    "title" => "Web Marketing Strategies",
+    "description" => "Web Marketing Strategies are the backbone of online success. From boosting search engine rankings with SEO, crafting impactful content, engaging customers through tailored emails, to expanding reach with affiliate partnerships, we sculpt strategies that create genuine customer value and drive conversions.",
+    "quote" => "<i>“Marketing is not the art of finding clever ways to dispose of what you make. It is the art of creating genuine customer value.“</i> - Philip Kotler",
     "button" => "Back to Marketing",
     "card_list" => [
         // Product 1
         "item1" => [
-            "description1" => "<b>Pay-Per-Click Advertising (PPC)</b> - Paying only for actual clicks, ensuring a better ROI.",
-            "description2" => "<b>Competitor Analysis</b> - Continuously monitoring and evaluating competitors' activities to stay ahead.",
-            "description3" => "<b>Email Marketing</b> - Using email campaigns to maintain direct communication with customers and drive sales.",
-            "description4" => "<b>Content Marketing</b> - Creating and distributing valuable content to attract, educate, and retain the audience."
+            "description1" => "<b>Keyword Research</b> - Identifying and targeting optimal keywords for your niche.",
+            "description2" => "<b>On-Page Optimization</b> - Ensuring every page of your website is optimized for SEO.",
+            "description3" => "<b>Off-Page Optimization</b> - Building quality backlinks to improve site authority.",
+            "description4" => "<b>Technical SEO</b> - Ensuring the website's technical aspects, like loading speed, are optimized."
         ],
         // Product 2
         "item2" => [
-            "description1" => "<b>Analytics and Reporting</b> - Data collection and performance evaluation for informed decision-making.",
-            "description2" => "<b>Mobile Optimization</b> - Ensuring all strategies and websites are optimized for the mobile experience.",
-            "description3" => "<b>Video Content Strategies</b> - Using videos to attract and engage the audience.",
-            "description4" => "<b>Influencer Marketing</b> - Collaborating with influencers to promote your products or services."
+            "description1" => "<b>Blog Management</b> - Regularly updating and maintaining an informative blog.",
+            "description2" => "<b>Infographics</b> - Utilizing visual data to communicate and engage.",
+            "description3" => "<b>Video Content</b> - Engaging audiences through dynamic video materials.",
+            "description4" => "<b>Content Distribution</b> - Sharing content across various platforms for maximum reach."
         ],
         "item3" => [
-            "description1" => "<b>Affiliate Network Strategies</b> - Creating partnerships to expand marketing reach.",
-            "description2" => "<b>User Experience (UX) Optimization</b> - Ensuring a user-friendly and enjoyable web experience for users.",
-            "description3" => "<b>In the digital world</b>, strategy is the compass of success.",
-            "description4" => "<b>Social Media Marketing</b> - Using social networks to engage with the audience and increase interaction.",
+            "description1" => "<b>Newsletter Campaigns</b> - Regular updates and news delivered to your audience.",
+            "description2" => "<b>Drip Campaigns</b> - Automated sets of emails sent out based on specific timelines or user actions.",
+            "description3" => "<b>Partner Networking</b> - Establishing relationships with key influencers and bloggers in your niche.",
+            "description4" => "<b>Commission Structures</b> - Setting up rewarding systems for affiliates promoting your products.",
         ],
     ],
 ];

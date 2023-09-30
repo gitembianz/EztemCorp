@@ -2,31 +2,33 @@
 // Photo Page EN
 return [
     // Photo section
+    "pageTitle" => "Photo Manipulations",
+    "metadescription" => "Unveil the art of the possible with our Photo Manipulations. We masterfully reshape images, crafting visuals that defy expectations and enchant viewers.",
     // Title and Description
-    "title" => "The Art of Manipulations",
-    "description" => "Photo correction and manipulations are a subtle and creative form of digital art. This practice involves enhancing the visual quality of images, correcting imperfections, and turning them into works of art. With expertise and passion, we bring unique ideas and concepts to life, transforming ordinary photos into visual masterpieces. Each image has its own story, and we are the artists who complete it.",
-    "quote" => "Restoring old images - Family and historical photos can be restored and brought to life.",
+    "title" => "Photo Manipulations",
+    "description" => "Transform reality with our Photo Manipulations. Delve into a world where we artistically reshape and redefine images, creating visuals that captivate and intrigue.",
+    "quote" => "“<i>I do not photograph nature. I photograph my visions.</i>“ - Man Ray",
     "button" => "Back to Retouch",
     "card_list" => [
         // Product 1
         "item1" => [
-            "description1" => "<b>Exposure and color correction</b> - Adjusting brightness, contrast, and color balance.",
-            "description2" => "<b>Removing unwanted objects</b> - Erasing or masking elements that disrupt the photo's composition.",
-            "description3" => "<b>Enhancing details</b> - Accentuating details and image clarity.",
-            "description4" => "<b>Creative manipulation</b> - Adding artistic elements and effects to create unique images."
+            "description1" => "<b>Conceptual Fusion</b> - Crafting imaginative pieces by seamlessly integrating diverse elements.",
+            "description2" => "<b>Narrative Creation</b> - Constructing visuals that tell compelling and memorable stories.",
+            "description3" => "<b>Precision Blending</b> - Using advanced tools to merge elements smoothly for natural transitions.",
+            "description4" => "<b>Depth & Dimension</b> - Building multi-layered compositions that add depth to composite imagery."
         ],
         // Product 2
         "item2" => [
-            "description1" => "<b>Perspective correction</b> - Minimizing distortions and adjusting perspectives in architecture and landscapes.",
-            "description2" => "<b>Stylizing photography</b> - Applying filters and styles to create the desired atmosphere.",
-            "description3" => "<b>Creating photo collages</b> - Combining multiple images to create creative collages and unique compositions.",
-            "description4" => "<b>Artistic effects</b> - Applying painting or illustration effects to turn photos into works of art."
+            "description1" => "<b>Quality Choices</b> - Selecting the finest images for composites to achieve the best clarity and appeal.",
+            "description2" => "<b>Subtle Merges</b> - Ensuring even the tiniest details are preserved and enhanced.",
+            "description3" => "<b>Digital Renewal</b> - Bringing back the charm of old photos by erasing damages and fading.",
+            "description4" => "<b>Color Correction</b> - Reviving and enhancing the original hues in restored photos."
         ],
         "item3" => [
-            "description1" => "<b>Red-eye correction</b> - Removing the red-eye effect in flash photos.",
-            "description2" => "<b>Enhancing print quality</b> - Preparing photos for high-quality printing on physical media.",
-            "description3" => "A <b>corrected image</b> is worth a thousand words.",
-            "description4" => "<b>Portrait retouching</b> - Correcting skin imperfections and highlighting beautiful features."
+            "description1" => "<b>Texture Enhancement</b> - Improving the feel and depth of photos, making them more lifelike.",
+            "description2" => "<b>Background Revamp</b> - Changing or enhancing the backdrop to better suit the focal point of the image.",
+            "description3" => "<b>Dynamic Effects</b> - Introducing artistic effects to add drama and mood to the imagery.",
+            "description4" => "<b>Reality Twist</b> - Introducing elements that challenge the conventional, making photos intriguing and thought-provoking."
         ],
     ],
 ];

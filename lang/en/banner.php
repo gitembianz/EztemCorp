@@ -2,10 +2,12 @@
 //Banner Page EN
 return [
     //Banner section
+    "pageTitle" => "Illustrations & Banner Designs",
+    "metadescription" => "Explore stunning graphic designs and captivating banners. We transform ideas into visually impactful images for your business.",
     // Title and Description
-    "title" => "Design Banner",
-    "description" => "Banner and banner design is much more than just imagination. It's the graphical representation of a company, a story in an image, and banners are windows to the online world. With passion and creativity, we create logos that define brands, inspire trust, and convey values, and banners that catch the eye and support marketing objectives. Each element has a story to tell, and we are the storytellers.",
-    "quote" => "Colors have meanings - Each color in a Banner or banner conveys a subtle message.",
+    "title" => "Illustrations & Banner Designs",
+    "description" => "Craft standout visuals with our tailored Illustrations & Banners. Elevate your brand's presence online and in print, ensuring cohesion and memorable impact. Stand apart with us.",
+    "quote" => "<i>“Color is a power which directly influences the soul.“</i> - Wassily Kandinsky",
     "button" => "Back to Graphics",
     "card_list" => [
         // Product 1

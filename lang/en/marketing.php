@@ -2,45 +2,36 @@
 // Marketing Page EN
 return [
     // Marketing section
+    "pageTitle" => "Marketing",
+    "metadescription" => "Crafting strategic plans tailored to maximize online presence and draw attention. Through meticulous execution, our campaigns aim to amplify engagement and foster meaningful interactions",
     // Title and Description
     "title" => "Marketing",
     "description1" => "Crafting strategic plans tailored to maximize online presence and draw attention. Through meticulous execution, our campaigns aim to amplify engagement and foster meaningful interactions",
-    "description2" => "We provide the following Marketing solutions:",
+    "description2" => "We provide the following Marketing Solutions:",
     "product_list" => [
         "button" => "See more",
         // Product 1
         "item1" => [
-            "title1" => "Google Ads:",
-            "title2" => "Facebook Ads:",
+            "title" => "Google Ads & Facebook Ads:",
             "description1" => [
-                "bold" => "Display Ads:",
-                "text" => "Visual ads appearing on partner websites.",
+                "bold" => "Keyword-Optimized Campaigns:",
+                "text" => "Leveraging precise keywords to reach potential customers effectively.",
             ],
 
             "description2" => [
-                "bold" => "Video Ads:",
-                "text" => "Engaging users through video content on platforms like YouTube.",
+                "bold" => "Display and Video Ads:",
+                "text" => "Visual ads that capture attention across platforms.",
             ],
 
             "description3" => [
-                "bold" => "Search Ads:",
-                "text" => "Promoting businesses on Google's search result pages.",
+                "bold" => "Retargeting Strategies:",
+                "text" => "Re-engaging past visitors to drive conversions.",
             ],
 
             "description4" => [
-                "bold" => "Image Ads:",
-                "text" => "Displaying visual promotions on Facebook.",
-            ],
-
-            "description5" => [
-                "bold" => "Carousel Ads:",
-                "text" => "Showcasing multiple images or videos in a single ad.",
-            ],
-
-            "description6" => [
-                "bold" => "Video Ads:",
-                "text" => "Sharing brand stories or promotions through video content.",
-            ],
+                "bold" => "Performance Analytics:",
+                "text" => "Monitoring and analyzing ad results for continual improvement.",
+            ]
 
         ],
         // Product 2

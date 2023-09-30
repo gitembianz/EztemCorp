@@ -1,8 +1,21 @@
-<x-header />
+<x-header :title='__("backend.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("backend.metadescription")' />
+
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Web")
+            </a>
+            <span> > </span>
+            <a href="/web/backend" _target="_blank">
+                @lang("components.breadcrums.Back-end")
+            </a>
+        </div>
         <div class="job__title">
-            <img src="/img/icons/back-end.svg" alt="Back-end-Icon">
             <h1>
                 @lang("backend.title")
             </h1>
@@ -30,11 +43,6 @@
                             @lang("backend.card_list.item1.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item1.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -55,11 +63,6 @@
                             @lang("backend.card_list.item2.description3")
                         </p>
                     </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item2.description4")
-                        </p>
-                    </li>
                 </ul>
             </div>
             <div class="job__section">
@@ -78,11 +81,6 @@
                     <li>
                         <p>
                             @lang("backend.card_list.item3.description3")
-                        </p>
-                    </li>
-                    <li>
-                        <p>
-                            @lang("backend.card_list.item3.description4")
                         </p>
                     </li>
                 </ul>

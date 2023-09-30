@@ -1,32 +1,32 @@
 <?php
-// Pagina Back-End Developer RO
+// Pagină Back-End EN
 return [
-    // Secțiunea Back-End Developer
-    // Titlul și Descrierea
-    "title" => "Dezvoltator Back-End",
-    "description" => "Dezvoltatorul Back-End este maestrul tehnologic al lumii digitale, arhitectul tăcut din spatele fiecărei aplicații web și servicii online. Cu o atenție meticuloasă la detalii și o logică impecabilă, acest expert proiectează sistemul care face ca totul să ruleze fără cusur. Utilizând limbaje de programare precum Java, Python sau Node.js, ei abordează partea nevăzută a site-urilor web, gestionând baze de date, securitate, performanță și optimizare. Sunt arhitecții care asigură integritatea și funcționalitatea datelor, transformând cerințele în realitate, mereu preocupați de stabilitate și scalabilitate.",
-    "quote" => "Gestionarea bazelor de date - Dezvoltarea și administrarea eficientă a bazelor de date SQL și NoSQL.",
+    // Secțiunea Back-End
+    "pageTitle" => "Dezvoltare Back-End",
+    "metadescription" => "Specializați în PHP cu expertiză în Laravel, oferim dezvoltare robustă a back-endului, gestionare avansată SQL și soluții complete de date pentru performanță web optimizată și securizată.",
+
+    // Titlul și descrierea
+    "title" => "Dezvoltare Back-End",
+    "description" => "Excelăm în dezvoltarea PHP folosind framework-ul Laravel. Cu abilități solide în SQL și concentrându-ne pe securitate și optimizarea bazelor de date, ne asigurăm că site-ul este rapid, sigur și prietenos cu utilizatorii.",
+    "quote" => "<i>“Întâi rezolvați problema. Apoi scrieți codul.”</i> - John Johnson",
     "button" => "Înapoi la Web",
     "card_list" => [
-        // Produs 1
+        // Produsul 1
         "item1" => [
-            "description1" => "Securitatea cibernetică - Implementarea și gestionarea strategiilor de securitate pentru protejarea datelor.",
-            "description2" => "Dezvoltarea API-urilor - Crearea și gestionarea interfețelor de programare pentru comunicarea cu aplicațiile Front-End și serviciile externe.",
-            "description3" => "Programare paralelă - Abilitatea de a dezvolta și gestiona mai multe procese în mod concurent pentru o eficiență crescută.",
-            "description4" => "Integrare și servicii Cloud - Implementarea și gestionarea integrărilor cu serviciile cloud precum AWS, Azure, Google Cloud."
+            "description1" => "<b>Stăpânirea PHP</b> - Experți în principalul limbaj pentru partea de server, care alimentează aplicații web dinamice.",
+            "description2" => "<b>Experiență în Laravel</b> - Utilizarea framework-ului PHP pentru soluții robuste, ușor de întreținut și scalabile.",
+            "description3" => "<b>Managementul Serverului</b> - Asigurarea stării optime a serverului, implementarea măsurilor de securitate și optimizarea performanței."
         ],
-        // Produs 2
+        // Produsul 2
         "item2" => [
-            "description1" => "Gestionarea sesiunilor și autentificare - Gestionarea sesiunilor utilizatorilor și implementarea metodelor de autentificare.",
-            "description2" => "Controlul versiunilor - Utilizarea sistemelor de control al versiunilor pentru gestionarea codului și urmărirea modificărilor.",
-            "description3" => "Dezvoltarea microserviciilor - Crearea și gestionarea microserviciilor pentru o arhitectură scalabilă și modulară.",
-            "description4" => "Optimizare securitate API - Implementarea măsurilor de securitate pentru protejarea și securizarea API-urilor."
+            "description1" => "<b>SQL Structurat</b> - Experți în gestionarea și interogarea bazelor de date relaționale cu precizie.",
+            "description2" => "<b>Optimizare Bazei de Date</b> - Tehnici pentru îmbunătățirea vitezei bazei de date, asigurând aplicații rapide și receptive.",
+            "description3" => "<b>Backup și Recuperarea Bazei de Date</b> - Implementarea soluțiilor fiabile de backup și capacităților rapide de restaurare a datelor."
         ],
         "item3" => [
-            "description1" => "Gestionarea echilibrării încărcării - Administrarea distribuției încărcării pentru o operare echilibrată și redundantă.",
-            "description2" => "Dezvoltarea soluțiilor de depanare - Dezvoltarea uneltelor și soluțiilor pentru diagnosticarea și remedierea erorilor.",
-            "description3" => "În lumea dezvoltării Back-End, serverul este eroul tăcut care alimentează lumi digitale din umbre.",
-            "description4" => "Optimizarea performanței serverului - Măsuri pentru îmbunătățirea eficienței și performanței serverului."
+            "description1" => "<b>Securitate</b> - Prioritizarea protejării datelor împotriva amenințărilor potențiale.",
+            "description2" => "<b>Performanță</b> - Asigurarea funcționalității fără probleme a bazelor de date și serverului pentru cea mai bună experiență a utilizatorului.",
+            "description3" => "<b>Fiabilitate</b> - Menținerea integrității sistemului, minimizarea timpului de nefuncționare și garantarea consistenței datelor."
         ],
     ],
 ];

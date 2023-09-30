@@ -3,16 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    {{--
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"> --}}
+    <link rel="stylesheet" href="/scss/style.css">
     <title>{{ $title }}</title>
-    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
-    <meta name="description"
-        content="Explore our creative solutions for web development, graphics design, photo retouching, and marketing services.">
-    <link rel="stylesheet" href="/dist/css/style.css">
+    <meta name="description" content="{{ $metadescription }}">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PM4XL3W7');</script>
+    <!-- End Google Tag Manager -->
+    {{-- ----------------------------------------------------------- --}}
+    <meta property="og:image" content="img/logo-banner.webp" />
+    <meta property="twitter:image" content="img/logo-banner.webp" />
+    {{-- ----------------------------------------------------------- --}}
+    <meta property="og:url" content="http://dev.eztemcorp.com/" />
+    <meta property="twitter:url" content="http://dev.eztemcorp.com/" />
+    {{-- ----------------------------------------------------------- --}}
+    <meta property="og:type" content="website" />
+    <meta property="twitter:card" content="summary_large_image" />
+    {{-- ----------------------------------------------------------- --}}
+    <!-- Open Graph / Facebook -->
+    <meta property="og:title" content="{{ $title }}" />
+    <meta property="og:description" content="{{ $metadescription }}" />
+    <!-- Twitter -->
+    <meta property="twitter:title" content="{{ $title }}" />
+    <meta property="twitter:description" content="{{ $metadescription }}" />
+    {{-- ----------------------------------------------------------- --}}
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/img/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/img/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/img/favicons/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicons/site.webmanifest">
+    <link rel="mask-icon" href="/img/favicons/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#00a300">
+    <meta name="theme-color" content="#ffffff">
+
 </head>
 
 <body>
+    <x-main-top />
     <header>
         <div class="header">
             <div class="container header__container">
@@ -53,13 +90,14 @@
                             </a>
                         </li>
                     </ul>
+
                     {{-- <div class="header__burger-menu">
-                                <svg>
-                                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                                </svg>
-                            </div> --}}
+                        <svg>
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </div> --}}
                     <button class="header__burger-menu menu" aria-label="Main Menu">
                         <svg width="60" height="60" viewBox="0 0 100 100">
                             <path class="line line1"

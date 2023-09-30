@@ -1,8 +1,21 @@
-<x-header />
+<x-header :title='__("frontend.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("frontend.metadescription")' />
+
 <main>
     <div class="container job__container">
+        <div class="breadcrums">
+            <a href="/" _target="_blank">
+                @lang("components.breadcrums.Home")
+            </a>
+            <span> > </span>
+            <a href="/web" _target="_blank">
+                @lang("components.breadcrums.Web")
+            </a>
+            <span> > </span>
+            <a href="/web/frontend" _target="_blank">
+                @lang("components.breadcrums.Front-end")
+            </a>
+        </div>
         <div class="job__title">
-            <img src="/img/icons/front-end.svg" alt="Front-end-Icon">
             <h1>
                 @lang("frontend.title")
             </h1>
