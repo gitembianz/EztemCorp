@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.eztemcorp.com
-        username: gituser@eztemcorp.com
-        password: ${{secrets.mainftp}}
+        username: gituser@dev.eztemcorp.com
+        password: ${{secrets.dev.mainftp}}
