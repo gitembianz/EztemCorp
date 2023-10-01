@@ -29,7 +29,7 @@ return [
             "card3" => [
                 "name" => "Stanislav",
                 "role" => "Dezvoltator Front-end",
-                "description" => "Un dezvoltator Frontend priceput, excellează în crearea de interfețe intuitive și vizual atractive. Iosif se asigură că fiecare utilizator se bucură de o experiență de navigare captivantă, reflectând inovația și calitatea site-urilor noastre."
+                "description" => "Un dezvoltator Frontend priceput, excellează în crearea de interfețe intuitive și vizual atractive. Stanislav se asigură că fiecare utilizator se bucură de o experiență de navigare captivantă, reflectând inovația și calitatea site-urilor noastre."
             ],
             "card4" => [
                 "name" => "Violina",
