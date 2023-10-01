@@ -38,7 +38,6 @@
                 </label>
                 <input id="company" maxlength="80" name="company" type="text" placeholder="@lang('components.contact.company')">
             </div>
-
             <div class="contact__label">
                 <label for="email">
                     @lang("components.contact.email")
