@@ -10,7 +10,7 @@ return [
         "description" => "Eztem Corp, înființată în 2019, excelează în oferirea de soluții digitale personalizate. Oferim servicii specializate de dezvoltare Web, Design Grafic, Retușare avansată de fotografii și servicii de Marketing. Echipa noastră de experți asigură o prezență distinctivă a mărcii și o creștere robustă în spațiul digital competitiv.",
         "quote" => "<i>„A ne întâlni este un început; a rămâne împreună este un progres; a lucra împreună este un succes.“</i> - Henry Ford"
     ],
-    // Secțiunea Echipă
+    //Secțiunea Echipă
     "team" => [
         "heading" => "Cunoaște Echipa",
         "quote" => "<i>„Lucrurile mari în afaceri nu sunt realizate de o singură persoană; sunt realizate de o echipă de oameni.“</i> - Steve Jobs",
