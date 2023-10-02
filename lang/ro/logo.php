@@ -2,33 +2,32 @@
 // Pagina Design RO
 return [
     // Secțiunea Design
-    "pageTitle" => "Design / Logo",
-    "metadescription" => "Descoperă lumea captivantă a dezvoltării logo-urilor. Creăm designuri vizuale de impact pentru afacerea ta.",
+    "pageTitle" => "Design Logo",
+    "metadescription" => "
+    Obține recunoașterea mărcii cu serviciile noastre pentru Design Logo. De la concept la designul final, creăm logo-uri pentru publicul tău și încorporează ideile brandului tău. Fă-ți marca cunoscută astăzi.",
+
     // Titlul și Descrierea
     "title" => "Design Logo",
-    "description" => "Designul logo-ului și al bannerelor înseamnă mult mai mult decât imaginație. Este reprezentarea grafică a unei companii, o poveste într-o imagine și bannerele sunt ferestre către lumea online. Cu pasiune și creativitate, creăm logo-uri care definesc brandurile, inspiră încredere și transmit valori, și bannere care atrag atenția și susțin obiectivele de marketing. Fiecare element are o poveste de spus, iar noi suntem povestitorii.",
-    "quote" => "Culorile au semnificații - Fiecare culoare dintr-un logo sau banner transmite un mesaj subtil.",
+    "description" => "Stabilește tonul pentru brandul tău cu un logo profesionist conceput care să captureze atenția și să atragă publicul țintă. Un logo bine realizat este piatra de temelie a recunoașterii și loialității brandului.",
+    "quote" => "<i>„Designul este ambasadorul tăcut al brandului tău.”</i> - Paul Rand",
     "button" => "Înapoi la Grafică",
     "card_list" => [
         // Produs 1
         "item1" => [
-            "description1" => "<b>Design receptiv - </b>Logo-ul și banner-ul ar trebui să fie flexibile și să arate bine pe toate platformele.",
-            "description2" => "<b>Inovație și originalitate - </b>Logo-ul și banner-ul trebuie să se evidențieze în fața concurenței și să aducă ceva unic în industrie.",
-            "description3" => "<b>Povestire vizuală - </b>Logo-ul poate spune o poveste despre afacerea dvs. sau despre valorile sale într-un mod simplu și captivant.",
-            "description4" => "<b>Testarea la scară mică - </b>Un logo și un banner ar trebui să arate bine chiar și în dimensiuni mici."
+            "description1" => "<b>Consultare Inițială</b> - Începem procesul cu o consultare aprofundată pentru a colecta ideile, preferințele și viziunea ta pentru brand.",
+            "description2" => "<b>Cercetare și Brainstorming</b> - Designerii noștri efectuează cercetări de piață și sesiuni de brainstorming pentru a te asigura că logo-ul tău se va remarca.",
+            "description3" => "<b>Schițarea Ideilor</b> - Se realizează schițe preliminare pentru a vizualiza diferitele direcții pe care le poate lua designul logo-ului, oferindu-ți o varietate de alegeri."
         ],
         // Produs 2
         "item2" => [
-            "description1" => "<b>Evitarea tendințelor trecătoare - </b>Logo-ul și banner-ul ar trebui să fie durabile și să treacă testul timpului.",
-            "description2" => "<b>Fontul și tipografia contează - </b>Fontul potrivit poate face o diferență semnificativă în percepția logo-ului și a bannerului.",
-            "description3" => "<b>Echilibrul este crucial - </b>Elementele din logo și banner ar trebui să fie aranjate pentru a crea un echilibru vizual plăcut.",
-            "description4" => "<b>Conexiunea emoțională - </b>Un logo și un banner puternic pot crea o conexiune emoțională cu clienții."
+            "description1" => "<b>Mai Multe Variante</b> - Cream mai multe designuri inițiale bazate pe faza de conceptualizare, oferindu-ți o gamă de opțiuni de luat în considerare.",
+            "description2" => "<b>Bucla de Feedback a Clientului</b> - Părerea ta este vitală. Încurajăm mai multe runde de feedback pentru a ajusta designul.",
+            "description3" => "<b>Îmbunătățire</b> - Elementele de design, precum culoarea, tipografia și compoziția, sunt îmbunătățite în mod continuu pentru a îndeplini nevoile brandului tău."
         ],
         "item3" => [
-            "description1" => "<b>Simplu este memorabil - </b>Un logo și un banner complicate pot fi greu de memorat.",
-            "description2" => "<b>Rebrandingul poate revigora - </b>Dacă afacerea dvs. evoluează, luați în considerare rebrandingul pentru a menține imaginea proaspătă și relevantă.",
-            "description3" => "<b>Logo-urile și bannerele</b> de succes sunt oglinda unei afaceri prospere.",
-            "description4" => "<b>Simplul este cheia - </b>Cele mai memorabile logo-uri și bannere sunt adesea cele mai simple.",
+            "description1" => "<b>Fișiere de Înaltă Rezoluție</b> - Îți livrăm logo-ul finalizat în formate de înaltă rezoluție potrivite pentru tipărire la scară largă și utilizare digitală.",
+            "description2" => "<b>Vectori Scalabili</b> - Primești logo-ul ca fișier vector scalabil, permițând versatilitate în modificările și adaptările viitoare.",
+            "description3" => "<b>Utilizabilitate Multi-Platformă</b> sunt oglinda unei afaceri prospere."
         ],
     ],
 ];

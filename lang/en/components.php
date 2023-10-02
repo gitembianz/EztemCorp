@@ -2,7 +2,7 @@
 // Components of Page EN
 return [
     // Title of Website
-    "title" => "Eztem Corp - Creative Solutions - Web, Graphics, Retouch, Marketing",
+    "title" => "Eztem Corp - Creative Digital Solutions - Web, Graphics, Retouch, Marketing",
     // Header
     "about" => "about",
     "header" => [

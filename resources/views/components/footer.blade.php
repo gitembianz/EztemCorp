@@ -6,7 +6,7 @@
             </a>
             <ul class="footer__nav--list">
                 <li class="footer__nav--item">
-                    <a href="https://www.instagram.com/" target="_blank" aria-label="Instagram">
+                    <a href="https://www.instagram.com/eztemcorp" target="_blank" aria-label="Instagram">
                         <svg>
                             <rect x="2" y="2" width="20" height="20" rx="5"
                                 ry="5"></rect>
@@ -16,7 +16,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="https://www.facebook.com/profile.php?id=100065258780213" target="_blank"
+                    <a href="https://www.facebook.com/eztemcorp" target="_blank"
                         aria-label="Facebook">
                         <svg>
                             <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
@@ -93,7 +93,7 @@
                 </li>
                 <li class="footer__category">
                     <a
-                        href="https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview#build-a-sitemap">
+                        href="/sitemap.xml">
                         @lang('components.footer.sitemap')
                     </a>
                 </li>

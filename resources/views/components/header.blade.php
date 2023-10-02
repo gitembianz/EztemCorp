@@ -5,11 +5,21 @@
     <meta charset="UTF-8">
     <META HTTP-EQUIV="Content-type" CONTENT="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    {{-- <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"> --}}
+    {{--
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon"> --}}
     <link rel="stylesheet" href="/scss/style.css">
-
     <title>{{ $title }}</title>
     <meta name="description" content="{{ $metadescription }}">
+    <!-- Google Tag Manager -->
+    <script>(function (w, d, s, l, i) {
+            w[l] = w[l] || []; w[l].push({
+                'gtm.start':
+                    new Date().getTime(), event: 'gtm.js'
+            }); var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+                    'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PM4XL3W7');</script>
+    <!-- End Google Tag Manager -->
     {{-- ----------------------------------------------------------- --}}
     <meta property="og:image" content="img/logo-banner.webp" />
     <meta property="twitter:image" content="img/logo-banner.webp" />
@@ -82,12 +92,12 @@
                     </ul>
 
                     {{-- <div class="header__burger-menu">
-                                <svg>
-                                    <line x1="3" y1="12" x2="21" y2="12"></line>
-                                    <line x1="3" y1="6" x2="21" y2="6"></line>
-                                    <line x1="3" y1="18" x2="21" y2="18"></line>
-                                </svg>
-                            </div> --}}
+                        <svg>
+                            <line x1="3" y1="12" x2="21" y2="12"></line>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <line x1="3" y1="18" x2="21" y2="18"></line>
+                        </svg>
+                    </div> --}}
                     <button class="header__burger-menu menu" aria-label="Main Menu">
                         <svg width="60" height="60" viewBox="0 0 100 100">
                             <path class="line line1"

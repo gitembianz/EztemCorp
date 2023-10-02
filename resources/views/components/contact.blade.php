@@ -30,15 +30,14 @@
                 <label for="last_name">
                     @lang("components.contact.name")
                 </label>
-                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="Name">
+                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="@lang('components.contact.name')">
             </div>
             <div class="contact__label">
                 <label for="company">
                     @lang("components.contact.company")
                 </label>
-                <input id="company" maxlength="80" name="company" type="text" placeholder="Company">
+                <input id="company" maxlength="80" name="company" type="text" placeholder="@lang('components.contact.company')">
             </div>
-
             <div class="contact__label">
                 <label for="email">
                     @lang("components.contact.email")
@@ -46,11 +45,11 @@
                 <input type="email" id="email" name="email" autocomplete="email" required placeholder="E-mail"
                     maxlength="80">
             </div>
-
+{{--
             <!-------------------------------------------------------------------------->
             <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
             <!--  these lines if you wish to test in debug mode.-->
-            {{-- <input type="hidden" name="debug" value=0>
+             <input type="hidden" name="debug" value=0>
             <input type="hidden" name="_next" value="dev.eztemcorp.com">
             <!-------------------------------------------------------------------------->
             --}}
@@ -125,7 +124,7 @@
             </a>
             <ul class="footer__nav--list" style="justify-content: center;width: 100%;">
                 <li class="footer__nav--item">
-                    <a href="https://viber.click" style="background-color: #5a267c;" aria-label="Viber">
+                    <a href="viber://chat?number=40757527656" style="background-color: #5a267c;" aria-label="Viber" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0,0,256,256">
                             <g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1"
@@ -151,7 +150,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="http://whatsapp.com" style="background-color: #50c351;" aria-label="Whatsapp">
+                    <a href="https://wa.me/0757527656" style="background-color: #50c351;" aria-label="Whatsapp" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0 0 48 48">
                             <path fill="#fff"
@@ -173,7 +172,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="http://web.telegram.org" style="background-color: #2bb6f5;" aria-label="Telegram">
+                    <a href="https://t.me/eztemcorp" style="background-color: #2bb6f5;" aria-label="Telegram" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50"
                             height="50" viewBox="0 0 48 48">
                             <path fill="#29b6f6" d="M24 4A20 20 0 1 0 24 44A20 20 0 1 0 24 4Z"></path>
@@ -190,7 +189,7 @@
                     </a>
                 </li>
                 <li class="footer__nav--item">
-                    <a href="https://www.messenger.com/" style="background-color: #1884ff;" aria-label="Messenger">
+                    <a href="https://m.me/eztemcorp" style="background-color: #1884ff;" aria-label="Messenger" target="_blank">
                         <svg width="50" height="50" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
                             <path fill="#0084ff" d="M512 0H0v512h512z" />
                             <path
