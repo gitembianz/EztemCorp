@@ -25,12 +25,12 @@
     border-bottom: 1px solid #8a8788;
     position: relative;
     z-index: 2;
-    padding: 25px 0;
+    padding: 25px 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     gap: 15px;
+    justify-content: space-between;
 }
 
 .details__text {

@@ -1,34 +1,36 @@
 <?php
-// Pagina Banner RO
+//Pagina Banner RO
 return [
-    // Secțiunea Banner
-    "pageTitle" => "Graphics / Banner",
-    "metadescription" => "Descoperă creații grafice impresionante și bannere captivante. Transformăm ideile în imagini vizuale de impact pentru afacerea ta.",
-    // Titlul și Descrierea
-    "title" => "Design Banner",
-    "description" => "Designul Banner-ului și al bannerelor înseamnă mult mai mult decât imaginație. Este reprezentarea grafică a unei companii, o poveste într-o imagine și bannerele sunt ferestre către lumea online. Cu pasiune și creativitate, creăm Banner-uri care definesc brandurile, inspiră încredere și transmit valori, și bannere care atrag atenția și susțin obiectivele de marketing. Fiecare element are o poveste de spus, iar noi suntem povestitorii.",
-    "quote" => "Culorile au semnificații - Fiecare culoare dintr-un Banner sau banner transmite un mesaj subtil.",
+    //Secțiunea Banner
+    "pageTitle" => "Ilustrații & Design Bannere",
+    "metadescription" => "Explorează design-uri grafice uimitoare și bannere captivante. Transformăm ideile în imagini vizual impactante pentru afacerea ta.",
+    
+    //Titlu și Descriere
+    "title" => "Ilustrații & Design Bannere",
+    "description" => "Creează imagini vizuale remarcabile cu Ilustrațiile și Bannerele noastre personalizate. Îmbunătățește prezența mărcii tale online și tipărit, asigurând un impact memorabil. Distinge-te alături de noi.",
+    "quote" => "<i>„Culoarea este o putere care influențează direct sufletul.“</i> - Wassily Kandinsky",
     "button" => "Înapoi la Grafică",
     "card_list" => [
-        // Produs 1
+        //Produs 1
         "item1" => [
-            "description1" => "<b>Design receptiv - </b>Banner-ul și banner-ul ar trebui să fie flexibile și să arate bine pe toate platformele.",
-            "description2" => "<b>Inovație și originalitate - </b>Banner-ul și banner-ul trebuie să se evidențieze în fața concurenței și să aducă ceva unic în industrie.",
-            "description3" => "<b>Povestire vizuală - </b>Banner-ul poate spune o poveste despre afacerea dvs. sau despre valorile sale într-un mod simplu și captivant.",
-            "description4" => "<b>Testarea la scară mică - </b>Un Banner și un banner ar trebui să arate bine chiar și în dimensiuni mici."
+            "description1" => "<b>Design adaptiv</b> - Bannerul trebuie să fie flexibil și să arate bine pe toate platformele.",
+            "description2" => "<b>Inovație și originalitate</b> - Bannerul trebuie să se distingă de concurență și să aducă ceva unic în industrie.",
+            "description3" => "<b>Povestire vizuală</b> - Bannerul poate spune o poveste despre afacerea ta sau valori într-un mod simplu și captivant.",
+            "description4" => "<b>Testare la scară mică</b> - Un banner ar trebui să arate bine chiar și la dimensiuni mici."
         ],
-        // Produs 2
+        //Produs 2
         "item2" => [
-            "description1" => "<b>Evitarea tendințelor trecătoare - </b>Banner-ul și banner-ul ar trebui să fie durabile și să treacă testul timpului.",
-            "description2" => "<b>Fontul și tipografia contează - </b>Fontul potrivit poate face o diferență semnificativă în percepția Banner-ului și a bannerului.",
-            "description3" => "<b>Echilibrul este crucial - </b>Elementele din Banner și banner ar trebui să fie aranjate pentru a crea un echilibru vizual plăcut.",
-            "description4" => "<b>Conexiunea emoțională - </b>Un Banner și un banner puternic pot crea o conexiune emoțională cu clienții."
+            "description1" => "<b>Evitarea trendurilor trecătoare</b> - Bannerul ar trebui să fie durabil și să reziste în timp.",
+            "description2" => "<b>Fontul și tipografia contează</b> - Fontul potrivit poate face o diferență semnificativă în percepția bannerului.",
+            "description3" => "<b>Echilibrul este crucial</b> - Elementele din banner ar trebui să fie aranjate pentru a crea un echilibru vizual plăcut.",
+            "description4" => "<b>Conexiune emoțională</b> - Un banner puternic poate crea o conexiune emoțională cu clienții."
         ],
+        //Produs 3
         "item3" => [
-            "description1" => "<b>Simplu este memorabil - </b>Un Banner și un banner complicate pot fi greu de memorat.",
-            "description2" => "<b>Rebrandingul poate revigora - </b>Dacă afacerea dvs. evoluează, luați în considerare rebrandingul pentru a menține imaginea proaspătă și relevantă.",
-            "description3" => "<b>Banner-urile</b> de succes sunt oglinda unei afaceri prospere.",
-            "description4" => "<b>Simplul este cheia - </b>Cele mai memorabile Banner-uri și bannere sunt adesea cele mai simple.",
+            "description1" => "<b>Simplicitatea este memorabilă</b> - Un banner complicat poate fi greu de reținut.",
+            "description2" => "<b>Rebrandingul poate revitaliza</b> - Dacă afacerea ta evoluează, ia în considerare rebrandingul pentru a menține imaginea proaspătă și relevantă.",
+            "description3" => "<b>Logo-urile de succes </b> sunt oglinda unei afaceri prospere.",
+            "description4" => "<b>Simplicitatea este cheia</b> - Cele mai memorabile logo-uri și bannere sunt adesea cele mai simple.",
         ],
     ],
 ];

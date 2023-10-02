@@ -9,7 +9,7 @@ return [
     // Title and Description
     "title" => "Logo Design",
     "description" => "Set the tone for your brand with a professionally designed logo that captures your ethos and appeals to your target audience. A well-crafted logo is the cornerstone of brand recognition and loyalty.",
-    "quote" => "<i>Design is the silent ambassador of your brand.</i> - Paul Rand",
+    "quote" => "<i>“Design is the silent ambassador of your brand.“</i> - Paul Rand",
     "button" => "Back to Graphics",
     "card_list" => [
         // Product 1

@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("advertising.pageTitle")' :metadescription='__("advertising.metadescription")' />
+<x-header :title='__("advertising.pageTitle") . " | " . __("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("advertising.metadescription")' />
 
 <main>
     <div class="container job__container">
@@ -16,7 +16,6 @@
             </a>
         </div>
         <div class="job__title">
-            <img src="/img/icons/ads.svg" alt="Figma Icon">
             <h1>
                 @lang("advertising.title")
             </h1>

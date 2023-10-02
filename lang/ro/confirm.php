@@ -3,8 +3,8 @@
 return [
     // Secțiunea de confirmare
     "pageTitle" => "Confirmare",
-    "metadescription" => "Mulțumim foarte mult pentru trimiterea formularului.",
+    "metadescription" => "Mulțumim pentru completarea formularului.",
 
-    "title" => "Mulțumim foarte mult pentru trimiterea formularului.",
-    "description" => "Veți fi redirecționat la pagina de start în 5 secunde.",
+    "title" => "Mulțumim pentru completarea formularului.",
+    "description" => "Veți fi redirecționat la pagina principală în 5 secunde...",
 ];

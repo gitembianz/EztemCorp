@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("marketing.pageTitle")' :metadescription='__("marketing.metadescription")' />
+<x-header :title='__("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("marketing.metadescription")' />
 
 <main>
     <div class="container">
@@ -34,7 +34,7 @@
                             <li>
                                 <h3>
                                     <strong>
-                                        @lang("marketing.product_list.item1.title1")
+                                        @lang("marketing.product_list.item1.title")
                                     </strong>
                                 </h3>
                             </li>
@@ -63,34 +63,11 @@
                                 </p>
                             </li>
                             <li>
-                                <h3>
-                                    <strong>
-                                        @lang("marketing.product_list.item1.title2")
-                                    </strong>
-                                </h3>
-                            </li>
-                            <li>
                                 <p>
                                     <strong>
-                                        @lang("marketing.product_list.item1.description1.bold")
+                                        @lang("marketing.product_list.item1.description4.bold")
                                     </strong>
-                                    @lang("marketing.product_list.item1.description1.text")
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <strong>
-                                        @lang("marketing.product_list.item1.description2.bold")
-                                    </strong>
-                                    @lang("marketing.product_list.item1.description2.text")
-                                </p>
-                            </li>
-                            <li>
-                                <p>
-                                    <strong>
-                                        @lang("marketing.product_list.item1.description3.bold")
-                                    </strong>
-                                    @lang("marketing.product_list.item1.description3.text")
+                                    @lang("marketing.product_list.item1.description4.text")
                                 </p>
                             </li>
                             <li>
