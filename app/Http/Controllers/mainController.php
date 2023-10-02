@@ -2,8 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
 
 class mainController extends Controller
 {
@@ -13,7 +11,12 @@ class mainController extends Controller
         // Store the chosen locale in the session
         session()->put('locale', $locale);
 
-        // Redirect back to the previous page
-        return redirect()->back();
+        // Get the current URL path without the query parameters
+        $pathWithoutQueryParams = parse_url(url()->previous(), PHP_URL_PATH);
+
+        // Build the new URL with the locale parameter
+        $newUrl = url($pathWithoutQueryParams);
+        // Redirect back to the previous page with the updated locale parameter
+        return redirect($newUrl);
     }
 }
