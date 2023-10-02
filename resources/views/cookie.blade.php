@@ -1,4 +1,4 @@
-<x-header :title='__("cookie.pageTitle") . " | Eztem Corp"' :metadescription='__("cookie.metadescription")' />
+<x-header :title='__("cookie.pageTitle") . " | Eztem Corp"' :metadescription='__("cookie.metadescription")' :canonical='__("cookie.canonical")' />
 
 {{-- Pagina "Cookie" --}}{{-- Page "Cookie" --}}
 <main>

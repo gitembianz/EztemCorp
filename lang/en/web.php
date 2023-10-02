@@ -4,6 +4,7 @@ return [
     // Web section
     "pageTitle" => "Web",
     "metadescription" => "Explore the exciting world of web development. We create visually impactful interfaces for your website using cutting-edge technologies.",
+    "canonical" => "https://eztemcorp.com/web",
     // Web Title
     "title" => "Web",
     "description1" => "Crafting resilient and adaptive digital experiences that effortlessly cater to diverse user needs. We meticulously design, ensuring intuitive navigation and optimal performance across all devices.",

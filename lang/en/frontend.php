@@ -4,6 +4,7 @@ return [
     // Front-End section
     "pageTitle" => "Front-End Development",
     "metadescription" => "We offer front-end development with SCSS, JavaScript, and React, ensuring fast, responsive sites with a strong UX/UI focus and seamless animations.",
+    "canonical" => "https://eztemcorp.com/web/frontend",
     // Title and Description
     "title" => "Front-End Development",
     "description" => "A Front-End Developer creates engaging websites using tools like HTML, CSS, SCSS, and JavaScript. They make sites look good and function well, constantly learning to stay updated with the latest trends. In short, they make the web sparkle.",

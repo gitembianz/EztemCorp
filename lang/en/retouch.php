@@ -5,6 +5,7 @@ return [
     "pageTitle" => "Retouch",
     "metadescription" => "
     Enhance your photos with our expert retouching. We perfect imperfections and highlight crucial details, ensuring images radiate professionalism and true essence. Capture perfection with us.",
+    "canonical" => "https://eztemcorp.com/retouch",
     // Title and Description
     "title" => "Retouch",
     "description1" => "Elevating imagery by refining imperfections and enhancing key elements. We retouch photos to capture the essence while delivering a polished and professional appearance.",
