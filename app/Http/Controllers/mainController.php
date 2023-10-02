@@ -13,9 +13,6 @@ class mainController extends Controller
         // Store the chosen locale in the session
         session()->put('locale', $locale);
 
-        // Set the application locale
-        App::setLocale($locale);
-
         // Redirect back to the previous page
         return redirect()->back();
     }
