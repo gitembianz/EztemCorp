@@ -13,10 +13,10 @@
         <div class="contact__title">
             <div class="contact__title--text">
                 <h1>
-                    @lang("components.contact.heading")
+                    @lang('components.contact.heading')
                 </h1>
                 <p>
-                    @lang("components.contact.description")
+                    @lang('components.contact.description')
                 </p>
             </div>
         </div>
@@ -24,23 +24,23 @@
         <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
             method="POST">
             <input type=hidden name="oid" value="00D09000008XPQu">
-            <input type=hidden name="retURL" value="eztemcorp.com/confirm">
+            <input type=hidden name="retURL" value="{{ url('/confirm') }}">
 
             <div class="contact__label">
                 <label for="last_name">
-                    @lang("components.contact.name")
+                    @lang('components.contact.name')
                 </label>
-                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="@lang("components.contact.name")">
+                <input id="last_name" maxlength="80" name="last_name" type="text" placeholder="@lang('components.contact.name')">
             </div>
             <div class="contact__label">
                 <label for="company">
-                    @lang("components.contact.company")
+                    @lang('components.contact.company')
                 </label>
-                <input id="company" maxlength="80" name="company" type="text" placeholder="@lang("components.contact.company")">
+                <input id="company" maxlength="80" name="company" type="text" placeholder="@lang('components.contact.company')">
             </div>
             <div class="contact__label">
                 <label for="email">
-                    @lang("components.contact.email")
+                    @lang('components.contact.email')
                 </label>
                 <input type="email" id="email" name="email" autocomplete="email" required placeholder="E-mail"
                     maxlength="80">
@@ -55,14 +55,14 @@
             --}}
             <div class="contact__solutions">
                 <span>
-                    @lang("components.contact.solutions")
+                    @lang('components.contact.solutions')
                 </span>
                 <label class="contact-image">
                     <input type="checkbox" id="00N9N000000PZPh" name="00N9N000000PZPh" value="1">
                     <label for="00N9N000000PZPh">
                         <img src="/img/web.webp" alt="Soluție 1" class="image" loading="lazy">
                         <span>
-                            @lang("components.contact.web")
+                            @lang('components.contact.web')
                         </span>
                     </label>
                 </label>
@@ -72,7 +72,7 @@
                     <label for="00N9N000000PZPr">
                         <img src="/img/graphics.webp" alt="Soluție 4" class="image" loading="lazy">
                         <span>
-                            @lang("components.contact.graphics")
+                            @lang('components.contact.graphics')
                         </span>
                     </label>
                 </label>
@@ -82,7 +82,7 @@
                     <label for="00N9N000000PZPm">
                         <img src="/img/retouch.webp" alt="Soluție 2" class="image" loading="lazy">
                         <span>
-                            @lang("components.contact.retouch")
+                            @lang('components.contact.retouch')
                         </span>
                     </label>
                 </label>
@@ -92,7 +92,7 @@
                     <label for="00N9N000000PZPw">
                         <img src="/img/marketing.webp" alt="Soluție 3" class="image" loading="lazy">
                         <span>
-                            @lang("components.contact.marketing")
+                            @lang('components.contact.marketing')
                         </span>
                     </label>
                 </label>
@@ -100,12 +100,12 @@
 
             <div class="contact__label">
                 <span for="description" id="description">
-                    @lang("components.contact.message")
+                    @lang('components.contact.message')
                 </span>
-                <textarea name="description" required placeholder="@lang("components.contact.message_placeholder")"></textarea>
+                <textarea name="description" required placeholder="@lang('components.contact.message_placeholder')"></textarea>
             </div>
             <button class="button" type="submit" name="submit">
-                @lang("components.contact.send_button")
+                @lang('components.contact.send_button')
                 <svg>
                     <line x1="22" y1="2" x2="11" y2="13"></line>
                     <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
@@ -206,6 +206,6 @@
         </div>
     </div>
     <span class="hero__subtext">
-        @lang("components.contact.quote")
+        @lang('components.contact.quote')
     </span>
 </section>
