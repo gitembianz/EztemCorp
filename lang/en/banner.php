@@ -4,6 +4,7 @@ return [
     //Banner section
     "pageTitle" => "Illustrations & Banner Designs",
     "metadescription" => "Explore stunning graphic designs and captivating banners. We transform ideas into visually impactful images for your business.",
+    "canonical" => "https://eztemcorp.com/graphics/banners",
     // Title and Description
     "title" => "Illustrations & Banner Designs",
     "description" => "Craft standout visuals with our tailored Illustrations & Banners. Elevate your brand's presence online and in print, ensuring cohesion and memorable impact. Stand apart with us.",

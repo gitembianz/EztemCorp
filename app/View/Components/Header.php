@@ -10,15 +10,17 @@ class Header extends Component
 {
     public $title;
     public $metadescription;
+    public $canonical;
 
-    public function __construct($title = "", $metadescription="")
+    public function __construct($title = "", $metadescription = "", $canonical = "")
     {
         $this->title = $title;
         $this->metadescription = $metadescription;
+        $this->canonical = $canonical;
     }
 
     public function render(): View|Closure|string
     {
-        return view('components.header', ['title' => $this->title, 'metadescription' =>$this->metadescription]);
+        return view('components.header', ['title' => $this->title, 'metadescription' => $this->metadescription, 'canonical' => $this->canonical]);
     }
 }

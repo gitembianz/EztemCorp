@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("home.pageTitle")' :metadescription='__("home.metadescription")' />
+<x-header :title='"Eztem Corp - " . __("home.pageTitle")' :metadescription='__("home.metadescription")' :canonical='__("home.canonical")' />
 
 {{-- Pagina "Home sau Index" --}}{{-- Page "Home or Index" --}}
 <main>

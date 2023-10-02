@@ -4,6 +4,7 @@ return [
     // About Section
     "pageTitle" => "About Us",
     "metadescription" => "Discover our story and commitment to excellence. Eztem Corp - A team dedicated to innovation and cutting-edge digital solutions.",
+    "canonical" => "https://eztemcorp.com/about",
 
     "about" => [
         "heading" => "Discover Eztem Corp",

@@ -1,4 +1,4 @@
-<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' />
+<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' :canonical='__("logo.canonical")' />
 
 <main>
     <div class="container job__container">
@@ -16,7 +16,7 @@
             </a>
         </div>
         <div class="job__title">
-          
+
             <h1>
                 @lang("logo.title")
             </h1>

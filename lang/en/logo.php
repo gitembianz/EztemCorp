@@ -6,6 +6,7 @@ return [
     "metadescription" => "
     Achieve brand recognition with our expert Logo Design services. From concept to final design, we craft logos that resonate with your audience and embody your brand ethos. Make your mark today.",
 
+    "canonical" => "https://eztemcorp.com/graphics/logo",
     // Title and Description
     "title" => "Logo Design",
     "description" => "Set the tone for your brand with a professionally designed logo that captures your ethos and appeals to your target audience. A well-crafted logo is the cornerstone of brand recognition and loyalty.",

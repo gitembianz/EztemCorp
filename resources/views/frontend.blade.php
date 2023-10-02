@@ -1,4 +1,4 @@
-<x-header :title='__("frontend.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("frontend.metadescription")' />
+<x-header :title='__("frontend.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("frontend.metadescription")' :canonical='__("frontend.canonical")' />
 
 <main>
     <div class="container job__container">
