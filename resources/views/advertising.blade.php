@@ -1,4 +1,4 @@
-<x-header :title='__("advertising.pageTitle") . " | " . __("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("advertising.metadescription")' />
+<x-header :title='__("advertising.pageTitle") . " | " . __("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("advertising.metadescription")' :canonical='__("advertising.canonical")' />
 
 <main>
     <div class="container job__container">
