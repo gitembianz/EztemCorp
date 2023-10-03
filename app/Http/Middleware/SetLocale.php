@@ -13,7 +13,6 @@ class SetLocale
     public function handle(Request $request, Closure $next): Response
     {
         $localeFromUrl = $request->query('locale');
-
         if (in_array($localeFromUrl, ['en', 'ro'])) {
             App::setLocale($localeFromUrl);
         } elseif (Session::has('locale')) {
@@ -21,7 +20,6 @@ class SetLocale
         } else {
             App::setLocale('en');
         }
-
         return $next($request);
     }
 }
