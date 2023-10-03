@@ -4,7 +4,6 @@ return [
     // Strategy section
     "pageTitle" => "Web Marketing Strategies",
     "metadescription" => "Drive online success with tailored web strategies: SEO, content, email, & affiliate marketing. Creating value, engaging audiences, boosting conversions",
-    "canonical" => "https://eztemcorp.com/strategies",
     // Title and Description
     "title" => "Web Marketing Strategies",
     "description" => "Web Marketing Strategies are the backbone of online success. From boosting search engine rankings with SEO, crafting impactful content, engaging customers through tailored emails, to expanding reach with affiliate partnerships, we sculpt strategies that create genuine customer value and drive conversions.",

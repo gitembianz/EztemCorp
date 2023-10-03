@@ -4,7 +4,6 @@ return [
     // Graphics section
     "pageTitle" => "Graphics",
     "metadescription" => "Crafting unique visuals tailored to each brand's distinct identity. These designs deeply resonate with the target audience.",
-    "canonical" => "https://eztemcorp.com/graphics",
     // Title and Description
     "title" => "Graphics",
     "description1" => "

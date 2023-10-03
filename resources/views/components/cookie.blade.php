@@ -4,7 +4,7 @@
             <span>
                 @lang("components.cookie_modal.policy_text")
             </span>
-            <a href="/cookie">
+            <a href="{{ URL::localized('/cookie') }}">
                 @lang("components.cookie_modal.policy_text_link")
             </a>
         </div>
@@ -47,7 +47,7 @@
                 <button id="advanced-settings" class="button" type="button">
                     @lang("components.cookie_modal.advanced_button_text")
                 </button>
-                <a href="/cookie" id="decline-btn" class="button">
+                <a href="{{ URL::localized('/cookie') }}" id="decline-btn" class="button">
                     @lang("components.cookie_modal.decline_button_text")
                 </a>
             </div>

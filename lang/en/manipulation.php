@@ -4,7 +4,6 @@ return [
     // Photo section
     "pageTitle" => "Photo Manipulations",
     "metadescription" => "Unveil the art of the possible with our Photo Manipulations. We masterfully reshape images, crafting visuals that defy expectations and enchant viewers.",
-    "canonical" => "https://eztemcorp.com/retouch/manipulation",
     // Title and Description
     "title" => "Photo Manipulations",
     "description" => "Transform reality with our Photo Manipulations. Delve into a world where we artistically reshape and redefine images, creating visuals that captivate and intrigue.",

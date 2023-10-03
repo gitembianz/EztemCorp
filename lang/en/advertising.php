@@ -4,7 +4,6 @@ return [
     // Advertising section
     "pageTitle" => "Google Ads & Facebook Ads",
     "metadescription" => "Maximize reach with Google & Facebook Ads: expert keyword campaigns, captivating visuals, smart retargeting, and in-depth analytics. Elevate your brand's online impact.",
-    "canonical" => "https://eztemcorp.com/marketing/advertising",
     // Title and Description
     "title" => "Google Ads & Facebook Ads",
     "description" => "Harness the power of Google and Facebook Ads with our comprehensive ad solutions. From keyword-optimized campaigns and engaging visual ads to sophisticated retargeting strategies, we monitor and analyze every step to ensure your brand stands out and achieves optimal results.",
