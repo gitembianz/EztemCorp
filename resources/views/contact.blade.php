@@ -1,4 +1,4 @@
-<x-header :title='__("components.contact.pageTitle") . " | Eztem Corp"' :metadescription='__("components.contact.metadescription")' :canonical='__("components.contact.canonical")' />
+<x-header :title='__("components.contact.pageTitle") . " | Eztem Corp"' :metadescription='__("components.contact.metadescription")' :canonical="url('/contact')" />
 <main>
     {{-- Sectiunea de contact --}}
     <div class="container job__container">
