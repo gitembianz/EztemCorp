@@ -15,6 +15,7 @@ class SetLocale
         $localeFromUrl = $request->query('locale');
         if (in_array($localeFromUrl, ['en', 'ro'])) {
             App::setLocale($localeFromUrl);
+            session()->put('locale', $localeFromUrl);
         } elseif (Session::has('locale')) {
             App::setLocale(Session::get('locale'));
         } else {
