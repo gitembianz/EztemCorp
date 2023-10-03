@@ -1,4 +1,4 @@
-<x-header :title='__("manipulation.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("manipulation.metadescription")' :canonical='__("manipulation.canonical")' />
+<x-header :title='__("manipulation.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("manipulation.metadescription")' :canonical="url('/manipulation')" />
 
 <main>
     <div class="container job__container">

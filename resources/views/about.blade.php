@@ -1,4 +1,4 @@
-<x-header :title='__("about.pageTitle") . " | Eztem Corp"' :metadescription='__("about.metadescription")' :canonical='__("about.canonical")' />
+<x-header :title='__("about.pageTitle") . " | Eztem Corp"' :metadescription='__("about.metadescription")' :canonical="url('/about')"/>
 
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>

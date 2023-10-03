@@ -1,4 +1,4 @@
-<x-header :title='__("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("marketing.metadescription")' :canonical='__("marketing.canonical")' />
+<x-header :title='__("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("marketing.metadescription")' :canonical="url('/marketing')" />
 
 <main>
     <div class="container">

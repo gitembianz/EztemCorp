@@ -1,4 +1,4 @@
-<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' :canonical='__("retouch.canonical")' />
+<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' :canonical="url('/retouch')" />
 
 <main>
     <div class="container">

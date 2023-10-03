@@ -1,4 +1,4 @@
-<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' :canonical='__("logo.canonical")' />
+<x-header :title='__("logo.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("logo.metadescription")' :canonical="url('/logo')" />
 
 <main>
     <div class="container job__container">
