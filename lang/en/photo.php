@@ -4,7 +4,6 @@ return [
     // Photo section
     "pageTitle" => "Photo Corrections",
     "metadescription" => "Optimize your images with our Photo Corrections. We expertly adjust and rectify, ensuring your photos showcase only the finest details. Elevate every snapshot.",
-    "canonical" => "https://eztemcorp.com/retouch/photo",
     // Title and Description
     "title" => "Photo Corrections",
     "description" => "Dive into our Photo Corrections services where we meticulously address and amend any discrepancies in your images. From adjusting exposure to rectifying color imbalances, we're dedicated to transforming your photos into their best possible versions, preserving their authenticity while elevating their quality.",

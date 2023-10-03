@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container footer__container">
         <div class="footer__nav">
-            <a href="/">
+            <a href="{{ URL::localized('/') }}">
                 <img src="/img/logo.webp" alt="Logo = Creative Solutions" class="logo" loading="lazy">
             </a>
             <ul class="footer__nav--list">
@@ -38,56 +38,56 @@
         <div class="footer__list">
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/">
+                    <a href="{{ URL::localized('/') }}">
                         @lang('components.footer.home')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/contact">
+                    <a href="{{ URL::localized('/contact') }}">
                         @lang('components.footer.contact_us')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/about">
+                    <a href="{{ URL::localized('/about') }}">
                         @lang('components.footer.about_us')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/faq">
+                    <a href="{{ URL::localized('/faq') }}">
                         @lang('components.footer.faq')
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/web">
+                    <a href="{{ URL::localized('/web') }}">
                         @lang('components.footer.web')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/graphics">
+                    <a href="{{ URL::localized('/graphics') }}">
                         @lang('components.footer.graphics')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/retouch">
+                    <a href="{{ URL::localized('/retouch') }}">
                         @lang('components.footer.retouch')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/marketing">
+                    <a href="{{ URL::localized('/marketing') }}">
                         @lang('components.footer.marketing')
                     </a>
                 </li>
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/cookie">
+                    <a href="{{ URL::localized('/cookie') }}">
                         @lang('components.footer.cookies')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="/privacy">
+                    <a href="{{ URL::localized('/privacy') }}">
                         @lang('components.footer.privacy')
                     </a>
                 </li>

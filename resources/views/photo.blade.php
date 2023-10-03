@@ -3,15 +3,15 @@
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/retouch" _target="_blank">
+            <a href="{{ URL::localized('/retouch') }}" _target="_blank">
                 @lang("components.breadcrums.Retouch")
             </a>
             <span> > </span>
-            <a href="/retouch/photo" _target="_blank">
+            <a href="{{ URL::localized('/retouch/photo') }}" _target="_blank">
                 @lang("components.breadcrums.Correction")
             </a>
         </div>
@@ -103,7 +103,7 @@
         <span>
             @lang("photo.quote")
         </span>
-        <a href="/retouch" class="button">
+        <a href="{{ URL::localized('/retouch') }}" class="button">
             @lang("photo.button")
         </a>
     </div>

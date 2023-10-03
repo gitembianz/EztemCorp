@@ -4,7 +4,6 @@ return [
     // Privacy Section
     "pageTitle" => "Privacy Policy",
     "metadescription" => "Learn how we protect your privacy and personal data. Our privacy policy explains how we handle your information.",
-    "canonical" => "https://eztemcorp.com/privacy",
     "privacy" => [
         "heading" => "PRIVACY NOTICE",
         "description" => "This Privacy Notice explains how and why Eztem Corp uses personal data of individuals who purchase goods from us, visit ourwebsite, enquire about products or otherwise communicate or do business with us.",

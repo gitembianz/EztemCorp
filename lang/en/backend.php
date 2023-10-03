@@ -4,7 +4,6 @@ return [
     // Back-End section
     "pageTitle" => "Back-End Development",
     "metadescription" => "Specializing in PHP with Laravel expertise, we offer robust backend development, advanced SQL management, and comprehensive data solutions for optimized web performance and security.",
-    "canonical" => "https://eztemcorp.com/web/backend",
 
     // Title and Description
     "title" => "Back-End Development",

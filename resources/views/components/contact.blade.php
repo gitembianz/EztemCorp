@@ -24,7 +24,7 @@
         <form class="contact__form" action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8"
             method="POST">
             <input type=hidden name="oid" value="00D09000008XPQu">
-            <input type=hidden name="retURL" value="{{ url('/confirm') }}">
+            <input type=hidden name="retURL" value="{{ URL::localized('/confirm') }}">
 
             <div class="contact__label">
                 <label for="last_name">
