@@ -1,4 +1,4 @@
-<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' :canonical="url('/web')" />
+<x-header :title='__('web.pageTitle') . ' | Eztem Corp'' :metadescription='__('web.metadescription')' :canonical="url('/web')" />
 
 <main>
     <div class="container">
@@ -6,25 +6,25 @@
             <div class="product__text">
                 <div class="breadcrums">
                     <a href="{{ URL::localized('/') }}" _target="_blank">
-                        @lang("components.breadcrums.Home")
+                        @lang('components.breadcrums.Home')
                     </a>
                     <span> > </span>
                     <a href="{{ URL::localized('/web') }}" _target="_blank">
-                        @lang("components.breadcrums.Web")
+                        @lang('components.breadcrums.Web')
                     </a>
                 </div>
                 <div class="product__title">
                     <img src="/img/web.webp" alt="web">
                     <h1>
-                        @lang("web.title")
+                        @lang('web.title')
                     </h1>
                 </div>
             </div>
             <p>
-                @lang("web.description1")
+                @lang('web.description1')
             </p>
             <h3>
-                @lang("web.description2")
+                @lang('web.description2')
             </h3>
             <div class="product__list">
                 <article class="product__item">
@@ -33,42 +33,42 @@
                         <ul>
                             <li>
                                 <h3>
-                                    @lang("web.product_list.item1.title")
+                                    @lang('web.product_list.item1.title')
                                 </h3>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item1.description1.bold") </strong>
-                                    @lang("web.product_list.item1.description1.text")
+                                    <strong>@lang('web.product_list.item1.description1.bold') </strong>
+                                    @lang('web.product_list.item1.description1.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item1.description2.bold")
+                                        @lang('web.product_list.item1.description2.bold')
                                     </strong>
-                                    @lang("web.product_list.item1.description2.text")
+                                    @lang('web.product_list.item1.description2.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item1.description3.bold")
+                                        @lang('web.product_list.item1.description3.bold')
                                     </strong>
-                                    @lang("web.product_list.item1.description3.text")
+                                    @lang('web.product_list.item1.description3.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item1.description4.bold")
+                                        @lang('web.product_list.item1.description4.bold')
                                     </strong>
-                                    @lang("web.product_list.item1.description4.text")
+                                    @lang('web.product_list.item1.description4.text')
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('web//frontend') }}" class="button" _target="_blank">
-                                    @lang("web.product_list.button")
+                                <a href="{{ URL::localized('web/frontend') }}" class="button" _target="_blank">
+                                    @lang('web.product_list.button')
                                 </a>
                             </li>
                         </ul>
@@ -80,50 +80,50 @@
                         <ul>
                             <li>
                                 <h3>
-                                    @lang("web.product_list.item2.title")
+                                    @lang('web.product_list.item2.title')
                                 </h3>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item2.description1.bold") </strong>
-                                    @lang("web.product_list.item2.description1.text")
+                                    <strong>@lang('web.product_list.item2.description1.bold') </strong>
+                                    @lang('web.product_list.item2.description1.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item2.description2.bold")
+                                        @lang('web.product_list.item2.description2.bold')
                                     </strong>
-                                    @lang("web.product_list.item2.description2.text")
+                                    @lang('web.product_list.item2.description2.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item2.description3.bold")
+                                        @lang('web.product_list.item2.description3.bold')
                                     </strong>
-                                    @lang("web.product_list.item2.description3.text")
+                                    @lang('web.product_list.item2.description3.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item2.description4.bold")
+                                        @lang('web.product_list.item2.description4.bold')
                                     </strong>
-                                    @lang("web.product_list.item2.description4.text")
+                                    @lang('web.product_list.item2.description4.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
                                     <strong>
-                                        @lang("web.product_list.item2.description5.bold")
+                                        @lang('web.product_list.item2.description5.bold')
                                     </strong>
-                                    @lang("web.product_list.item2.description5.text")
+                                    @lang('web.product_list.item2.description5.text')
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('web//backend') }}" class="button" _target="_blank">
-                                    @lang("web.product_list.button")
+                                <a href="{{ URL::localized('web/backend') }}" class="button" _target="_blank">
+                                    @lang('web.product_list.button')
                                 </a>
                             </li>
                         </ul>
@@ -135,42 +135,42 @@
                         <ul>
                             <li>
                                 <h3>
-                                    @lang("web.product_list.item3.title")
+                                    @lang('web.product_list.item3.title')
                                 </h3>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item3.description1.bold")</strong>
-                                    @lang("web.product_list.item3.description1.text")
+                                    <strong>@lang('web.product_list.item3.description1.bold')</strong>
+                                    @lang('web.product_list.item3.description1.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item3.description2.bold")</strong>
-                                    @lang("web.product_list.item3.description2.text")
+                                    <strong>@lang('web.product_list.item3.description2.bold')</strong>
+                                    @lang('web.product_list.item3.description2.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item3.description3.bold")</strong>
-                                    @lang("web.product_list.item3.description3.text")
+                                    <strong>@lang('web.product_list.item3.description3.bold')</strong>
+                                    @lang('web.product_list.item3.description3.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item3.description4.bold")</strong>
-                                    @lang("web.product_list.item3.description4.text")
+                                    <strong>@lang('web.product_list.item3.description4.bold')</strong>
+                                    @lang('web.product_list.item3.description4.text')
                                 </p>
                             </li>
                             <li>
                                 <p>
-                                    <strong>@lang("web.product_list.item3.description5.bold")</strong>
-                                    @lang("web.product_list.item3.description5.text")
+                                    <strong>@lang('web.product_list.item3.description5.bold')</strong>
+                                    @lang('web.product_list.item3.description5.text')
                                 </p>
                             </li>
                             <li>
                                 <a href="{{ URL::localized('/web/salesforce') }}" class="button" _target="_blank">
-                                    @lang("web.product_list.button")
+                                    @lang('web.product_list.button')
                                 </a>
                             </li>
                         </ul>
