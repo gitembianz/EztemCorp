@@ -67,7 +67,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('web//frontend') }}" class="button" _target="_blank">
+                                <a href="{{ URL::localized('web/frontend') }}" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>
@@ -122,7 +122,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('web//backend') }}" class="button" _target="_blank">
+                                <a href="{{ URL::localized('web/backend') }}" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>
