@@ -130,12 +130,12 @@
                             </div>
                             <ul class="select-options">
                                 <li data-value="optiune1">
-                                    <a href="{{ route('locale', ['locale' => 'en']) }}">
+                                    <a href="?locale=en">
                                         EN
                                     </a>
                                 </li>
                                 <li data-value="optiune1">
-                                    <a href="{{ route('locale', ['locale' => 'ro']) }}">
+                                    <a href="?locale=ro">
                                         RO
                                     </a>
                                 </li>
