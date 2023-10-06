@@ -82,12 +82,12 @@
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/cookie') }}">
+                    <a href="/cookie'">
                         @lang('components.footer.cookies')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/privacy') }}">
+                    <a href="/privacy">
                         @lang('components.footer.privacy')
                     </a>
                 </li>
