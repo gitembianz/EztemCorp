@@ -130,7 +130,7 @@
                             </div>
                             <ul class="select-options">
                                 <li data-value="optiune1">
-                                    <a href="/locale=en">
+                                    <a href="/?locale=en">
                                         EN
                                     </a>
                                 </li>
