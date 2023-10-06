@@ -33,8 +33,8 @@
         <meta property="og:image" content="img/logo-banner.webp" />
         <meta property="twitter:image" content="img/logo-banner.webp" />
         {{-- ----------------------------------------------------------- --}}
-        <meta property="og:url" content="{{ url('/') }}" />
-        <meta property="twitter:url" content="{{ url('/') }}" />
+        <meta property="og:url" content="{{ $canonical }}" />
+        <meta property="twitter:url" content="{{ $canonical }}" />
         {{-- ----------------------------------------------------------- --}}
         <meta property="og:type" content="website" />
         <meta property="twitter:card" content="summary_large_image" />
