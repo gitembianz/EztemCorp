@@ -60,22 +60,22 @@
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/web') }}">
+                    <a href="/web">
                         @lang('components.footer.web')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/graphics') }}">
+                    <a href="/graphics">
                         @lang('components.footer.graphics')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/retouch') }}">
+                    <a href="/retouch">
                         @lang('components.footer.retouch')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/marketing') }}">
+                    <a href="/marketing">
                         @lang('components.footer.marketing')
                     </a>
                 </li>
