@@ -2,21 +2,24 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
 
 class mainController extends Controller
 {
-    //
     public function changeLocale($locale)
     {
-        // Store the chosen locale in the session
         session()->put('locale', $locale);
-
-        // Set the application locale
-        App::setLocale($locale);
-
-        // Redirect back to the previous page
-        return redirect()->back();
+        $previousUrl = url()->previous();
+        $parsedUrl = parse_url($previousUrl);
+        $path = $parsedUrl['path'];
+        $queryParams = $parsedUrl['query'] ?? '';
+        if ($queryParams) {
+            parse_str($queryParams, $queryParamsArray);
+            $queryParamsArray['locale'] = $locale;
+            $newQueryParams = http_build_query($queryParamsArray);
+            $newUrl = $path . '?' . $newQueryParams;
+        } else {
+            $newUrl = $path;
+        }
+        return redirect($newUrl);
     }
 }

@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("home.pageTitle")' :metadescription='__("home.metadescription")' :canonical='__("home.canonical")' />
+<x-header :title='"Eztem Corp - " . __("home.pageTitle")' :metadescription='__("home.metadescription")' :canonical="url('/')" />
 
 {{-- Pagina "Home sau Index" --}}{{-- Page "Home or Index" --}}
 <main>
@@ -146,7 +146,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web1.description")
                 </p>
-                <a href="/web" class="button">
+                <a href="{{ URL::localized('/web') }}" class="button">
                     @lang("home.details.card_web1.button")
                 </a>
             </div>
@@ -160,7 +160,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web2.description")
                 </p>
-                <a href="/graphics" class="button">
+                <a href="{{ URL::localized('/graphics') }}" class="button">
                     @lang("home.details.card_web2.button")
                 </a>
             </div>
@@ -174,7 +174,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web3.description")
                 </p>
-                <a href="/retouch" class="button">
+                <a href="{{ URL::localized('/retouch') }}" class="button">
                     @lang("home.details.card_web3.button")
                 </a>
             </div>
@@ -188,7 +188,7 @@
                 <p class="details__text">
                     @lang("home.details.card_web4.description")
                 </p>
-                <a href="/marketing" class="button">
+                <a href="{{ URL::localized('/marketing') }}" class="button">
                     @lang("home.details.card_web4.button")
                 </a>
             </div>

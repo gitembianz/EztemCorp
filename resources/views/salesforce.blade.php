@@ -1,17 +1,17 @@
-<x-header :title='__("salesforce.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' :canonical='__("salesforce.canonical")' />
+<x-header :title='__("salesforce.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' :canonical="url('/web/salesforce')" />
 
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/web" _target="_blank">
+            <a href="{{ URL::localized('/web') }}" _target="_blank">
                 @lang("components.breadcrums.Web")
             </a>
             <span> > </span>
-            <a href="/web/salesforce" _target="_blank">
+            <a href="{{ URL::localized('/web/salesforce') }}" _target="_blank">
                 @lang("components.breadcrums.Salesforce")
             </a>
         </div>
@@ -181,7 +181,7 @@
         <span>
             @lang("salesforce.quote")
         </span>
-        <a href="/web" class="button">
+        <a href="{{ URL::localized('/web') }}" class="button">
             @lang("salesforce.button")
         </a>
     </div>

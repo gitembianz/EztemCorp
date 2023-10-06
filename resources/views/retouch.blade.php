@@ -1,15 +1,15 @@
-<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' :canonical='__("retouch.canonical")' />
+<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' :canonical="url('/retouch')" />
 
 <main>
     <div class="container">
         <div class="product">
             <div class="product__text">
                 <div class="breadcrums">
-                    <a href="/" _target="_blank">
+                    <a href="{{ URL::localized('/') }}" _target="_blank">
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="/retouch" _target="_blank">
+                    <a href="{{ URL::localized('/retouch') }}" _target="_blank">
                         @lang("components.breadcrums.Retouch")
                     </a>
                 </div>
@@ -61,7 +61,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/retouch/photo" class="button">
+                                <a href="{{ URL::localized('/retouch/photo') }}" class="button">
                                     @lang("retouch.product_list.button")
                                 </a>
                             </li>
@@ -102,7 +102,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/retouch/manipulation" class="button">
+                                <a href="{{ URL::localized('/retouch/manipulation') }}" class="button">
                                     @lang("retouch.product_list.button")
                                 </a>
                             </li>

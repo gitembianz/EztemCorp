@@ -4,7 +4,6 @@ return [
     // Cookie Section
     "pageTitle" => "Cookie Policy",
     "metadescription" => "Discover how we use cookies to enhance your online experience and protect your privacy. Our Cookie Policy explains it all.",
-    "canonical" => "https://eztemcorp.com/cookie",
     "cookie" => [
         "heading" => "Cookie Policy",
         "category1" => [

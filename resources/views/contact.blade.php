@@ -1,13 +1,13 @@
-<x-header :title='__("components.contact.pageTitle") . " | Eztem Corp"' :metadescription='__("components.contact.metadescription")' :canonical='__("components.contact.canonical")' />
+<x-header :title='__("components.contact.pageTitle") . " | Eztem Corp"' :metadescription='__("components.contact.metadescription")' :canonical="url('/contact')" />
 <main>
     {{-- Sectiunea de contact --}}
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/contact" _target="_blank">
+            <a href="{{ URL::localized('/contact') }}" _target="_blank">
                 @lang("components.breadcrums.Contact")
             </a>
         </div>

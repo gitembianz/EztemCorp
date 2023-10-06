@@ -1,15 +1,15 @@
-<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' :canonical='__("web.canonical")' />
+<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' :canonical="url('/web')" />
 
 <main>
     <div class="container">
         <div class="product">
             <div class="product__text">
                 <div class="breadcrums">
-                    <a href="/" _target="_blank">
+                    <a href="{{ URL::localized('/') }}" _target="_blank">
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="/web" _target="_blank">
+                    <a href="{{ URL::localized('/web') }}" _target="_blank">
                         @lang("components.breadcrums.Web")
                     </a>
                 </div>
@@ -67,7 +67,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/web/frontend" class="button" _target="_blank">
+                                <a href="{{ URL::localized('web/frontend') }}" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>
@@ -122,7 +122,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/web/backend" class="button" _target="_blank">
+                                <a href="{{ URL::localized('web/backend') }}" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>
@@ -169,7 +169,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/web/salesforce" class="button" _target="_blank">
+                                <a href="{{ URL::localized('/web/salesforce') }}" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>

@@ -1,4 +1,4 @@
-<x-header :title='__("about.pageTitle") . " | Eztem Corp"' :metadescription='__("about.metadescription")' :canonical='__("about.canonical")' />
+<x-header :title='__("about.pageTitle") . " | Eztem Corp"' :metadescription='__("about.metadescription")' :canonical="url('/about')"/>
 
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
@@ -7,11 +7,11 @@
     <section class="about">
         <div class=" container about__container">
             <div class="breadcrums">
-                <a href="/" _target="_blank">
+                <a href="{{ URL::localized('/') }}" _target="_blank">
                     @lang("components.breadcrums.Home")
                 </a>
                 <span> > </span>
-                <a href="/web" _target="_blank">
+                <a href="{{ URL::localized('/web') }}" _target="_blank">
                     @lang("components.breadcrums.About")
                 </a>
             </div>

@@ -1,13 +1,13 @@
-<x-header :title='__("faq.pageTitle") . " | Eztem Corp"' :metadescription='__("faq.metadescription")' :canonical='__("faq.canonical")' />
+<x-header :title='__("faq.pageTitle") . " | Eztem Corp"' :metadescription='__("faq.metadescription")' :canonical="url('/faq')" />
 
 <main>
     <div class="container faq__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/web" _target="_blank">
+            <a href="{{ URL::localized('/web') }}" _target="_blank">
                 @lang("components.breadcrums.Faq")
             </a>
         </div>

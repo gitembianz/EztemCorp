@@ -62,39 +62,39 @@
         <header>
             <div class="header">
                 <div class="container header__container">
-                    <a href="/" class="header__logo">
+                    <a href="{{ URL::localized('/') }}" class="header__logo">
                         <img class="logo" src="/img/logo.webp" alt="Logo = Creative Solutions" loading="lazy">
                     </a>
                     <nav class="header__categories">
                         <ul class="header__categories-list">
                             <li class="header__category">
-                                <a href="/web">
+                                <a href="{{ URL::localized('/web') }}">
                                     @lang("components.header.solutions_dropdown.Web")
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/graphics">
+                                <a href="{{ URL::localized('/graphics') }}">
                                     @lang("components.header.solutions_dropdown.Graphics")
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/retouch">
+                                <a href="{{ URL::localized('/retouch') }}">
                                     @lang("components.header.solutions_dropdown.Retouch")
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/marketing">
+                                <a href="{{ URL::localized('/marketing') }}">
                                     @lang("components.header.solutions_dropdown.Marketing")
                                 </a>
                             </li>
                             </li>
                             <li class="header__category">
-                                <a href="/contact">
+                                <a href="{{ URL::localized('/contact') }}">
                                     @lang("components.header.contact_us")
                                 </a>
                             </li>
                             <li class="header__category">
-                                <a href="/about">
+                                <a href="{{ URL::localized('/about') }}">
                                     @lang("components.header.about_us")
                                 </a>
                             </li>
@@ -130,14 +130,15 @@
                             </div>
                             <ul class="select-options">
                                 <li data-value="optiune1">
-                                    <a href="{{ route("locale", "en") }}">
+                                    <a href="{{ route('locale', ['locale' => 'en']) }}">
                                         EN
                                     </a>
                                 </li>
                                 <li data-value="optiune1">
-                                    <a href="{{ route("locale", "ro") }}">
+                                    <a href="{{ route('locale', ['locale' => 'ro']) }}">
                                         RO
                                     </a>
+                                </li>
                             </ul>
                         </div>
                     </nav>

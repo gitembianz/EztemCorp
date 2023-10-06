@@ -1,17 +1,17 @@
-<x-header :title='__("banner.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("banner.metadescription")' :canonical='__("banner.canonical")' />
+<x-header :title='__("banner.pageTitle") . " | " . __("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("banner.metadescription")' :canonical="url('/graphics/banners')" />
 
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/graphics" _target="_blank">
+            <a href="{{ URL::localized('/graphics') }}" _target="_blank">
                 @lang("components.breadcrums.Graphics")
             </a>
             <span> > </span>
-            <a href="/graphics/banners" _target="_blank">
+            <a href="{{ URL::localized('/graphics/banners') }}" _target="_blank">
                 @lang("components.breadcrums.Banner")
             </a>
         </div>
@@ -103,7 +103,7 @@
         <span>
             @lang("banner.quote")
         </span>
-        <a href="/graphics" class="button">
+        <a href="{{ URL::localized('/graphics') }}" class="button">
             @lang("banner.button")
         </a>
     </div>

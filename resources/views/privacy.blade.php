@@ -1,13 +1,13 @@
-<x-header :title='__("privacy.pageTitle") . " | Eztem Corp"' :metadescription='__("privacy.metadescription")' :canonical='__("privacy.canonical")' />
+<x-header :title='__("privacy.pageTitle") . " | Eztem Corp"' :metadescription='__("privacy.metadescription")' :canonical="url('/privacy')" />
 
 <main>
     <div class="container notes__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/web" _target="_blank">
+            <a href="{{ URL::localized('/privacy') }}" _target="_blank">
                 @lang("components.breadcrums.Privacy")
             </a>
         </div>

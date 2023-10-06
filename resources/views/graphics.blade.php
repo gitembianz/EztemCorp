@@ -1,15 +1,15 @@
-<x-header :title='__("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("graphics.metadescription")' :canonical='__("graphics.canonical")' />
+<x-header :title='__("graphics.pageTitle") . " | Eztem Corp"' :metadescription='__("graphics.metadescription")' :canonical="url('/graphics')" />
 
 <main>
     <div class="container">
         <div class="product">
             <div class="product__text">
                 <div class="breadcrums">
-                    <a href="/" _target="_blank">
+                    <a href="{{ URL::localized('/') }}" _target="_blank">
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="/graphics" _target="_blank">
+                    <a href="{{ URL::localized('/graphics') }}" _target="_blank">
                         @lang("components.breadcrums.Graphics")
                     </a>
                 </div>
@@ -61,7 +61,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/graphics/logo" class="button" _target="_blank">
+                                <a href="{{ URL::localized('/graphics/logo') }}" class="button" _target="_blank">
                                     @lang("graphics.product_list.button")
                                 </a>
                             </li>
@@ -102,7 +102,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/graphics/banners" class="button" _target="_blank">
+                                <a href="{{ URL::localized('/graphics/banners') }}" class="button" _target="_blank">
                                     @lang("graphics.product_list.button")
                                 </a>
                             </li>

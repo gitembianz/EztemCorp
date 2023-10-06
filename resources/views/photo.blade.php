@@ -1,17 +1,17 @@
-<x-header :title='__("photo.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("photo.metadescription")' :canonical='__("photo.canonical")' />
+<x-header :title='__("photo.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("photo.metadescription")' :canonical="url('/retouch/photo')" />
 
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/retouch" _target="_blank">
+            <a href="{{ URL::localized('/retouch') }}" _target="_blank">
                 @lang("components.breadcrums.Retouch")
             </a>
             <span> > </span>
-            <a href="/retouch/photo" _target="_blank">
+            <a href="{{ URL::localized('/retouch/photo') }}" _target="_blank">
                 @lang("components.breadcrums.Correction")
             </a>
         </div>
@@ -103,7 +103,7 @@
         <span>
             @lang("photo.quote")
         </span>
-        <a href="/retouch" class="button">
+        <a href="{{ URL::localized('/retouch') }}" class="button">
             @lang("photo.button")
         </a>
     </div>

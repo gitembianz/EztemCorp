@@ -1,4 +1,4 @@
-<x-header :title='"Eztem Corp - " . __("confirm.pageTitle")' :metadescription='__("confirm.metadescription")' :canonical='__("confirm.canonical")' />
+<x-header :title='"Eztem Corp - " . __("confirm.pageTitle")' :metadescription='__("confirm.metadescription")' :canonical="url('/confirm')" />
 
 {{-- Pagina "Despre noi" --}}{{-- Page "About Us" --}}
 <main>
@@ -22,7 +22,7 @@
         // Așteaptă 5 secunde (5000 milisecunde) și apoi face redirect către o altă pagină
         setTimeout(function() {
             window.location.href =
-                "/"; // Schimbă "pagina_de_redirect.html" cu adresa URL către care vrei să faci redirect
+                "{{ URL::localized('/') }}"; // Schimbă "pagina_de_redirect.html" cu adresa URL către care vrei să faci redirect
         }, 5000);
     </script>
 </main>

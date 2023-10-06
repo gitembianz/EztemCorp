@@ -1,17 +1,17 @@
-<x-header :title='__("manipulation.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("manipulation.metadescription")' :canonical='__("manipulation.canonical")' />
+<x-header :title='__("manipulation.pageTitle") . " | " . __("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("manipulation.metadescription")' :canonical="url('/retouch/manipulation')" />
 
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="/" _target="_blank">
+            <a href="{{ URL::localized('/') }}" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/retouch" _target="_blank">
+            <a href="{{ URL::localized('/retouch') }}" _target="_blank">
                 @lang("components.breadcrums.Retouch")
             </a>
             <span> > </span>
-            <a href="/retouch/manipulation" _target="_blank">
+            <a href="{{ URL::localized('/retouch/manipulation') }}" _target="_blank">
                 @lang("components.breadcrums.Manipulation")
             </a>
         </div>
@@ -103,7 +103,7 @@
         <span>
             @lang("manipulation.quote")
         </span>
-        <a href="/retouch" class="button">
+        <a href="{{ URL::localized('/retouch') }}" class="button">
             @lang("manipulation.button")
         </a>
     </div>
