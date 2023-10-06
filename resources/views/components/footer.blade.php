@@ -82,7 +82,7 @@
             </ul>
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="/cookie'">
+                    <a href="/cookie">
                         @lang('components.footer.cookies')
                     </a>
                 </li>
