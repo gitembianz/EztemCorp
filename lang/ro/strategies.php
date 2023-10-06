@@ -3,7 +3,7 @@
 return [
     // Secțiunea Strategie
     "pageTitle" => "Strategii de Web Marketing",
-    "metadescription" => "Obține succesul online cu strategii de marketing web personalizate: SEO, conținut, email și marketing afiliat. Crearea de valoare, implicarea audienței, creșterea conversiilor",
+    "metadescription" => "Obținem succesul online cu strategii de marketing web personalizate: SEO, conținut, email și marketing afiliat.",
     // Titlu și Descriere
     "title" => "Strategii de Web Marketing",
     "description" => "Strategiile de Web Marketing reprezintă coloana vertebrală a succesului online. De la creșterea clasamentelor pe motoarele de căutare cu SEO, crearea de conținut de impact, implicarea clienților prin e-mailuri personalizate, până la extinderea acoperirii cu parteneriate afiliate, sculptăm strategii care creează o valoare autentică pentru clienți și stimulează conversiile.",

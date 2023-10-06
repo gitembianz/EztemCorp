@@ -1,4 +1,4 @@
-<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' />
+<x-header :title='__("web.pageTitle") . " | Eztem Corp"' :metadescription='__("web.metadescription")' :canonical="url('/web')" />
 
 <main>
     <div class="container">
@@ -67,7 +67,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/web/frontend" class="button" _target="_blank">
+                                <a href="web/frontend" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>
@@ -122,7 +122,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/web/backend" class="button" _target="_blank">
+                                <a href="web/backend" class="button" _target="_blank">
                                     @lang("web.product_list.button")
                                 </a>
                             </li>

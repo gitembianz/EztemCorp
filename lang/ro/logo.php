@@ -3,8 +3,7 @@
 return [
     // Secțiunea Design
     "pageTitle" => "Design Logo",
-    "metadescription" => "
-    Obține recunoașterea mărcii cu serviciile noastre pentru Design Logo. De la concept la designul final, creăm logo-uri pentru publicul tău și încorporează ideile brandului tău. Fă-ți marca cunoscută astăzi.",
+    "metadescription" => "De la concept la designul final, creăm logo-uri pentru publicul tău și încorporează ideile brandului tău.",
 
     // Titlul și Descrierea
     "title" => "Design Logo",

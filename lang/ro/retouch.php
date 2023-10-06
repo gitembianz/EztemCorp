@@ -3,7 +3,7 @@
 return [
     // Secțiunea Retușare
     "pageTitle" => "Retouch",
-    "metadescription" => "Îmbunătățește-ți fotografiile prin retușarea. Perfecționăm imperfecțiunile și evidențiem detalii cruciale, asigurând că imaginile radiază profesionalism și esență adevărată. Capturați perfecțiunea cu noi.",
+    "metadescription" => "Perfecționăm imperfecțiunile și evidențiem detalii cruciale, asigurând că imaginile radiază profesionalism și esență adevărată.",
     // Titlul și Descrierea
     "title" => "Retouch",
     "description1" => "Înălțarea imaginii prin rafinarea imperfecțiunilor și amplificarea elementelor cheie. Retușăm fotografiile pentru a captura esența, oferind în același timp un aspect finisat și profesional.",

@@ -1,4 +1,4 @@
-<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' />
+<x-header :title='__("retouch.pageTitle") . " | Eztem Corp"' :metadescription='__("retouch.metadescription")' :canonical="url('/retouch')" />
 
 <main>
     <div class="container">
@@ -9,7 +9,7 @@
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="/web" _target="_blank">
+                    <a href="/retouch" _target="_blank">
                         @lang("components.breadcrums.Retouch")
                     </a>
                 </div>

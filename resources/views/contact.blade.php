@@ -1,4 +1,4 @@
-<x-header :title='__("components.contact.pageTitle") ." | Eztem Corp"' :metadescription='__("components.contact.metadescription")' />
+<x-header :title='__("components.contact.pageTitle") . " | Eztem Corp"' :metadescription='__("components.contact.metadescription")' :canonical="url('/contact')" />
 <main>
     {{-- Sectiunea de contact --}}
     <div class="container job__container">
@@ -11,7 +11,7 @@
                 @lang("components.breadcrums.Contact")
             </a>
         </div>
-        </div>
+    </div>
     {{-- Section of contact --}}
     <x-contact />
 </main>

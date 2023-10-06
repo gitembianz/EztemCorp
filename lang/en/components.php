@@ -76,7 +76,7 @@ return [
         "metadescription" => "Use our form, drop an e-mail, or connect on social media. We're here to assist and look forward to hearing from you.",
         "heading" => "Contact Us",
         "description" => "Send the form, reach out via e-mail, or contact us directly on social media.",
-        "company" =>"Company",
+        "company" => "Company",
         "name" => "Name",
         "email" => "Email",
         "solutions" => "Solutions",

@@ -1,6 +1,5 @@
 <?php
 
-use App\Http\Controllers\mainController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,14 +13,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('locale/{locale}', [mainController::class, 'changeLocale'])->name('locale');
-
-
 Route::middleware(['set_locale'])->group(function () {
     Route::get('/', function () {
         return view('home');
     });
-
     Route::get('/about', function () {
         return view('about');
     });
@@ -34,49 +29,57 @@ Route::middleware(['set_locale'])->group(function () {
     Route::get('/faq', function () {
         return view('faq');
     });
-    Route::get('/graphics', function () {
-        return view('graphics');
+    Route::get('/privacy', function () {
+        return view('privacy');
     });
-    Route::get('/graphics/logo', function () {
-        return view('logo');
-    });
-    Route::get('/graphics/banners', function () {
-        return view('banners');
+    Route::prefix('/graphics')->group(function () {
+        Route::get('/', function () {
+            return view('graphics');
+        });
+        Route::get('/logo', function () {
+            return view('logo');
+        });
+        Route::get('/banners', function () {
+            return view('banners');
+        });
     });
     Route::get('/confirm', function () {
         return view('confirm');
     });
-    Route::get('/marketing', function () {
-        return view('marketing');
+    Route::prefix('/marketing')->group(function () {
+        Route::get('/', function () {
+            return view('marketing');
+        });
+        Route::get('/advertising', function () {
+            return view('advertising');
+        });
+        Route::get('/strategies', function () {
+            return view('strategies');
+        });
     });
-    Route::get('/marketing/advertising', function () {
-        return view('advertising');
+    Route::prefix('/web')->group(function () {
+        Route::get('/', function () {
+            return view('web');
+        });
+        Route::get('/frontend', function () {
+            return view('frontend');
+        });
+        Route::get('/backend', function () {
+            return view('backend');
+        });
+        Route::get('/salesforce', function () {
+            return view('salesforce');
+        });
     });
-    Route::get('/marketing/strategies', function () {
-        return view('strategies');
-    });
-    Route::get('/web/frontend', function () {
-        return view('frontend');
-    });
-    Route::get('/web/backend', function () {
-        return view('backend');
-    });
-    Route::get('/web/salesforce', function () {
-        return view('salesforce');
-    });
-    Route::get('/privacy', function () {
-        return view('privacy');
-    });
-    Route::get('/retouch', function () {
-        return view('retouch');
-    });
-    Route::get('/retouch/photo', function () {
-        return view('photo');
-    });
-    Route::get('/retouch/manipulation', function () {
-        return view('manipulation');
-    });
-    Route::get('/web', function () {
-        return view('web');
+    Route::prefix('/retouch')->group(function () {
+        Route::get('/', function () {
+            return view('retouch');
+        });
+        Route::get('/photo', function () {
+            return view('photo');
+        });
+        Route::get('/manipulation', function () {
+            return view('manipulation');
+        });
     });
 });

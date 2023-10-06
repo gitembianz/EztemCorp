@@ -3,7 +3,7 @@
 return [
     // Secțiunea Back-End
     "pageTitle" => "Dezvoltare Back-End",
-    "metadescription" => "Specializați în PHP cu expertiză în Laravel, oferim dezvoltare robustă a back-endului, gestionare avansată SQL și soluții complete de date pentru performanță web optimizată și securizată.",
+    "metadescription" => "Oferim dezvoltare robustă a back-endului, gestionare avansată SQL și soluții complete de date pentru performanță web optimizată și securizată.",
 
     // Titlul și descrierea
     "title" => "Dezvoltare Back-End",

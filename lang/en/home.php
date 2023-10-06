@@ -3,8 +3,7 @@
 return [
     // Hero Section
     "pageTitle" => "Creative Digital Solutions",
-    "metadescription" => "We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing. Turning ideas into reality.",
-
+    "metadescription" => "We provide creative digital solutions for your business. Expertise in graphic design, retouch, web development, and online marketing.",
     "hero" => [
         "heading" => "Creative Digital Solutions",
         "description" => "A wide spectrum of digital solutions for your visions and needs.",

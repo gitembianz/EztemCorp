@@ -1,4 +1,4 @@
-<x-header :title='__("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("marketing.metadescription")' />
+<x-header :title='__("marketing.pageTitle") . " | Eztem Corp"' :metadescription='__("marketing.metadescription")' :canonical="url('/marketing')" />
 
 <main>
     <div class="container">
@@ -9,7 +9,7 @@
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="/web" _target="_blank">
+                    <a href="/marketing" _target="_blank">
                         @lang("components.breadcrums.Marketing")
                     </a>
                 </div>
@@ -122,7 +122,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="/marketing/strategies" class="button">
+                                <a href="marketing/strategies" class="button">
                                     @lang("marketing.product_list.button")
                                 </a>
                             </li>

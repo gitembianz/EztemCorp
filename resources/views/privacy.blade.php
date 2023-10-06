@@ -1,4 +1,4 @@
-<x-header :title='__("privacy.pageTitle") . " | Eztem Corp"' :metadescription='__("privacy.metadescription")' />
+<x-header :title='__("privacy.pageTitle") . " | Eztem Corp"' :metadescription='__("privacy.metadescription")' :canonical="url('/privacy')" />
 
 <main>
     <div class="container notes__container">
@@ -7,7 +7,7 @@
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="/web" _target="_blank">
+            <a href="/privacy" _target="_blank">
                 @lang("components.breadcrums.Privacy")
             </a>
         </div>

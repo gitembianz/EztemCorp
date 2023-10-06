@@ -1,4 +1,4 @@
-<x-header :title='__("salesforce.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' />
+<x-header :title='__("salesforce.pageTitle") . " | " . __("web.pageTitle") . " | Eztem Corp"' :metadescription='__("salesforce.metadescription")' :canonical="url('/web/salesforce')" />
 
 <main>
     <div class="container job__container">

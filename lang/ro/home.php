@@ -3,7 +3,7 @@
 return [
     // Secțiunea Eroică
     "pageTitle" => "Soluții Digitale Creative",
-    "metadescription" => "Oferim soluții digitale creative pentru afacerea ta. Expertiză în design grafic, retouch, dezvoltare web și marketing online. Transformăm ideile tale în realitate.",
+    "metadescription" => "Oferim soluții digitale creative pentru afacerea ta. Expertiză în design grafic, retouch, dezvoltare web și marketing online.",
 
     "hero" => [
         "heading" => "Soluții Digitale Creative",

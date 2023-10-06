@@ -3,7 +3,7 @@
 return [
     // Salesforce section
     "pageTitle" => "Salesforce Advanced Administration & Consulting",
-    "metadescription" => "Specializing in Salesforce solutions, we deliver platform customization, advanced analytics, seamless integrations, and top-tier security for businesses globally.",
+    "metadescription" => "Specializing in Salesforce solutions, we deliver platform customization, advanced analytics, seamless integrations for businesses globally.",
     // Title and Description
     "title" => "Salesforce Advanced Administration & Consulting",
     "description" => "We are trusted Salesforce experts, delivering tailor-made platform customizations, actionable analytics, and seamless integrations. Our commitment to excellence ensures maximized ROI, streamlined operations, and enhanced business performance. Partner with us for a transformative Salesforce experience.",

@@ -3,7 +3,7 @@
 return [
     // Secțiunea de Marketing
     "pageTitle" => "Marketing",
-    "metadescription" => "Elaborăm planuri strategice personalizate pentru a maximiza prezența online și pentru a atrage atenția. Prin execuție meticuloasă, campaniile noastre au scopul de a amplifica angajamentul și de a stimula interacțiuni semnificative.",
+    "metadescription" => "Campaniile noastre publicitare au scopul de a amplifica angajamentul și de a stimula interacțiuni semnificative.",
     // Titlu și Descriere
     "title" => "Marketing",
     "description1" => "Elaborăm planuri strategice personalizate pentru a maximiza prezența online și pentru a atrage atenția. Prin execuție meticuloasă, campaniile noastre au scopul de a amplifica angajamentul și de a stimula interacțiuni semnificative.",
