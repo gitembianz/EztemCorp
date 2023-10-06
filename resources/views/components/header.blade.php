@@ -135,7 +135,7 @@
                                     </a>
                                 </li>
                                 <li data-value="optiune1">
-                                    <a href="/?locale=ro">
+                                    <a href="?locale=ro">
                                         RO
                                     </a>
                                 </li>
