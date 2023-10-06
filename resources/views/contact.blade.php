@@ -3,11 +3,11 @@
     {{-- Sectiunea de contact --}}
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="{{ URL::localized('/') }}" _target="_blank">
+            <a href="/" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="{{ URL::localized('/contact') }}" _target="_blank">
+            <a href="/contact" _target="_blank">
                 @lang("components.breadcrums.Contact")
             </a>
         </div>

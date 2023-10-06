@@ -3,15 +3,15 @@
 <main>
     <div class="container job__container">
         <div class="breadcrums">
-            <a href="{{ URL::localized('/') }}" _target="_blank">
+            <a href="/" _target="_blank">
                 @lang("components.breadcrums.Home")
             </a>
             <span> > </span>
-            <a href="{{ URL::localized('/web') }}" _target="_blank">
+            <a href="/web" _target="_blank">
                 @lang("components.breadcrums.Web")
             </a>
             <span> > </span>
-            <a href="{{ URL::localized('/web/frontend') }}" _target="_blank">
+            <a href="/web/frontend" _target="_blank">
                 @lang("components.breadcrums.Front-end")
             </a>
         </div>
@@ -103,7 +103,7 @@
         <span>
             @lang("frontend.quote")
         </span>
-        <a href="{{ URL::localized('/web') }}" class="button">
+        <a href="/web" class="button">
             @lang("frontend.button")
         </a>
     </div>

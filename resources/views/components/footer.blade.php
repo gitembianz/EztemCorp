@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container footer__container">
         <div class="footer__nav">
-            <a href="{{ URL::localized('/') }}">
+            <a href="/">
                 <img src="/img/logo.webp" alt="Logo = Creative Solutions" class="logo" loading="lazy">
             </a>
             <ul class="footer__nav--list">
@@ -38,22 +38,22 @@
         <div class="footer__list">
             <ul class="footer__categories">
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/') }}">
+                    <a href="/">
                         @lang('components.footer.home')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/contact') }}">
+                    <a href="/contact">
                         @lang('components.footer.contact_us')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/about') }}">
+                    <a href="/about">
                         @lang('components.footer.about_us')
                     </a>
                 </li>
                 <li class="footer__category">
-                    <a href="{{ URL::localized('/faq') }}">
+                    <a href="/faq">
                         @lang('components.footer.faq')
                     </a>
                 </li>

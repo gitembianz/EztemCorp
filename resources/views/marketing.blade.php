@@ -5,11 +5,11 @@
         <div class="product">
             <div class="product__text">
                 <div class="breadcrums">
-                    <a href="{{ URL::localized('/') }}" _target="_blank">
+                    <a href="/" _target="_blank">
                         @lang("components.breadcrums.Home")
                     </a>
                     <span> > </span>
-                    <a href="{{ URL::localized('/marketing') }}" _target="_blank">
+                    <a href="/marketing" _target="_blank">
                         @lang("components.breadcrums.Marketing")
                     </a>
                 </div>
@@ -71,7 +71,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('/marketing/advertising') }}" class="button">
+                                <a href="/marketing/advertising" class="button">
                                     @lang("marketing.product_list.button")
                                 </a>
                             </li>
@@ -122,7 +122,7 @@
                                 </p>
                             </li>
                             <li>
-                                <a href="{{ URL::localized('/marketing/strategies') }}" class="button">
+                                <a href="marketing/strategies" class="button">
                                     @lang("marketing.product_list.button")
                                 </a>
                             </li>
