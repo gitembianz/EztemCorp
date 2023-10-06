@@ -3,8 +3,7 @@
 return [
     // Design section
     "pageTitle" => "Logo Design",
-    "metadescription" => "
-    Achieve brand recognition with our expert Logo Design services. From concept to final design, we craft logos that resonate with your audience and embody your brand ethos. Make your mark today.",
+    "metadescription" => "Achieve brand recognition with our expert Logo Design services. We craft logos that resonate with your audience.",
 
     // Title and Description
     "title" => "Logo Design",

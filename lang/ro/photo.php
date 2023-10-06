@@ -3,7 +3,7 @@
 return [
     // Secțiunea Foto
     "pageTitle" => "Corecții Foto",
-    "metadescription" => "Optimizează-ți imaginile cu serviciile noastre de Corectare a Fotografiilor. Ajustăm și corectăm, asigurând că fotografiile tale evidențiază doar detaliile cele mai fine.",
+    "metadescription" => "Optimizează-ți imaginile cu serviciile noastre de Corectare a Fotografiilor. Ajustăm și corectăm ca fotografiile tale să evidențiază doar detaliile fine.",
     // Titlul și Descrierea
     "title" => "Corecții Foto",
     "description" => "Explorează serviciile noastre de Corectare a Fotografiilor, unde abordăm și corectăm meticulos orice discrepanțe în imaginile tale. De la ajustarea expunerii la corectarea dezechilibrelor de culoare, ne dedicăm transformării fotografiilor tale în cele mai bune versiuni posibile, păstrându-le autenticitatea în timp ce ridicăm calitatea.",

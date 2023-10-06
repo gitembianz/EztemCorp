@@ -3,7 +3,7 @@
 return [
     // Secțiunea de publicitate
     "pageTitle" => "Google Ads & Facebook Ads",
-    "metadescription" => "Maximizează vizibilitatea cu Google & Facebook Ads: campanii pe cuvinte cheie, banere captivante, retargeting inteligent și analitice detaliate. Ridică impactul online al mărcii tale.",
+    "metadescription" => "Maximizează vizibilitatea cu Google & Facebook Ads: campanii pe cuvinte cheie, banere captivante, retargeting inteligent și analitice detaliate.",
 
     // Titlu și descriere
     "title" => "Google Ads & Facebook Ads",
