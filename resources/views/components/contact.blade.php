@@ -25,6 +25,12 @@
             method="POST">
             <input type=hidden name="oid" value="00D09000008XPQu">
             <input type=hidden name="retURL" value="{{ URL::localized('/confirm') }}">
+            <select id="00N9N000000PrL5" name="00N9N000000PrL5" title="Exact Source" hidden>
+                <option value="www.eztemcorp.com">noren.ro</option>
+            </select>
+            <select id="lead_source" name="lead_source" hidden>
+                <option value="Web">Web</option>
+            </select>
 
             <div class="contact__label">
                 <label for="last_name">
@@ -51,12 +57,6 @@
             <!--  these lines if you wish to test in debug mode.-->
              <input type="hidden" name="debug" value=0>
             <input type="hidden" name="_next" value="eztemcorp.com">
-            <select id="00N9N000000PrL5" name="00N9N000000PrL5" title="Exact Source" hidden>
-                <option value="www.eztemcorp.com">noren.ro</option>
-            </select>
-            <select id="lead_source" name="lead_source" hidden>
-                <option value="Web">Web</option>
-            </select>
             <!-------------------------------------------------------------------------->
             --}}
             <div class="contact__solutions">
